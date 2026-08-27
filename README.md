@@ -2,6 +2,12 @@
 
 海南省城市更新招投标每日巡检数据仓库。
 
+## 在线查看
+
+GitHub Pages：<https://sqdwz.github.io/urban-renewal/>
+
+页面直接读取 `data/latest.json`，支持关键词、地区和业务标签筛选；每日巡检更新数据后，Pages 会随仓库更新自动重新发布。
+
 ## 监测范围
 
 核心主题：`城市更新`、`城中村`、`老旧小区`、`棚户区`。
@@ -16,6 +22,8 @@
 - `data/latest.json`：最近一次巡检结果
 - `data/index.json`：日报归档索引
 - `data/daily/YYYY-MM-DD.json`：每日完整报告
+- `index.html` / `styles.css` / `app.js`：GitHub Pages 查询页面
+- `.github/workflows/pages.yml`：Pages 自动发布工作流
 
 ## 每条项目字段
 
