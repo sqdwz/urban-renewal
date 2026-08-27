@@ -16,7 +16,7 @@
     </header>
 
     <section id="summary" class="summary-card" aria-live="polite"></section>
-    <section id="stats" class="stats"></section>
+    <section id="stats" class="stats" aria-label="快速筛选"></section>
 
     <section class="toolbar" aria-label="项目筛选">
       <label class="search-box">
@@ -28,16 +28,24 @@
         <select id="regionFilter"><option value="">全部地区</option></select>
       </label>
       <label>
-        <span>标签</span>
+        <span>项目类型</span>
+        <select id="projectTypeFilter"><option value="">全部类型</option></select>
+      </label>
+      <label>
+        <span>服务类型</span>
+        <select id="serviceTypeFilter"><option value="">全部服务</option></select>
+      </label>
+      <label>
+        <span>辅助标签</span>
         <select id="tagFilter"><option value="">全部标签</option></select>
       </label>
       <button id="clearBtn" type="button">清除筛选</button>
       <button id="refreshBtn" type="button">刷新数据</button>
     </section>
 
-    <div id="filterHint" class="filter-hint"></div>
+    <div id="filterHint" class="filter-hint" aria-live="polite"></div>
 
-    <section class="section">
+    <section id="activeSection" class="section">
       <div class="section-head">
         <div>
           <div class="section-kicker">ACTIVE</div>
@@ -48,7 +56,7 @@
       <div id="activeList" class="project-list"></div>
     </section>
 
-    <section class="section">
+    <section id="eventSection" class="section">
       <div class="section-head">
         <div>
           <div class="section-kicker">RECENT EVENTS</div>
@@ -59,7 +67,7 @@
       <div id="eventList" class="project-list"></div>
     </section>
 
-    <section class="section expanded-section">
+    <section id="expandedSection" class="section expanded-section">
       <div class="section-head">
         <div>
           <div class="section-kicker">EXPANDED</div>
@@ -83,7 +91,7 @@
 
     <footer>
       <p>公开招投标信息辅助检索。具体采购要求、资格条件、截止时间及变更事项以官方原文为准。</p>
-      <p><a href="./data/latest.json" target="_blank" rel="noopener">查看 latest.json</a> · <a href="https://github.com/sqdwz/urban-renewal" target="_blank" rel="noopener">查看 GitHub 仓库</a></p>
+      <p><a href="./data/latest.json" target="_blank" rel="noopener">查看 latest.json</a> · <a href="./data/history/index.json" target="_blank" rel="noopener">查看近三年历史库</a> · <a href="https://github.com/sqdwz/urban-renewal" target="_blank" rel="noopener">查看 GitHub 仓库</a></p>
     </footer>
   </main>
   <script src="./app.js" defer></script>
