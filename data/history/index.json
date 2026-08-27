@@ -1,0 +1,18 @@
+{
+  "type": "urban-renewal-history-index",
+  "updated_at": "2026-08-27T11:00:00+08:00",
+  "datasets": [
+    {
+      "name": "海南省城市更新招投标近三年历史回溯",
+      "start_date": "2023-08-27",
+      "end_date": "2026-08-27",
+      "path": "data/history/projects-2023-08-27_2026-08-27.json",
+      "total_records": 50,
+      "verified_or_official_index": 41,
+      "secondary_pending_backfill": 8,
+      "expanded_candidates": 1,
+      "status": "baseline_backfill_v1",
+      "note": "首轮历史回溯基线；官方源优先，第三方线索保留待回溯状态，后续巡检持续补齐。"
+    }
+  ]
+}
