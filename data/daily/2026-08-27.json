@@ -5,10 +5,11 @@
   "title": "海南省城市更新招投标每日巡检",
   "summary": {
     "new_today": 0,
-    "active_core": 4,
+    "active_core": 5,
     "expanded_candidates": 1,
-    "upcoming_deadlines": 4,
-    "note": "首次建库采用近期在招项目作为基线；今日暂未发现明确属于城市更新核心范围的新公告。"
+    "upcoming_deadlines": 5,
+    "backfilled_core_events": 3,
+    "note": "今日未发现新增。复核近期官方及权威平台后，补录1条仍在招核心项目和2条近期核心结果事件；青海省海南州等误匹配已排除。"
   },
   "items": [
     {
@@ -31,6 +32,25 @@
       "summary": "城中村改造配套市政基础设施设计招标，投标截止时间为2026年9月9日09:00。"
     },
     {
+      "id": "HN-HAIKOU-ML-BAILONGBEI-20260821-PROPERTY",
+      "project_id": "E4601000001001435001",
+      "notice_type": "招标公告",
+      "title": "海口市美兰区白龙北片区城市更新项目ML0302007地块前期物业管理服务",
+      "region": "海口市美兰区",
+      "publish_date": "2026-08-21",
+      "deadline": "2026-09-11T09:00:00+08:00",
+      "procurement_method": "公开招标",
+      "budget_yuan": null,
+      "purchaser": "世嘉控股城市更新（海南）有限公司",
+      "tags": ["城市更新", "前期物业"],
+      "relevance": "high",
+      "status": "active",
+      "source_name": "海口市公共资源交易中心",
+      "source_level": "official",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/94764?qtype=notice",
+      "summary": "白龙北片区城市更新项目ML0302007地块前期物业管理服务公开招标，服务期限3年，投标截止2026年9月11日09:00。"
+    },
+    {
       "id": "HN-CHENGMAI-OLD-COMMUNITY-20260821-DESIGN",
       "project_id": "GZSK-HNCM-202602",
       "notice_type": "竞争性磋商",
@@ -47,7 +67,7 @@
       "source_name": "海南招投标信息聚合线索（原公告指向海南省招标投标协会）",
       "source_level": "secondary",
       "source_url": "https://www.qianlima.com/bid-624251740.html",
-      "verification": "需在后续巡检中回溯并替换为原始公告链接",
+      "verification": "需在后续巡检中继续回溯并替换为原始公告链接",
       "summary": "拟改造10个老旧小区等配套设施的设计采购，预算约85.36万元，截止2026年9月1日10:00。"
     },
     {
@@ -91,6 +111,49 @@
       "summary": "老旧小区改造全过程造价咨询服务，预算73.57万元，截止2026年9月2日09:30。"
     }
   ],
+  "recent_events": [
+    {
+      "id": "HN-HAIKOU-CITY-CHECK-20260820-RESULT",
+      "project_id": "[HNCY]20260700001[CS]",
+      "notice_type": "中标结果公告",
+      "title": "2026年度海口市城市体检技术服务项目结果公告（采购包1）",
+      "region": "海口市",
+      "publish_date": "2026-08-20",
+      "deadline": null,
+      "procurement_method": "竞争性磋商",
+      "budget_yuan": 2000000,
+      "award_yuan": 1800000,
+      "purchaser": "海口市住房和城乡建设局",
+      "winner": "广州市城市规划勘测设计研究院有限公司",
+      "tags": ["城市体检", "城市更新", "咨询"],
+      "relevance": "high",
+      "status": "awarded",
+      "source_name": "海口市公共资源交易中心",
+      "source_level": "official",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/94732",
+      "summary": "年度城市体检技术服务已成交，成交金额180万元，服务内容包含重点更新片区体检及城市更新相关指标体系优化。"
+    },
+    {
+      "id": "HN-SANYA-YUHONG-20260826-MONITOR-RESULT",
+      "project_id": "X4600002901005676001",
+      "notice_type": "中标结果公告",
+      "title": "三亚榆红片区城市更新安置区（一期）建设工程项目（监理）中标结果",
+      "region": "三亚市吉阳区",
+      "publish_date": "2026-08-26",
+      "deadline": null,
+      "procurement_method": "公开招标",
+      "budget_yuan": null,
+      "purchaser": "三亚市吉阳区住房和城乡建设局",
+      "tags": ["城市更新", "安置区", "监理"],
+      "relevance": "high",
+      "status": "awarded",
+      "source_name": "全国公共资源交易平台",
+      "source_level": "official_index",
+      "source_url": "https://www.ggzy.gov.cn/",
+      "verification": "全国公共资源交易平台2026-08-26成交公示列表已确认该结果事件，详细结果页链接待后续巡检补齐。",
+      "summary": "三亚榆红片区城市更新安置区（一期）建设工程监理项目于2026年8月26日进入中标结果阶段。"
+    }
+  ],
   "expanded_candidates": [
     {
       "id": "HN-HAIKOU-HITECH-20260825-LAND",
@@ -100,7 +163,9 @@
       "region": "海口市秀英区/海口国家高新区",
       "publish_date": "2026-08-25",
       "deadline": "2026-09-07T09:00:00+08:00",
+      "procurement_method": "竞争性磋商",
       "budget_yuan": 1500000,
+      "purchaser": null,
       "tags": ["征收", "测绘", "制图"],
       "relevance": "expanded",
       "status": "active",
@@ -114,6 +179,7 @@
     "https://ggzy.hainan.gov.cn/",
     "https://ggzy.haikou.gov.cn/",
     "https://ccgp-hainan.gov.cn/",
+    "https://www.ggzy.gov.cn/",
     "https://www.qianlima.com/",
     "https://www.bidcenter.com.cn/",
     "https://www.yfbzb.com/"
