@@ -12,8 +12,13 @@
     <header class="hero">
       <div class="eyebrow">HAINAN · URBAN RENEWAL</div>
       <h1>海南省城市更新招投标信息</h1>
-      <p id="meta">正在读取最新巡检数据…</p>
+      <p id="meta">正在读取招投标数据…</p>
     </header>
+
+    <nav class="view-tabs" aria-label="数据范围">
+      <button type="button" class="view-tab is-active" data-view="current" aria-pressed="true">当前巡检</button>
+      <button type="button" class="view-tab" data-view="history" aria-pressed="false">近三年历史库 <span id="historyTabCount" class="tab-count">57</span></button>
+    </nav>
 
     <section id="summary" class="summary-card" aria-live="polite"></section>
     <section id="stats" class="stats" aria-label="快速筛选"></section>
@@ -39,59 +44,88 @@
         <span>辅助标签</span>
         <select id="tagFilter"><option value="">全部标签</option></select>
       </label>
+      <label class="history-only" hidden>
+        <span>年份</span>
+        <select id="yearFilter"><option value="">全部年份</option></select>
+      </label>
+      <label class="history-only" hidden>
+        <span>核验状态</span>
+        <select id="verificationFilter">
+          <option value="">全部状态</option>
+          <option value="verified">已核验</option>
+          <option value="pending_official_backfill">待补官方原文</option>
+          <option value="expanded">扩展候选</option>
+        </select>
+      </label>
       <button id="clearBtn" type="button">清除筛选</button>
       <button id="refreshBtn" type="button">刷新数据</button>
     </section>
 
     <div id="filterHint" class="filter-hint" aria-live="polite"></div>
 
-    <section id="activeSection" class="section">
-      <div class="section-head">
-        <div>
-          <div class="section-kicker">ACTIVE</div>
-          <h2>当前有效核心项目</h2>
+    <div id="currentView">
+      <section id="activeSection" class="section">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">ACTIVE</div>
+            <h2>当前有效核心项目</h2>
+          </div>
+          <span id="activeCount" class="count-pill"></span>
         </div>
-        <span id="activeCount" class="count-pill"></span>
-      </div>
-      <div id="activeList" class="project-list"></div>
-    </section>
+        <div id="activeList" class="project-list"></div>
+      </section>
 
-    <section id="eventSection" class="section">
-      <div class="section-head">
-        <div>
-          <div class="section-kicker">RECENT EVENTS</div>
-          <h2>近期中标与结果事件</h2>
+      <section id="eventSection" class="section">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">RECENT EVENTS</div>
+            <h2>近期中标与结果事件</h2>
+          </div>
+          <span id="eventCount" class="count-pill"></span>
         </div>
-        <span id="eventCount" class="count-pill"></span>
-      </div>
-      <div id="eventList" class="project-list"></div>
-    </section>
+        <div id="eventList" class="project-list"></div>
+      </section>
 
-    <section id="expandedSection" class="section expanded-section">
-      <div class="section-head">
-        <div>
-          <div class="section-kicker">EXPANDED</div>
-          <h2>扩展候选</h2>
+      <section id="expandedSection" class="section expanded-section">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">EXPANDED</div>
+            <h2>扩展候选</h2>
+          </div>
+          <span id="expandedCount" class="count-pill"></span>
         </div>
-        <span id="expandedCount" class="count-pill"></span>
-      </div>
-      <p class="section-note">仅命中征收、测绘、评估等业务词，但暂不能确认属于城市更新场景的项目，不计入核心统计。</p>
-      <div id="expandedList" class="project-list"></div>
-    </section>
+        <p class="section-note">仅命中征收、测绘、评估等业务词，但暂不能确认属于城市更新场景的项目，不计入核心统计。</p>
+        <div id="expandedList" class="project-list"></div>
+      </section>
 
-    <section class="section sources-section">
-      <div class="section-head">
-        <div>
-          <div class="section-kicker">SOURCES</div>
-          <h2>本次检索来源</h2>
+      <section class="section sources-section">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">SOURCES</div>
+            <h2>本次检索来源</h2>
+          </div>
         </div>
-      </div>
-      <div id="sourceList" class="source-list"></div>
-    </section>
+        <div id="sourceList" class="source-list"></div>
+      </section>
+    </div>
+
+    <div id="historyView" hidden>
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">HISTORY · 2023—2026</div>
+            <h2>近三年历史项目</h2>
+          </div>
+          <span id="historyCount" class="count-pill"></span>
+        </div>
+        <p id="historyNote" class="section-note">历史库采用官方源优先回溯；待补官方原文的记录会保留状态，不与已核验记录混淆。</p>
+        <div id="historyList" class="project-list"></div>
+      </section>
+    </div>
 
     <footer>
       <p>公开招投标信息辅助检索。具体采购要求、资格条件、截止时间及变更事项以官方原文为准。</p>
-      <p><a href="./data/latest.json" target="_blank" rel="noopener">查看 latest.json</a> · <a href="./data/history/index.json" target="_blank" rel="noopener">查看近三年历史库</a> · <a href="https://github.com/sqdwz/urban-renewal" target="_blank" rel="noopener">查看 GitHub 仓库</a></p>
+      <p><a href="./data/latest.json" target="_blank" rel="noopener">查看 latest.json</a> · <a href="./data/history/index.json" target="_blank" rel="noopener">查看历史库索引</a> · <a href="https://github.com/sqdwz/urban-renewal" target="_blank" rel="noopener">查看 GitHub 仓库</a></p>
     </footer>
   </main>
   <script src="./app.js" defer></script>
