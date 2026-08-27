@@ -1,0 +1,37 @@
+{
+  "name": "海南省城市更新招投标19市县覆盖清单",
+  "version": 1,
+  "province": "海南省",
+  "coverage_goal": "近三年城市更新、城中村、老旧小区、棚户区、老旧街区、安置区及其前期征拆/测绘/评估/设计/施工等项目链全覆盖",
+  "rule": "每个市县必须独立巡检并记录状态。未发现核心项目时必须记录zero_hit_first_pass或zero_verified，不允许省略。只有19个市县全部完成官方源检索和项目链反查后，才能标记province_complete。",
+  "jurisdictions": [
+    {"name":"海口市","level":"地级市","subregions":["秀英区","龙华区","琼山区","美兰区"],"first_pass_status":"confirmed_many","priority":"continuous"},
+    {"name":"三亚市","level":"地级市","subregions":["海棠区","吉阳区","天涯区","崖州区"],"first_pass_status":"confirmed_many","priority":"continuous"},
+    {"name":"三沙市","level":"地级市","subregions":[],"first_pass_status":"zero_hit_first_pass","priority":"recrawl"},
+    {"name":"儋州市","level":"地级市","subregions":["那大镇","白马井镇","洋浦经济开发区"],"first_pass_status":"confirmed","priority":"high"},
+    {"name":"五指山市","level":"县级市","subregions":[],"first_pass_status":"zero_core_hit_first_pass","priority":"recrawl"},
+    {"name":"琼海市","level":"县级市","subregions":["嘉积镇"],"first_pass_status":"confirmed","priority":"high"},
+    {"name":"文昌市","level":"县级市","subregions":[],"first_pass_status":"candidate_found_pending_chain","priority":"high"},
+    {"name":"万宁市","level":"县级市","subregions":["兴隆华侨旅游经济区"],"first_pass_status":"confirmed","priority":"high"},
+    {"name":"东方市","level":"县级市","subregions":[],"first_pass_status":"confirmed","priority":"high"},
+    {"name":"定安县","level":"县","subregions":[],"first_pass_status":"candidate_found_pending_chain","priority":"high"},
+    {"name":"屯昌县","level":"县","subregions":[],"first_pass_status":"zero_core_hit_first_pass","priority":"recrawl"},
+    {"name":"澄迈县","level":"县","subregions":["金江镇"],"first_pass_status":"confirmed","priority":"high"},
+    {"name":"临高县","level":"县","subregions":[],"first_pass_status":"zero_core_hit_first_pass","priority":"recrawl"},
+    {"name":"白沙黎族自治县","level":"自治县","subregions":[],"first_pass_status":"zero_core_hit_first_pass","priority":"recrawl"},
+    {"name":"昌江黎族自治县","level":"自治县","subregions":[],"first_pass_status":"zero_core_hit_first_pass","priority":"recrawl"},
+    {"name":"乐东黎族自治县","level":"自治县","subregions":[],"first_pass_status":"zero_core_hit_first_pass","priority":"recrawl"},
+    {"name":"陵水黎族自治县","level":"自治县","subregions":["椰林镇"],"first_pass_status":"confirmed","priority":"high"},
+    {"name":"保亭黎族苗族自治县","level":"自治县","subregions":["保城镇"],"first_pass_status":"confirmed","priority":"high"},
+    {"name":"琼中黎族苗族自治县","level":"自治县","subregions":[],"first_pass_status":"zero_core_hit_first_pass","priority":"recrawl"}
+  ],
+  "status_definitions": {
+    "confirmed_many": "已确认多个核心项目，但仍需持续项目链补漏",
+    "confirmed": "已确认至少一个核心项目，需继续回溯上下游项目链",
+    "candidate_found_pending_chain": "已发现老旧小区/老旧街区等线索，需回溯官方原文和项目链",
+    "zero_core_hit_first_pass": "首轮未发现明确核心项目，不代表该市县没有项目，必须继续查政府网站、招标计划、合同和项目别名",
+    "zero_hit_first_pass": "首轮未发现相关项目，需定期复查",
+    "zero_verified": "完成多源官方检索和项目链检查后确认当前时间窗无核心项目",
+    "complete": "当前时间窗已完成官方多源检索和项目链回溯"
+  }
+}
