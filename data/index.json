@@ -1,4 +1,15 @@
 {
-  "latest": null,
-  "recent": []
+  "latest": {
+    "date": "2026-08-27",
+    "path": "data/daily/2026-08-27.json",
+    "new_today": 0,
+    "active_core": 4,
+    "expanded_candidates": 1
+  },
+  "recent": [
+    {
+      "date": "2026-08-27",
+      "path": "data/daily/2026-08-27.json"
+    }
+  ]
 }
