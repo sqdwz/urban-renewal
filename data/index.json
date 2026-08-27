@@ -12,5 +12,16 @@
       "date": "2026-08-27",
       "path": "data/daily/2026-08-27.json"
     }
-  ]
+  ],
+  "history": {
+    "start_date": "2023-08-27",
+    "end_date": "2026-08-27",
+    "index_path": "data/history/index.json",
+    "dataset_path": "data/history/projects-2023-08-27_2026-08-27.json",
+    "total_records": 50,
+    "verified_or_official_index": 41,
+    "secondary_pending_backfill": 8,
+    "expanded_candidates": 1,
+    "status": "baseline_backfill_v1"
+  }
 }
