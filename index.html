@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#f3f6fa" />
+  <title>海南省城市更新招投标信息</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div class="eyebrow">HAINAN · URBAN RENEWAL</div>
+      <h1>海南省城市更新招投标信息</h1>
+      <p id="meta">正在读取最新巡检数据…</p>
+    </header>
+
+    <section id="summary" class="summary-card" aria-live="polite"></section>
+    <section id="stats" class="stats"></section>
+
+    <section class="toolbar" aria-label="项目筛选">
+      <label class="search-box">
+        <span>搜索</span>
+        <input id="searchInput" type="search" placeholder="项目、采购人、编号、关键词" autocomplete="off" />
+      </label>
+      <label>
+        <span>地区</span>
+        <select id="regionFilter"><option value="">全部地区</option></select>
+      </label>
+      <label>
+        <span>标签</span>
+        <select id="tagFilter"><option value="">全部标签</option></select>
+      </label>
+      <button id="clearBtn" type="button">清除筛选</button>
+      <button id="refreshBtn" type="button">刷新数据</button>
+    </section>
+
+    <div id="filterHint" class="filter-hint"></div>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <div class="section-kicker">ACTIVE</div>
+          <h2>当前有效核心项目</h2>
+        </div>
+        <span id="activeCount" class="count-pill"></span>
+      </div>
+      <div id="activeList" class="project-list"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <div class="section-kicker">RECENT EVENTS</div>
+          <h2>近期中标与结果事件</h2>
+        </div>
+        <span id="eventCount" class="count-pill"></span>
+      </div>
+      <div id="eventList" class="project-list"></div>
+    </section>
+
+    <section class="section expanded-section">
+      <div class="section-head">
+        <div>
+          <div class="section-kicker">EXPANDED</div>
+          <h2>扩展候选</h2>
+        </div>
+        <span id="expandedCount" class="count-pill"></span>
+      </div>
+      <p class="section-note">仅命中征收、测绘、评估等业务词，但暂不能确认属于城市更新场景的项目，不计入核心统计。</p>
+      <div id="expandedList" class="project-list"></div>
+    </section>
+
+    <section class="section sources-section">
+      <div class="section-head">
+        <div>
+          <div class="section-kicker">SOURCES</div>
+          <h2>本次检索来源</h2>
+        </div>
+      </div>
+      <div id="sourceList" class="source-list"></div>
+    </section>
+
+    <footer>
+      <p>公开招投标信息辅助检索。具体采购要求、资格条件、截止时间及变更事项以官方原文为准。</p>
+      <p><a href="./data/latest.json" target="_blank" rel="noopener">查看 latest.json</a> · <a href="https://github.com/sqdwz/urban-renewal" target="_blank" rel="noopener">查看 GitHub 仓库</a></p>
+    </footer>
+  </main>
+  <script src="./app.js" defer></script>
+</body>
+</html>
