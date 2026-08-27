@@ -3,8 +3,9 @@
     "date": "2026-08-27",
     "path": "data/daily/2026-08-27.json",
     "new_today": 0,
-    "active_core": 4,
-    "expanded_candidates": 1
+    "active_core": 5,
+    "expanded_candidates": 1,
+    "backfilled_core_events": 3
   },
   "recent": [
     {
