@@ -1,16 +1,16 @@
 {
   "type": "urban-renewal-history-index",
-  "updated_at": "2026-08-27T11:18:00+08:00",
+  "updated_at": "2026-08-27T12:08:00+08:00",
   "window": {
     "start_date": "2023-08-27",
     "end_date": "2026-08-27"
   },
   "summary": {
-    "total_records": 57,
-    "verified_or_official_index": 48,
+    "total_records": 75,
+    "verified_or_official_index": 66,
     "secondary_pending_backfill": 8,
     "expanded_candidates": 1,
-    "coverage_status": "historical_baseline_v2"
+    "coverage_status": "project_chain_backfill_v3"
   },
   "datasets": [
     {
@@ -30,7 +30,18 @@
       "secondary_pending_backfill": 0,
       "expanded_candidates": 0,
       "status": "official_service_backfill_v1"
+    },
+    {
+      "name": "白龙北片区项目链专项补漏",
+      "path": "data/history/project-chain-backfill-bailongbei-2026-08-27.json",
+      "total_records": 18,
+      "verified_or_official_index": 18,
+      "secondary_pending_backfill": 0,
+      "expanded_candidates": 0,
+      "status": "project_chain_backfill_v1",
+      "canonical_project_id": "HN-HAIKOU-ML-BAILONGBEI",
+      "chain_gaps": 1
     }
   ],
-  "note": "近三年历史库采用官方源优先的多轮回溯方式构建。当前为可查询的历史基线，不宣称穷尽所有存量公告；8条第三方发现记录保留待回溯状态，后续每日巡检继续补齐官方原文和项目编号。"
+  "note": "近三年历史库已从关键词回溯升级为项目链回溯。白龙北专项验证表明，仅按公告标题检索会漏掉规划设计、征迁咨询、土地房屋测绘合同、拆除清运、多次实施主体招标及地块场地准备等事件。当前仍有8条第三方发现记录待补官方原文；白龙北土地房屋测绘项目HNZY-CG2024-0428已由官方合同确认，但前置招标公告仍需继续反查。"
 }
