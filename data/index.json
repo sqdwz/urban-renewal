@@ -3,9 +3,11 @@
     "date": "2026-08-27",
     "path": "data/daily/2026-08-27.json",
     "new_today": 0,
-    "active_core": 5,
+    "active_core": 6,
     "expanded_candidates": 1,
-    "backfilled_core_events": 3
+    "upcoming_deadlines": 6,
+    "backfilled_core_events": 4,
+    "generated_at": "2026-08-27T14:59:27+08:00"
   },
   "recent": [
     {
@@ -17,11 +19,15 @@
     "start_date": "2023-08-27",
     "end_date": "2026-08-27",
     "index_path": "data/history/index.json",
-    "total_records": 57,
-    "verified_or_official_index": 48,
-    "secondary_pending_backfill": 8,
+    "total_records": 86,
+    "verified_or_official_index": 71,
+    "verified_authoritative_association": 3,
+    "secondary_pending_backfill": 14,
     "expanded_candidates": 1,
-    "dataset_count": 2,
-    "status": "historical_baseline_v2"
+    "dataset_count": 4,
+    "jurisdictions_total": 19,
+    "jurisdictions_with_confirmed_or_candidate_core": 12,
+    "jurisdictions_zero_core_first_pass": 7,
+    "status": "province_19_jurisdiction_backfill_in_progress"
   }
 }
