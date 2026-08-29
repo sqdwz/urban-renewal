@@ -1,12 +1,12 @@
 {
   "type": "urban-renewal-history-index",
-  "updated_at": "2026-08-27T12:32:00+08:00",
+  "updated_at": "2026-08-29T14:34:55+08:00",
   "window": {"start_date":"2023-08-27","end_date":"2026-08-27"},
   "summary": {
-    "total_records": 86,
+    "total_records": 87,
     "verified_or_official_index": 71,
     "verified_authoritative_association": 3,
-    "secondary_pending_backfill": 14,
+    "secondary_pending_backfill": 15,
     "expanded_candidates": 1,
     "jurisdictions_total": 19,
     "jurisdictions_with_confirmed_or_candidate_core": 12,
@@ -17,8 +17,9 @@
     {"name":"海南省城市更新招投标近三年历史回溯","path":"data/history/projects-2023-08-27_2026-08-27.json","total_records":50,"verified_or_official_index":41,"secondary_pending_backfill":8,"expanded_candidates":1,"status":"baseline_backfill_v1"},
     {"name":"服务类与前期工作官方补漏","path":"data/history/official-service-backfill-2026-08-27.json","total_records":7,"verified_or_official_index":7,"secondary_pending_backfill":0,"expanded_candidates":0,"status":"official_service_backfill_v1"},
     {"name":"白龙北片区项目链专项补漏","path":"data/history/project-chain-backfill-bailongbei-2026-08-27.json","total_records":18,"verified_or_official_index":18,"secondary_pending_backfill":0,"expanded_candidates":0,"status":"project_chain_backfill_v1","canonical_project_id":"HN-HAIKOU-ML-BAILONGBEI","chain_gaps":1},
-    {"name":"海南19市县全省覆盖首批补录","path":"data/history/province-wide-backfill-2026-08-27.json","total_records":11,"verified_or_authoritative":5,"secondary_pending_backfill":6,"expanded_candidates":0,"status":"province_wide_backfill_v1","covered_jurisdictions":["琼海市","陵水黎族自治县","万宁市","东方市","保亭黎族苗族自治县","定安县","昌江黎族自治县","文昌市","澄迈县"]}
+    {"name":"海南19市县全省覆盖首批补录","path":"data/history/province-wide-backfill-2026-08-27.json","total_records":11,"verified_or_authoritative":5,"secondary_pending_backfill":6,"expanded_candidates":0,"status":"province_wide_backfill_v1","covered_jurisdictions":["琼海市","陵水黎族自治县","万宁市","东方市","保亭黎族苗族自治县","定安县","昌江黎族自治县","文昌市","澄迈县"]},
+    {"name":"2026-08-29每日巡检历史补漏","path":"data/history/daily-backfill-2026-08-29.json","total_records":1,"verified_or_authoritative":0,"secondary_pending_backfill":1,"expanded_candidates":0,"status":"daily_backfill_v1","covered_jurisdictions":["万宁市"]}
   ],
   "coverage_config":"config/coverage-regions.json",
-  "note":"历史库已改为海南省19市县强制覆盖模式，不再以海口、三亚为主。当前86条仅代表全省回溯过程中的可查询基线，不代表最终完整量。已确认或发现核心项目的市县包括海口、三亚、儋州、琼海、文昌、万宁、东方、定安、澄迈、陵水、保亭、昌江；三沙、五指山、屯昌、临高、白沙、乐东、琼中首轮未命中明确核心项目，状态仅为zero_core_hit_first_pass，必须继续政府官网、招标计划、合同及项目别名反查，不能视为无项目。"
+  "note":"2026-08-29巡检新增1条历史候选：万宁市城北片区城市更新项目可研及项目建议书编制（2026-08-27发布）。目前仅定位D级聚合线索，已按pending_official_backfill入库并继续回溯A/B/C级原文。历史库当前87条，不代表最终穷尽。"
 }
