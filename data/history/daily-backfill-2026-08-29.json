@@ -1,0 +1,38 @@
+{
+  "type": "urban-renewal-history-daily-backfill",
+  "generated_at": "2026-08-29T14:34:55+08:00",
+  "source_run_date": "2026-08-29",
+  "records": [
+    {
+      "id": "HN-WANNING-CHENGBEI-20260827-FS",
+      "canonical_project_id": "HN-WANNING-CHENGBEI-URBAN-RENEWAL",
+      "project_id": null,
+      "title": "万宁市城北片区城市更新项目可行性研究报告编制及项目建议书编制",
+      "project_type": "城市更新",
+      "service_type": ["可研", "前期策划"],
+      "project_stage": "前期研究",
+      "province": "海南省",
+      "city": "万宁市",
+      "district_county": null,
+      "region": "万宁市城北片区",
+      "publish_date": "2026-08-27",
+      "notice_type": "竞争性磋商",
+      "procurement_method": "竞争性磋商",
+      "purchaser": "万宁市城乡发展有限公司",
+      "budget_yuan": null,
+      "deadline": null,
+      "status": "pending",
+      "source_id": "bidcenter",
+      "source_name": "采招网/Bidcenter",
+      "source_level": "D_discovery_only",
+      "verification_status": "pending_official_backfill",
+      "coverage_status": "candidate_found_pending_chain",
+      "source_url": "https://www.bidcenter.com.cn/enterprise/wnscxfzyxgs/",
+      "tags": ["城市更新", "城北片区", "可行性研究", "项目建议书"],
+      "relevance": "high",
+      "chain_gap": "missing_authoritative_notice",
+      "data_quality_note": "2026-08-29巡检发现此前遗漏。D级聚合源显示该竞争性磋商公告于2026-08-27发布；本轮对万宁市政府、海南省公共资源交易平台、海南省政府采购行业协会及中国招标投标公共服务平台进行精确反查，尚未定位A/B/C级原文，因此不得计入已核验核心统计。",
+      "summary": "万宁市城北片区城市更新项目前期可研及项目建议书编制采购线索，已建立项目链节点，待回溯法定/权威原文。"
+    }
+  ]
+}
