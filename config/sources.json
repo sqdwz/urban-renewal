@@ -1,0 +1,198 @@
+{
+  "name": "海南省城市更新招投标巡检来源矩阵",
+  "version": 1,
+  "updated_at": "2026-08-29T10:54:00+08:00",
+  "province": "海南省",
+  "purpose": "为19市县巡检提供统一来源分层、入库规则和补漏路径，避免只依赖海口/省级大平台。",
+  "source_levels": {
+    "A_official_primary": "官方主源，可作为核心记录正式入库依据；同一事项多源冲突时优先本地法定发布源/最新更正公告。",
+    "B_official_crosscheck": "国家级或跨平台官方交叉源，可正式入库，也用于反查漏项、项目编号和结果。",
+    "C_authoritative_association": "行业协会或专业公共服务平台，可信度较高，可按verified_authoritative入库，但不标记为政府官方。",
+    "D_discovery_only": "第三方聚合线索源，只用于发现项目；不得仅凭此类来源计入已核验核心统计。"
+  },
+  "sources": [
+    {
+      "id": "hainan_ggzy",
+      "name": "全国公共资源交易平台（海南省）/海南省公共资源交易服务平台",
+      "level": "A_official_primary",
+      "base_url": "https://ggzy.hainan.gov.cn/ggzyjy/",
+      "coverage": "海南省及省级/市县公共资源交易工程建设事项",
+      "announcement_types": ["招标计划","招标公告","资格预审","变更公告","中标候选人公示","中标结果公告","异常公告","合同/全过程公开"],
+      "service_focus": ["勘察","设计","施工","EPC","监理","代建管理","工程检测","场地准备","市政配套"],
+      "direct_ingest": true,
+      "verification_status": "verified",
+      "project_chain": true,
+      "mandatory": true
+    },
+    {
+      "id": "hainan_ccgp",
+      "name": "中国政府采购网海南分网（海南省政府采购智慧云平台）",
+      "level": "A_official_primary",
+      "base_url": "https://ccgp-hainan.gov.cn/",
+      "coverage": "海南省省、市、县三级政府采购",
+      "announcement_types": ["采购意向","需求公示","公开招标","竞争性磋商","竞争性谈判","询价","更正公告","结果公告","合同公告"],
+      "service_focus": ["测绘","评估","咨询","可研","城市体检","信息化管理","设计","造价咨询","工程检测","物业及其他政府采购服务"],
+      "direct_ingest": true,
+      "verification_status": "verified",
+      "project_chain": true,
+      "mandatory": true,
+      "conflict_rule": "政府采购信息与其他转载源不一致时，优先海南省政府采购智慧云平台最新公告。"
+    },
+    {
+      "id": "haikou_ggzy",
+      "name": "海口市公共资源交易中心",
+      "level": "A_official_primary",
+      "base_url": "https://ggzy.haikou.gov.cn/",
+      "coverage": "海口市及秀英、龙华、琼山、美兰四区",
+      "announcement_types": ["工程建设公告","政府采购","全过程公开","变更","异常","候选","结果","合同公示"],
+      "service_focus": ["城市更新","城中村","实施主体","测绘","征迁咨询","拆除","设计","施工","监理","前期物业"],
+      "direct_ingest": true,
+      "verification_status": "verified",
+      "project_chain": true,
+      "mandatory_for": ["海口市"]
+    },
+    {
+      "id": "jurisdiction_government",
+      "name": "19市县人民政府及主管部门官网",
+      "level": "A_official_primary",
+      "base_url": null,
+      "coverage": "海南19市县人民政府、住建/房管、自然资源和规划、征收、营商环境建设/行政审批等部门官网",
+      "announcement_types": ["公开遴选","公开比选","选聘公告","招标代理选聘","可研评审","概算评审","施工图审查","监理选聘","检测选聘","结算审核","结果公示"],
+      "service_focus": ["前期策划","测绘","评估","社会稳定风险评估","可研","设计","施工图审查","工程量清单/招标控制价","招标代理","监理","工程检测","造价咨询"],
+      "direct_ingest": true,
+      "verification_status": "verified",
+      "project_chain": true,
+      "mandatory": true,
+      "rule": "每个市县必须单独检索政府门户及至少住建/房管、资规、征收/更新、营商环境建设等相关部门；不能用省级平台零命中替代市县官网巡检。"
+    },
+    {
+      "id": "project_owner_official",
+      "name": "采购人/实施主体/国企项目公司官网",
+      "level": "A_official_primary",
+      "base_url": null,
+      "coverage": "已识别城市更新项目的采购人、实施主体、城投/更新公司等公开网站",
+      "announcement_types": ["采购公告","比选","询比价","中选结果","合同/成交信息","项目进展"],
+      "service_focus": ["征迁咨询","测绘","评估","拆除","场地准备","设计","监理","工程检测","物业"],
+      "direct_ingest": true,
+      "verification_status": "verified",
+      "project_chain": true,
+      "mandatory_when_known": true
+    },
+    {
+      "id": "ccgp_national",
+      "name": "中国政府采购网",
+      "level": "B_official_crosscheck",
+      "base_url": "https://www.ccgp.gov.cn/",
+      "coverage": "全国政府采购，包含海南地方公告同步",
+      "announcement_types": ["采购公告","更正公告","结果公告","合同公告"],
+      "direct_ingest": true,
+      "verification_status": "verified",
+      "project_chain": true,
+      "mandatory": true,
+      "rule": "用于海南政府采购漏项校验和历史反查；若存在海南分网原文，优先保存海南分网URL。"
+    },
+    {
+      "id": "ggzy_national",
+      "name": "全国公共资源交易平台",
+      "level": "B_official_crosscheck",
+      "base_url": "https://www.ggzy.gov.cn/",
+      "coverage": "全国公共资源交易信息汇集",
+      "announcement_types": ["招标公告","中标候选人","中标结果","交易结果"],
+      "direct_ingest": true,
+      "verification_status": "verified",
+      "project_chain": true,
+      "mandatory": true,
+      "rule": "重点用于中标结果、历史索引和省级平台漏项交叉验证。"
+    },
+    {
+      "id": "cebpubservice",
+      "name": "中国招标投标公共服务平台",
+      "level": "B_official_crosscheck",
+      "base_url": "https://bulletin.cebpubservice.com/",
+      "coverage": "依法招标及各类招标公告、公示信息",
+      "announcement_types": ["资格预审公告","招标公告","更正公告","中标候选人公示","中标结果公示"],
+      "direct_ingest": true,
+      "verification_status": "verified",
+      "project_chain": true,
+      "mandatory": true,
+      "rule": "适合反查代理机构发布但地方平台检索不佳的服务和工程招标。"
+    },
+    {
+      "id": "hnzfcgxh",
+      "name": "海南省政府采购行业协会",
+      "level": "C_authoritative_association",
+      "base_url": "https://hnzfcgxh.com/",
+      "coverage": "海南省及各市县采购公告、结果等行业信息",
+      "announcement_types": ["采购公告","更正公告","中标公告","成交公告","终止公告"],
+      "direct_ingest": true,
+      "verification_status": "verified_authoritative",
+      "project_chain": true,
+      "mandatory": true,
+      "rule": "可作为专业补源正式入库，但source_level必须保持authoritative_association，不得冒充政府官方来源。"
+    },
+    {
+      "id": "hainan_bidding_association",
+      "name": "海南省招标投标协会及省内依法发布媒介",
+      "level": "C_authoritative_association",
+      "base_url": null,
+      "coverage": "海南省工程、服务及代理机构发布的招标采购信息",
+      "announcement_types": ["招标公告","比选","磋商","候选公示","结果公示"],
+      "direct_ingest": true,
+      "verification_status": "verified_authoritative",
+      "project_chain": true,
+      "mandatory": false,
+      "rule": "发现项目后优先回溯采购人、公共资源平台或中国招标投标公共服务平台。"
+    },
+    {
+      "id": "qianlima",
+      "name": "千里马招标网",
+      "level": "D_discovery_only",
+      "base_url": "https://www.qianlima.com/",
+      "coverage": "聚合招标线索",
+      "direct_ingest": false,
+      "verification_status": "pending_official_backfill",
+      "project_chain": false,
+      "mandatory": false
+    },
+    {
+      "id": "bidcenter",
+      "name": "采招网/Bidcenter",
+      "level": "D_discovery_only",
+      "base_url": "https://www.bidcenter.com.cn/",
+      "coverage": "聚合招标线索",
+      "direct_ingest": false,
+      "verification_status": "pending_official_backfill",
+      "project_chain": false,
+      "mandatory": false
+    },
+    {
+      "id": "yfbzb",
+      "name": "乙方宝等招标聚合平台",
+      "level": "D_discovery_only",
+      "base_url": "https://www.yfbzb.com/",
+      "coverage": "聚合招标线索",
+      "direct_ingest": false,
+      "verification_status": "pending_official_backfill",
+      "project_chain": false,
+      "mandatory": false
+    }
+  ],
+  "jurisdiction_completion_requirements": {
+    "mandatory_source_groups": [
+      ["hainan_ggzy"],
+      ["hainan_ccgp"],
+      ["jurisdiction_government"],
+      ["ccgp_national","ggzy_national","cebpubservice"],
+      ["hnzfcgxh","hainan_bidding_association"]
+    ],
+    "rule": "每个市县必须完成前3组全部检索，并至少完成国家交叉源组和海南协会补源组各1个来源，才可进入complete/zero_verified候选状态。海口市额外强制haikou_ggzy；已知采购人或实施主体时强制project_owner_official。",
+    "zero_result_rule": "只有完成上述来源组、项目别名/采购人/项目编号/合同反查且仍无核心记录，才允许zero_verified。"
+  },
+  "ingest_rules": {
+    "A_official_primary": "直接入库为verified；保存原文URL和抓取日期。",
+    "B_official_crosscheck": "可直接入库为verified；若能定位海南本地原文，优先替换为本地原文并保留crosscheck_sources。",
+    "C_authoritative_association": "可入库为verified_authoritative；后续仍尝试回溯政府/采购人/国家公共服务平台原文。",
+    "D_discovery_only": "仅进入candidate/pending_official_backfill，不计入已核验数量，不得作为项目不存在或存在的唯一最终依据。",
+    "conflict": "同一事项多来源冲突时按最新更正/官方本地法定发布源/合同正文依次判定，并记录data_quality_note。"
+  }
+}
