@@ -1,0 +1,40 @@
+{
+  "type": "urban-renewal-daily-backfill",
+  "generated_at": "2026-08-30T14:35:01+08:00",
+  "date": "2026-08-30",
+  "records": [
+    {
+      "id": "HN-HAIKOU-LH-HAIHONG-20260817-PRE-SERVICE-3",
+      "canonical_project_id": "HN-HAIKOU-LH-HAIHONG-CHEMICAL-PHASE2",
+      "project_id": "HNLC-2026-04",
+      "title": "海口市龙华区海虹化纤片区（二期）城市更新项目前期服务商（三次）",
+      "project_type": "城市更新",
+      "service_type": ["前期策划", "实施主体"],
+      "project_stage": "前期研究",
+      "province": "海南省",
+      "city": "海口市",
+      "district_county": "龙华区",
+      "region": "海口市龙华区",
+      "publish_date": "2026-08-17",
+      "deadline": "2026-09-07T09:30:00+08:00",
+      "notice_type": "招标公告",
+      "procurement_method": "公开招标",
+      "purchaser": "海口龙华城投项目管理有限公司",
+      "budget_yuan": 0,
+      "control_price_yuan": 0,
+      "status": "active",
+      "source_id": "haikou_ggzy",
+      "source_name": "海口市公共资源交易中心",
+      "source_level": "A_official_primary",
+      "verification_status": "verified",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/94668",
+      "tags": ["城市更新", "海虹化纤片区", "前期服务商", "三次招标"],
+      "relevance": "high",
+      "is_backfill": true,
+      "first_seen": "2026-08-30T14:35:01+08:00",
+      "summary": "海虹化纤片区（二期）城市更新项目前期服务商第三次公开招标，2026年8月17日发布，投标截止2026年9月7日09:30；本轮从海口市公共资源交易中心A级官方原文发现并补录。"
+    }
+  ],
+  "summary": {"total_records": 1, "verified": 1, "pending_official_backfill": 0, "expanded_candidates": 0},
+  "note": "本文件仅记录2026-08-30巡检发现的历史漏项，不覆盖既有历史数据。"
+}
