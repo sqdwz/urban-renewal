@@ -1,33 +1,34 @@
 {
   "latest": {
-    "date": "2026-08-29",
-    "path": "data/daily/2026-08-29.json",
+    "date": "2026-08-30",
+    "path": "data/daily/2026-08-30.json",
     "new_today": 0,
-    "active_core": 6,
+    "active_core": 7,
     "expanded_candidates": 1,
-    "upcoming_deadlines": 6,
+    "upcoming_deadlines": 7,
     "backfilled_core_events": 1,
     "source_error_count": 1,
     "source_unavailable_count": 0,
     "jurisdictions_complete": 0,
     "jurisdictions_incomplete": 19,
-    "generated_at": "2026-08-29T14:34:55+08:00"
+    "generated_at": "2026-08-30T14:35:01+08:00"
   },
   "recent": [
+    {"date":"2026-08-30","path":"data/daily/2026-08-30.json"},
     {"date":"2026-08-29","path":"data/daily/2026-08-29.json"},
     {"date":"2026-08-28","path":"data/daily/2026-08-28.json"},
     {"date":"2026-08-27","path":"data/daily/2026-08-27.json"}
   ],
   "history": {
     "start_date": "2023-08-27",
-    "end_date": "2026-08-27",
+    "end_date": "2026-08-30",
     "index_path": "data/history/index.json",
-    "total_records": 87,
-    "verified_or_official_index": 71,
+    "total_records": 88,
+    "verified_or_official_index": 72,
     "verified_authoritative_association": 3,
     "secondary_pending_backfill": 15,
     "expanded_candidates": 1,
-    "dataset_count": 5,
+    "dataset_count": 6,
     "jurisdictions_total": 19,
     "jurisdictions_with_confirmed_or_candidate_core": 12,
     "jurisdictions_zero_core_first_pass": 7,
