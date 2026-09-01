@@ -1,19 +1,20 @@
 {
   "latest": {
-    "date": "2026-08-31",
-    "path": "data/daily/2026-08-31.json",
+    "date": "2026-09-01",
+    "path": "data/daily/2026-09-01.json",
     "new_today": 0,
-    "active_core": 7,
+    "active_core": 6,
     "expanded_candidates": 1,
-    "upcoming_deadlines": 7,
-    "backfilled_core_events": 6,
-    "source_error_count": 3,
+    "upcoming_deadlines": 6,
+    "backfilled_core_events": 0,
+    "source_error_count": 4,
     "source_unavailable_count": 0,
     "jurisdictions_complete": 0,
     "jurisdictions_incomplete": 19,
-    "generated_at": "2026-08-31T14:47:32+08:00"
+    "generated_at": "2026-09-01T14:53:06+08:00"
   },
   "recent": [
+    {"date":"2026-09-01","path":"data/daily/2026-09-01.json"},
     {"date":"2026-08-31","path":"data/daily/2026-08-31.json"},
     {"date":"2026-08-30","path":"data/daily/2026-08-30.json"},
     {"date":"2026-08-29","path":"data/daily/2026-08-29.json"},
