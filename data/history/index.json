@@ -1,10 +1,10 @@
 {
   "type": "urban-renewal-history-index",
-  "updated_at": "2026-09-04T14:56:20+08:00",
-  "window": {"start_date":"2023-08-27","end_date":"2026-09-04"},
+  "updated_at": "2026-09-05T14:45:23+08:00",
+  "window": {"start_date":"2023-08-27","end_date":"2026-09-05"},
   "summary": {
-    "total_records": 102,
-    "verified_or_official_index": 80,
+    "total_records": 104,
+    "verified_or_official_index": 82,
     "verified_authoritative_association": 3,
     "secondary_pending_backfill": 21,
     "expanded_candidates": 1,
@@ -23,8 +23,9 @@
     {"name":"2026-08-31高铁城西站片区项目链补漏","path":"data/history/daily-backfill-2026-08-31.json","total_records":6,"verified_or_authoritative":6,"secondary_pending_backfill":0,"expanded_candidates":0,"status":"daily_backfill_v1","covered_jurisdictions":["海口市"],"canonical_project_id":"HN-HAIKOU-LH-GAOTIECHENGXI-URBAN-VILLAGE"},
     {"name":"2026-09-02儋州老旧小区（二期）项目链补漏","path":"data/history/daily-backfill-2026-09-02.json","total_records":4,"verified_or_authoritative":0,"secondary_pending_backfill":4,"expanded_candidates":0,"status":"daily_backfill_v1","covered_jurisdictions":["儋州市"],"canonical_project_id":"HN-DANZHOU-2025-OLD-COMMUNITY-II"},
     {"name":"2026-09-03海口博爱路支巷及澄迈老旧小区项目链补漏","path":"data/history/daily-backfill-2026-09-03.json","total_records":3,"verified_or_authoritative":1,"secondary_pending_backfill":2,"expanded_candidates":0,"status":"daily_backfill_v1","covered_jurisdictions":["海口市","澄迈县"]},
-    {"name":"2026-09-04迈瀛片区G1102地块项目链补漏","path":"data/history/daily-backfill-2026-09-04.json","total_records":1,"verified_or_authoritative":1,"secondary_pending_backfill":0,"expanded_candidates":0,"status":"daily_backfill_v1","covered_jurisdictions":["海口市"],"canonical_project_id":"HN-HAIKOU-QS-MAIYING-H1301-G1003-G1102"}
+    {"name":"2026-09-04迈瀛片区G1102地块项目链补漏","path":"data/history/daily-backfill-2026-09-04.json","total_records":1,"verified_or_authoritative":1,"secondary_pending_backfill":0,"expanded_candidates":0,"status":"daily_backfill_v1","covered_jurisdictions":["海口市"],"canonical_project_id":"HN-HAIKOU-QS-MAIYING-H1301-G1003-G1102"},
+    {"name":"2026-09-05迈瀛片区（二期）成交结果补漏","path":"data/history/daily-backfill-2026-09-05.json","total_records":2,"verified_or_authoritative":2,"secondary_pending_backfill":0,"expanded_candidates":0,"status":"daily_backfill_v1","covered_jurisdictions":["海口市"],"canonical_project_id":"HN-HAIKOU-QS-MAIYING-II-MUNICIPAL"}
   ],
   "coverage_config":"config/coverage-regions.json",
-  "note":"2026-09-04巡检发现1条当日A级官方新增：海口市琼山区迈瀛片区H1301地块城市更新项目前期物业项目；另补录1条2026-09-03发布但昨日巡检遗漏的A级官方项目链事件：迈瀛片区G1102地块城市更新项目。历史库增至102条。海南省政府采购智慧云平台超时、中国政府采购网403、中国招标投标公共服务平台入口异常，均按source_error记录；19市县不得标记complete/zero_verified。"
+  "note":"2026-09-05巡检未发现当日新增核心项目；补录2条2026-09-04发布的A级官方成交结果：迈瀛片区（二期）施工图审查成交10.704万元、工程量清单及招标控制价编制成交32.30万元。历史库增至104条。海南政府采购智慧云超时、中国政府采购网403、中国招标投标公共服务平台入口异常，19市县仍不得标记complete/zero_verified。"
 }
