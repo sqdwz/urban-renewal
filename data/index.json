@@ -1,1 +1,87 @@
-{"latest":{"date":"2026-09-24","path":"data/daily/2026-09-24.json","new_today":0,"active_core":13,"expanded_candidates":1,"upcoming_deadlines":0,"backfilled_core_events":1,"source_error_count":4,"source_unavailable_count":0,"jurisdictions_complete":0,"jurisdictions_incomplete":19,"generated_at":"2026-09-24T14:12:10+08:00"},"recent":[{"date":"2026-09-24","path":"data/daily/2026-09-24.json"},{"date":"2026-09-23","path":"data/daily/2026-09-23.json"},{"date":"2026-09-22","path":"data/daily/2026-09-22.json"},{"date":"2026-09-21","path":"data/daily/2026-09-21.json"},{"date":"2026-09-20","path":"data/daily/2026-09-20.json"},{"date":"2026-09-19","path":"data/daily/2026-09-19.json"},{"date":"2026-09-18","path":"data/daily/2026-09-18.json"},{"date":"2026-09-17","path":"data/daily/2026-09-17.json"},{"date":"2026-09-16","path":"data/daily/2026-09-16.json"},{"date":"2026-09-15","path":"data/daily/2026-09-15.json"}],"history":{"start_date":"2023-08-27","end_date":"2026-09-23","index_path":"data/history/index.json","total_records":129,"verified_or_official_index":91,"verified_authoritative_association":3,"secondary_pending_backfill":37,"expanded_candidates":1,"dataset_count":24,"jurisdictions_total":19,"jurisdictions_with_confirmed_or_candidate_core":12,"jurisdictions_zero_core_first_pass":7,"status":"province_19_jurisdiction_backfill_in_progress"}}
+{
+  "latest": {
+    "date": "2026-10-10",
+    "path": "data/daily/2026-10-10.json",
+    "new_today": 0,
+    "active_core": null,
+    "expanded_candidates": 1,
+    "upcoming_deadlines": 3,
+    "backfilled_core_events": 4,
+    "backfilled_pending_events": 7,
+    "source_error_count": 3,
+    "source_unavailable_count": 0,
+    "jurisdictions_complete": 0,
+    "jurisdictions_incomplete": 19,
+    "generated_at": "2026-10-11T12:14:28.039+08:00",
+    "scan_status": "partial_incomplete_mandatory_sources"
+  },
+  "recent": [
+    {
+      "date": "2026-10-10",
+      "path": "data/daily/2026-10-10.json"
+    },
+    {
+      "date": "2026-09-26",
+      "path": "data/daily/2026-09-26.json"
+    },
+    {
+      "date": "2026-09-25",
+      "path": "data/daily/2026-09-25.json"
+    },
+    {
+      "date": "2026-09-24",
+      "path": "data/daily/2026-09-24.json"
+    },
+    {
+      "date": "2026-09-23",
+      "path": "data/daily/2026-09-23.json"
+    },
+    {
+      "date": "2026-09-22",
+      "path": "data/daily/2026-09-22.json"
+    },
+    {
+      "date": "2026-09-21",
+      "path": "data/daily/2026-09-21.json"
+    },
+    {
+      "date": "2026-09-20",
+      "path": "data/daily/2026-09-20.json"
+    },
+    {
+      "date": "2026-09-19",
+      "path": "data/daily/2026-09-19.json"
+    },
+    {
+      "date": "2026-09-18",
+      "path": "data/daily/2026-09-18.json"
+    },
+    {
+      "date": "2026-09-17",
+      "path": "data/daily/2026-09-17.json"
+    },
+    {
+      "date": "2026-09-16",
+      "path": "data/daily/2026-09-16.json"
+    },
+    {
+      "date": "2026-09-15",
+      "path": "data/daily/2026-09-15.json"
+    }
+  ],
+  "history": {
+    "start_date": "2023-08-27",
+    "end_date": "2026-10-09",
+    "index_path": "data/history/index.json",
+    "total_records": 140,
+    "verified_or_official_index": 95,
+    "verified_authoritative_association": 3,
+    "secondary_pending_backfill": 44,
+    "expanded_candidates": 1,
+    "dataset_count": 25,
+    "jurisdictions_total": 19,
+    "jurisdictions_with_confirmed_or_candidate_core": 12,
+    "jurisdictions_zero_core_first_pass": 7,
+    "status": "province_19_jurisdiction_backfill_in_progress"
+  }
+}
