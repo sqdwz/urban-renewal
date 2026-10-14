@@ -1,15 +1,15 @@
 {
   "type": "urban-renewal-history-index",
-  "updated_at": "2026-10-12T04:12:24.584Z",
+  "updated_at": "2026-10-14T04:12:08.934Z",
   "window": {
     "start_date": "2023-08-27",
-    "end_date": "2026-10-09"
+    "end_date": "2026-10-12"
   },
   "summary": {
-    "total_records": 141,
+    "total_records": 144,
     "verified_or_official_index": 95,
     "verified_authoritative_association": 3,
-    "secondary_pending_backfill": 45,
+    "secondary_pending_backfill": 48,
     "expanded_candidates": 1,
     "jurisdictions_total": 19,
     "jurisdictions_with_confirmed_or_candidate_core": 12,
@@ -155,8 +155,14 @@
       "path": "data/history/daily-backfill-2026-10-11.json",
       "total_records": 1,
       "secondary_pending_backfill": 1
+    },
+    {
+      "name": "2026-10-13巡检补录10月12日陵水棚改物业二次招标及海口老旧小区供水改造招标计划待核验线索",
+      "path": "data/history/daily-backfill-2026-10-13.json",
+      "total_records": 3,
+      "secondary_pending_backfill": 3
     }
   ],
   "coverage_config": "config/coverage-regions.json",
-  "note": "10月10日审核分支11条补漏已合并到历史索引，10月11日新增琼中县D级待核验线索1条；原有129条保留。"
+  "note": "历史新增3条D级线索，需A/B/C级官方回填；19市县必查来源未完成。"
 }
