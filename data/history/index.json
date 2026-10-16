@@ -1,15 +1,15 @@
 {
   "type": "urban-renewal-history-index",
-  "updated_at": "2026-10-14T04:12:08.934Z",
+  "updated_at": "2026-10-16T04:15:34.992Z",
   "window": {
     "start_date": "2023-08-27",
-    "end_date": "2026-10-12"
+    "end_date": "2026-10-15"
   },
   "summary": {
-    "total_records": 144,
+    "total_records": 146,
     "verified_or_official_index": 95,
     "verified_authoritative_association": 3,
-    "secondary_pending_backfill": 48,
+    "secondary_pending_backfill": 50,
     "expanded_candidates": 1,
     "jurisdictions_total": 19,
     "jurisdictions_with_confirmed_or_candidate_core": 12,
@@ -161,8 +161,14 @@
       "path": "data/history/daily-backfill-2026-10-13.json",
       "total_records": 3,
       "secondary_pending_backfill": 3
+    },
+    {
+      "name": "2026-10-15屯昌测绘和昌江老旧小区施工待核验历史补漏",
+      "path": "data/history/daily-backfill-2026-10-15.json",
+      "total_records": 2,
+      "secondary_pending_backfill": 2
     }
   ],
   "coverage_config": "config/coverage-regions.json",
-  "note": "历史新增3条D级线索，需A/B/C级官方回填；19市县必查来源未完成。"
+  "note": "10月15日补录2条D级历史线索，需官方回填。"
 }
