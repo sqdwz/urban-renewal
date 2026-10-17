@@ -1,15 +1,15 @@
 {
   "type": "urban-renewal-history-index",
-  "updated_at": "2026-10-14T04:12:08.934Z",
+  "updated_at": "2026-10-17T04:16:32.079Z",
   "window": {
     "start_date": "2023-08-27",
-    "end_date": "2026-10-12"
+    "end_date": "2026-10-15"
   },
   "summary": {
-    "total_records": 144,
+    "total_records": 148,
     "verified_or_official_index": 95,
     "verified_authoritative_association": 3,
-    "secondary_pending_backfill": 48,
+    "secondary_pending_backfill": 52,
     "expanded_candidates": 1,
     "jurisdictions_total": 19,
     "jurisdictions_with_confirmed_or_candidate_core": 12,
@@ -161,6 +161,12 @@
       "path": "data/history/daily-backfill-2026-10-13.json",
       "total_records": 3,
       "secondary_pending_backfill": 3
+    },
+    {
+      "name": "2026-10-17三亚南丁片区D级历史线索待核验",
+      "path": "data/history/daily-backfill-2026-10-17.json",
+      "total_records": 4,
+      "secondary_pending_backfill": 4
     }
   ],
   "coverage_config": "config/coverage-regions.json",
