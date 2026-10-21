@@ -1,0 +1,2523 @@
+{
+  "type": "urban-tender-daily",
+  "schema_version": 3,
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T12:10:30+08:00",
+  "title": "海南省城市更新招投标每日巡检",
+  "scan_status": "partial_incomplete_mandatory_sources",
+  "summary": {
+    "new_today": 0,
+    "new_today_count_status": "今日未发现已核验新增（仅限已检索来源，19市县必查来源不完整）",
+    "new_discovery_leads": 0,
+    "active_core": null,
+    "active_core_count_status": "主分支历史索引滞后且必查来源未完成，无法可靠核定",
+    "expanded_candidates": 1,
+    "upcoming_deadlines": 3,
+    "backfilled_core_events": 2,
+    "backfilled_pending_events": 1,
+    "backfilled_total_events": 3,
+    "source_error_count": 3,
+    "source_error_count_basis": "distinct_source_id，不将重复市县行计作不同来源",
+    "source_unavailable_count": 0,
+    "jurisdictions_complete": 0,
+    "jurisdictions_incomplete": 19,
+    "note": "今日未发现新增（已核验）。发现历史漏项3条：横沟村2026-09-14官方招标公告、2026-10-19官方中标结果事件及万宁2026-10-16 D级工程检测线索。仅完成19市县首轮限定检索与部分来源入口/项目链检查，不能判定全省零新增。"
+  },
+  "new_items": [],
+  "discovery_leads_today": [],
+  "backfilled_events": [
+    {
+      "province": "海南省",
+      "city": "海口市",
+      "district_county": "美兰区",
+      "canonical_project_id": "HN-HAIKOU-HENGGOU-PH2-C28-01-PROPERTY",
+      "project_id": "E4601000001001442001",
+      "known_project_ids": [
+        "E4601000001001442001"
+      ],
+      "known_parcel_ids": [
+        "C28-01"
+      ],
+      "project_aliases": [
+        "横沟村二期C28-01地块前期物业"
+      ],
+      "purchaser": "海口中交海投城市更新发展有限公司",
+      "project_type": "城市更新",
+      "service_type": "前期物业",
+      "project_stage": "运营准备",
+      "procurement_method": "公开招标",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "verification_status": "verified",
+      "status": "closed",
+      "chain_gap": "other_stages_pending_review",
+      "id": "HN-HAIKOU-HENGGOU-C28-20260914-TENDER",
+      "title": "海口市横沟村城市更新项目（二期）C28-01地块（7#）安置房前期物业服务项目招标公告",
+      "publish_date": "2026-09-14",
+      "deadline": "2026-10-08T09:00:00+08:00",
+      "event_type": "招标公告",
+      "amount_yuan": null,
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/95187?qtype=notice",
+      "control_price_yuan": 379600,
+      "summary": "官方招标公告；前期介入费控制价379600元，住宅物业费控制价1.82元/㎡/月、商业4.34元/㎡/月，10月8日截止。物业费单价不应与总价混算。"
+    },
+    {
+      "province": "海南省",
+      "city": "海口市",
+      "district_county": "美兰区",
+      "canonical_project_id": "HN-HAIKOU-HENGGOU-PH2-C28-01-PROPERTY",
+      "project_id": "E4601000001001442001",
+      "known_project_ids": [
+        "E4601000001001442001"
+      ],
+      "known_parcel_ids": [
+        "C28-01"
+      ],
+      "project_aliases": [
+        "横沟村二期C28-01地块前期物业"
+      ],
+      "purchaser": "海口中交海投城市更新发展有限公司",
+      "project_type": "城市更新",
+      "service_type": "前期物业",
+      "project_stage": "运营准备",
+      "procurement_method": "公开招标",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "verification_status": "verified",
+      "status": "closed",
+      "chain_gap": "other_stages_pending_review",
+      "id": "HN-HAIKOU-HENGGOU-C28-20261019-AWARD",
+      "title": "海口市横沟村城市更新项目（二期）C28-01地块（7#）安置房前期物业服务项目中标结果公告",
+      "publish_date": "2026-10-19",
+      "deadline": null,
+      "event_type": "中标结果公告",
+      "amount_yuan": null,
+      "award_yuan": null,
+      "winning_bidder": "海南横沟宜居物业有限公司",
+      "source_url": "https://ggzy.haikou.gov.cn/",
+      "crosscheck_sources": [
+        "https://www.yfbzb.com/winbid/detail/20261019_639746915.html"
+      ],
+      "data_quality_note": "海口交易中心官网2026-10-19公告列表确认中标结果事件；获奖单位及报价见D级转载，尚待官方结果正文复核，不将D级报价作为官方已核实金额。",
+      "summary": "海口公共资源交易中心10月19日官方公告列表确认结果发布；D级转载称中标人为海南横沟宜居物业有限公司，住宅1.80元/㎡/月、商业4.30元/㎡/月、前期介入费363396.30元，具体报价待官方结果正文复核。"
+    },
+    {
+      "id": "HN-WANNING-26-20261016-QUALITY-TEST",
+      "canonical_project_id": "HN-WANNING-OLD-COMMUNITY-26",
+      "project_id": null,
+      "title": "万宁市华侨小区等26个老旧小区改造及配套基础设施建设项目工程质量检测招标公告",
+      "province": "海南省",
+      "city": "万宁市",
+      "district_county": null,
+      "publish_date": "2026-10-16",
+      "deadline": null,
+      "procurement_method": "招标公告",
+      "amount_yuan": 1080000,
+      "purchaser": "万宁市城乡发展有限公司",
+      "project_type": "老旧小区改造",
+      "service_type": "工程检测",
+      "project_stage": "建设实施",
+      "event_type": "招标公告",
+      "source_id": "bidcenter",
+      "source_level": "D_discovery_only",
+      "source_url": "https://www.bidcenter.com.cn/enterprise/wnscxfzyxgs/",
+      "verification_status": "pending_official_backfill",
+      "status": "unknown",
+      "chain_gap": "official_notice_and_deadline_pending",
+      "data_quality_note": "仅D级聚合企业页，108万元为聚合页展示金额，未找到官方原文、招标编号及截止时间；不得计入已核验核心。",
+      "summary": "10月16日D级线索，万宁市26个老旧小区工程质量检测约108万元，待A/B/C级公告及项目链反查。"
+    }
+  ],
+  "upcoming_deadlines": [
+    {
+      "province": "海南省",
+      "district_county": null,
+      "id": "HN-DONGFANG-TAI-LONG-20261008-SUPERVISION2",
+      "canonical_project_id": "HN-DONGFANG-BINHAI-110KV",
+      "project_id": "dfzw20260930005",
+      "title": "东方市滨海片区（一期）棚户区改造项目—110kV泰隆输变电新建工程监理（二次招标）",
+      "city": "东方市",
+      "publish_date": "2026-10-08",
+      "deadline": "2026-10-29T08:30:00+08:00",
+      "procurement_method": "二次招标",
+      "amount_yuan": 570161.26,
+      "purchaser": "东方市城市建设投资集团有限公司",
+      "project_type": "棚户区改造",
+      "service_type": "监理",
+      "project_stage": "建设实施",
+      "event_type": "二次招标",
+      "source_id": "third_party_discovery",
+      "source_level": "D_discovery_only",
+      "source_url": "https://hi.zhaobiao.lanyancloud.com/notice/b593e514d1e3489d",
+      "verification_status": "pending_official_backfill",
+      "status": "active",
+      "chain_gap": "official_notice_pending",
+      "data_quality_note": "仅取得第三方转载，已检索相关官方来源但未找到可稳定核验的原文；不得计入已核验核心数量。",
+      "control_price_yuan": 570161.26,
+      "summary": "监理二次招标，限价570161.26元，10月29日08:30截止；仅D级转载，需追溯首次招标异常公告。"
+    },
+    {
+      "id": "HN-LINGSHUI-LINGHE-SOUTH-SK0201-20261012-PROPERTY-RE2",
+      "canonical_project_id": "HN-LINGSHUI-LINGHE-SOUTH-SHANTYTOWN-PH2",
+      "project_id": "lszw20261010001",
+      "title": "陵水黎族自治县陵河南片区棚户区改造项目二期（S-K-02-01地块）-前期物业（二次招标）招标公告",
+      "province": "海南省",
+      "city": "陵水黎族自治县",
+      "district_county": null,
+      "parcel_id": "S-K-02-01",
+      "publish_date": "2026-10-12",
+      "deadline": "2026-11-02T09:00:00+08:00",
+      "procurement_method": "公开招标（二次）",
+      "amount_yuan": null,
+      "purchaser": "海南时代颐居房地产有限公司",
+      "project_type": "棚户区改造",
+      "service_type": "前期物业",
+      "project_stage": "运营准备",
+      "event_type": "二次招标",
+      "source_id": "third_party_discovery",
+      "source_level": "D_discovery_only",
+      "source_url": "https://www.zhaotoubiaowang.com/bidding/detail_for_162957.html",
+      "verification_status": "pending_official_backfill",
+      "status": "active",
+      "chain_gap": "first_tender_and_official_notice_pending",
+      "known_parcel_ids": [
+        "S-K-02-01"
+      ],
+      "data_quality_note": "第三方转载；官方原文、首次招标及异常公告尚未核验。",
+      "summary": "前期物业二次招标，建筑面积约49111.18平方米，11月2日09:00截止；D级待核验。"
+    },
+    {
+      "id": "HN-LINGSHUI-LINGJIANG-EAST-ROOF-20261013-RE2",
+      "canonical_project_id": "HN-LINGSHUI-LINGJIANG-EAST-SHANTYTOWN-PH1",
+      "project_id": null,
+      "title": "（机器管招投标）陵水黎族自治县陵江东路片区棚户区改造项目一期屋面改造项目（二次）招标公告",
+      "province": "海南省",
+      "city": "陵水黎族自治县",
+      "district_county": null,
+      "publish_date": "2026-10-13",
+      "deadline": "2026-11-03T09:00:00+08:00",
+      "procurement_method": "公开招标（二次）",
+      "amount_yuan": 939955.57,
+      "control_price_yuan": 939955.57,
+      "purchaser": "陵水黎族自治县城乡投资有限公司",
+      "project_type": "棚户区改造",
+      "service_type": "施工",
+      "project_stage": "建设实施",
+      "event_type": "二次招标",
+      "source_id": "third_party_discovery",
+      "source_level": "D_discovery_only",
+      "source_url": "https://hi.zhaobiao.lanyancloud.com/notice/27ae2a49cc8c44b3",
+      "verification_status": "pending_official_backfill",
+      "status": "active",
+      "chain_gap": "first_tender_and_official_notice_pending",
+      "known_project_ids": [],
+      "project_aliases": [
+        "陵江东路片区棚改一期屋面改造"
+      ],
+      "data_quality_note": "10月13日第三方聚合公告；A/B/C官方原文及首次招标/异常公告尚未核实，不得计入已核验核心项目。",
+      "summary": "对1#至8#住宅楼屋面女儿墙增设防护栏杆约2775.24米，最高限价939955.57元，11月3日09:00截止；仅D级线索。"
+    }
+  ],
+  "expanded_candidates": [
+    {
+      "id": "HN-HAIKOU-HITECH-20260825-LAND",
+      "project_id": "HNSHB-20260306",
+      "title": "2026年度农用地（未利用地）转用和土地征收组卷报批及制图等技术服务项目",
+      "project_type": "待确认",
+      "city": "海口市",
+      "status": "expired",
+      "verification_status": "expanded"
+    }
+  ],
+  "source_audit": [
+    {
+      "city": "海口市",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "海口市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "海口市",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "海口市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "海口市",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "海口市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "海口市",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "海口市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "海口市",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "海口市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "海口市",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "海口市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "海口市",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "海口市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "海口市",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "海口市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "海口市",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "海口市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 2,
+      "coverage_status": "searched_partial",
+      "note": "海口交易中心官网可访问，核实横沟村项目链；全部公告类型仍未遍历"
+    },
+    {
+      "city": "三亚市",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "三亚市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "三亚市",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "三亚市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "三亚市",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "三亚市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "三亚市",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "三亚市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "三亚市",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "三亚市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "三亚市",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "三亚市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "三亚市",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "三亚市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "三亚市",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "三亚市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "三沙市",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "三沙市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "三沙市",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "三沙市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "三沙市",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "三沙市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "三沙市",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "三沙市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "三沙市",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "三沙市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "三沙市",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "三沙市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "三沙市",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "三沙市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "三沙市",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "三沙市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "儋州市",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "儋州市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "儋州市",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "儋州市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "儋州市",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "儋州市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "儋州市",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "儋州市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "儋州市",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "儋州市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "儋州市",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "儋州市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "儋州市",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "儋州市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "儋州市",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "儋州市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "五指山市",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "五指山市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "五指山市",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "五指山市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "五指山市",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "五指山市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "五指山市",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "五指山市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "五指山市",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "五指山市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "五指山市",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "五指山市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "五指山市",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "五指山市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "五指山市",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "五指山市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "琼海市",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "琼海市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "琼海市",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "琼海市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "琼海市",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "琼海市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "琼海市",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "琼海市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "琼海市",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "琼海市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "琼海市",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "琼海市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "琼海市",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "琼海市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "琼海市",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "琼海市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "文昌市",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "文昌市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "文昌市",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "文昌市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "文昌市",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "文昌市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "文昌市",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "文昌市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "文昌市",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "文昌市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "文昌市",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "文昌市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "文昌市",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "文昌市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "文昌市",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "文昌市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "万宁市",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "万宁市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "万宁市",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "万宁市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "万宁市",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "万宁市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "万宁市",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "万宁市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "万宁市",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "万宁市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "万宁市",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "万宁市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "万宁市",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "万宁市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "万宁市",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "万宁市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "东方市",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "东方市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "东方市",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "东方市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "东方市",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "东方市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "东方市",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "东方市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "东方市",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "东方市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "东方市",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "东方市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "东方市",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "东方市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "东方市",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "东方市×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "定安县",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "定安县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "定安县",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "定安县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "定安县",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "定安县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "定安县",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "定安县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "定安县",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "定安县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "定安县",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "定安县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "定安县",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "定安县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "定安县",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "定安县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "屯昌县",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "屯昌县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "屯昌县",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "屯昌县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "屯昌县",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "屯昌县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "屯昌县",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "屯昌县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "屯昌县",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "屯昌县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "屯昌县",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "屯昌县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "屯昌县",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "屯昌县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "屯昌县",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "屯昌县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "澄迈县",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "澄迈县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "澄迈县",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "澄迈县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "澄迈县",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "澄迈县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "澄迈县",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "澄迈县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "澄迈县",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "澄迈县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "澄迈县",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "澄迈县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "澄迈县",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "澄迈县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "澄迈县",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "澄迈县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "临高县",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "临高县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "临高县",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "临高县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "临高县",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "临高县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "临高县",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "临高县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "临高县",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "临高县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "临高县",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "临高县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "临高县",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "临高县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "临高县",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "临高县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "白沙黎族自治县",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "白沙黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "白沙黎族自治县",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "白沙黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "白沙黎族自治县",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "白沙黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "白沙黎族自治县",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "白沙黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "白沙黎族自治县",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "白沙黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "白沙黎族自治县",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "白沙黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "白沙黎族自治县",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "白沙黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "白沙黎族自治县",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "白沙黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "昌江黎族自治县",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "昌江黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "昌江黎族自治县",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "昌江黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "昌江黎族自治县",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "昌江黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "昌江黎族自治县",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "昌江黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "昌江黎族自治县",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "昌江黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "昌江黎族自治县",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "昌江黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "昌江黎族自治县",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "昌江黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "昌江黎族自治县",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "昌江黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "乐东黎族自治县",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "乐东黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "乐东黎族自治县",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "乐东黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "乐东黎族自治县",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "乐东黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "乐东黎族自治县",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "乐东黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "乐东黎族自治县",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "乐东黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "乐东黎族自治县",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "乐东黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "乐东黎族自治县",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "乐东黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "乐东黎族自治县",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "乐东黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "陵水黎族自治县",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "陵水黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "陵水黎族自治县",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "陵水黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "陵水黎族自治县",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "陵水黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "陵水黎族自治县",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "陵水黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "陵水黎族自治县",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "陵水黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "陵水黎族自治县",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "陵水黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "陵水黎族自治县",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "陵水黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "陵水黎族自治县",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "陵水黎族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "保亭黎族苗族自治县",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "保亭黎族苗族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "保亭黎族苗族自治县",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "保亭黎族苗族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "保亭黎族苗族自治县",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "保亭黎族苗族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "保亭黎族苗族自治县",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "保亭黎族苗族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "保亭黎族苗族自治县",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "保亭黎族苗族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "保亭黎族苗族自治县",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "保亭黎族苗族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "保亭黎族苗族自治县",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "保亭黎族苗族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "保亭黎族苗族自治县",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "保亭黎族苗族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "琼中黎族苗族自治县",
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "琼中黎族苗族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已访问省级入口，未完成本市县机器管分类查询"
+    },
+    {
+      "city": "琼中黎族苗族自治县",
+      "source_id": "hainan_ccgp",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "琼中黎族苗族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回502 Bad Gateway"
+    },
+    {
+      "city": "琼中黎族苗族自治县",
+      "source_id": "jurisdiction_government",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "琼中黎族苗族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已进行市县独立site限定首轮搜索，未逐一检查政府及住建/房管/资规等官网"
+    },
+    {
+      "city": "琼中黎族苗族自治县",
+      "source_id": "ggzy_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "琼中黎族苗族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "国家平台首页可访问，海南本市县分类查询未完成"
+    },
+    {
+      "city": "琼中黎族苗族自治县",
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "琼中黎族苗族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "协会首页可访问，市县/公告类型筛选未完成"
+    },
+    {
+      "city": "琼中黎族苗族自治县",
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "琼中黎族苗族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回403 Forbidden"
+    },
+    {
+      "city": "琼中黎族苗族自治县",
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "琼中黎族苗族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "source_error",
+      "note": "访问返回405 Method Not Allowed"
+    },
+    {
+      "city": "琼中黎族苗族自治县",
+      "source_id": "project_owner_official",
+      "source_level": "A_official_primary",
+      "searched_at": null,
+      "query_group": "琼中黎族苗族自治县×核心主题/专业服务/公告类型/项目编号/项目链（仅首轮或入口检查，未完成全量分类）",
+      "result_count": null,
+      "new_record_count": 0,
+      "coverage_status": "in_progress",
+      "note": "已知采购人/实施主体官网反查未完成"
+    },
+    {
+      "city": "万宁市",
+      "source_id": "bidcenter",
+      "source_level": "D_discovery_only",
+      "searched_at": "2026-10-21T12:10:30+08:00",
+      "query_group": "万宁市×26个老旧小区×工程质量检测×公告",
+      "result_count": 1,
+      "new_record_count": 1,
+      "coverage_status": "discovery_only",
+      "note": "仅D级聚合企业页，需官方回填"
+    }
+  ],
+  "jurisdiction_coverage": [
+    {
+      "city": "海口市",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress",
+        "haikou_ggzy": "searched_partial"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    },
+    {
+      "city": "三亚市",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    },
+    {
+      "city": "三沙市",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    },
+    {
+      "city": "儋州市",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    },
+    {
+      "city": "五指山市",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    },
+    {
+      "city": "琼海市",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    },
+    {
+      "city": "文昌市",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    },
+    {
+      "city": "万宁市",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    },
+    {
+      "city": "东方市",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    },
+    {
+      "city": "定安县",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    },
+    {
+      "city": "屯昌县",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    },
+    {
+      "city": "澄迈县",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    },
+    {
+      "city": "临高县",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    },
+    {
+      "city": "白沙黎族自治县",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    },
+    {
+      "city": "昌江黎族自治县",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    },
+    {
+      "city": "乐东黎族自治县",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    },
+    {
+      "city": "陵水黎族自治县",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    },
+    {
+      "city": "保亭黎族苗族自治县",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    },
+    {
+      "city": "琼中黎族苗族自治县",
+      "coverage_status": "source_error",
+      "keyword_first_pass": "attempted",
+      "mandatory_source_groups": {
+        "hainan_ggzy": "in_progress",
+        "hainan_ccgp": "source_error",
+        "jurisdiction_government": "in_progress",
+        "ggzy_national": "in_progress",
+        "hnzfcgxh": "in_progress",
+        "ccgp_national": "source_error",
+        "cebpubservice": "source_error",
+        "project_owner_official": "in_progress"
+      },
+      "source_error_ids": [
+        "hainan_ccgp",
+        "ccgp_national",
+        "cebpubservice"
+      ],
+      "uncompleted_mandatory": true,
+      "project_chain_status": "in_progress",
+      "note": "独立首轮关键词检索已尝试；必查来源及项目链未完成，搜索无结果不代表无项目"
+    }
+  ],
+  "attention_events": [
+    {
+      "province": "海南省",
+      "city": "海口市",
+      "district_county": "美兰区",
+      "canonical_project_id": "HN-HAIKOU-HENGGOU-PH2-C28-01-PROPERTY",
+      "project_id": "E4601000001001442001",
+      "known_project_ids": [
+        "E4601000001001442001"
+      ],
+      "known_parcel_ids": [
+        "C28-01"
+      ],
+      "project_aliases": [
+        "横沟村二期C28-01地块前期物业"
+      ],
+      "purchaser": "海口中交海投城市更新发展有限公司",
+      "project_type": "城市更新",
+      "service_type": "前期物业",
+      "project_stage": "运营准备",
+      "procurement_method": "公开招标",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "verification_status": "verified",
+      "status": "closed",
+      "chain_gap": "other_stages_pending_review",
+      "id": "HN-HAIKOU-HENGGOU-C28-20260914-TENDER",
+      "title": "海口市横沟村城市更新项目（二期）C28-01地块（7#）安置房前期物业服务项目招标公告",
+      "publish_date": "2026-09-14",
+      "deadline": "2026-10-08T09:00:00+08:00",
+      "event_type": "招标公告",
+      "amount_yuan": null,
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/95187?qtype=notice",
+      "control_price_yuan": 379600,
+      "summary": "官方招标公告；前期介入费控制价379600元，住宅物业费控制价1.82元/㎡/月、商业4.34元/㎡/月，10月8日截止。物业费单价不应与总价混算。"
+    },
+    {
+      "province": "海南省",
+      "city": "海口市",
+      "district_county": "美兰区",
+      "canonical_project_id": "HN-HAIKOU-HENGGOU-PH2-C28-01-PROPERTY",
+      "project_id": "E4601000001001442001",
+      "known_project_ids": [
+        "E4601000001001442001"
+      ],
+      "known_parcel_ids": [
+        "C28-01"
+      ],
+      "project_aliases": [
+        "横沟村二期C28-01地块前期物业"
+      ],
+      "purchaser": "海口中交海投城市更新发展有限公司",
+      "project_type": "城市更新",
+      "service_type": "前期物业",
+      "project_stage": "运营准备",
+      "procurement_method": "公开招标",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "verification_status": "verified",
+      "status": "closed",
+      "chain_gap": "other_stages_pending_review",
+      "id": "HN-HAIKOU-HENGGOU-C28-20261019-AWARD",
+      "title": "海口市横沟村城市更新项目（二期）C28-01地块（7#）安置房前期物业服务项目中标结果公告",
+      "publish_date": "2026-10-19",
+      "deadline": null,
+      "event_type": "中标结果公告",
+      "amount_yuan": null,
+      "award_yuan": null,
+      "winning_bidder": "海南横沟宜居物业有限公司",
+      "source_url": "https://ggzy.haikou.gov.cn/",
+      "crosscheck_sources": [
+        "https://www.yfbzb.com/winbid/detail/20261019_639746915.html"
+      ],
+      "data_quality_note": "海口交易中心官网2026-10-19公告列表确认中标结果事件；获奖单位及报价见D级转载，尚待官方结果正文复核，不将D级报价作为官方已核实金额。",
+      "summary": "海口公共资源交易中心10月19日官方公告列表确认结果发布；D级转载称中标人为海南横沟宜居物业有限公司，住宅1.80元/㎡/月、商业4.30元/㎡/月、前期介入费363396.30元，具体报价待官方结果正文复核。"
+    },
+    {
+      "id": "HN-WANNING-26-20261016-QUALITY-TEST",
+      "canonical_project_id": "HN-WANNING-OLD-COMMUNITY-26",
+      "project_id": null,
+      "title": "万宁市华侨小区等26个老旧小区改造及配套基础设施建设项目工程质量检测招标公告",
+      "province": "海南省",
+      "city": "万宁市",
+      "district_county": null,
+      "publish_date": "2026-10-16",
+      "deadline": null,
+      "procurement_method": "招标公告",
+      "amount_yuan": 1080000,
+      "purchaser": "万宁市城乡发展有限公司",
+      "project_type": "老旧小区改造",
+      "service_type": "工程检测",
+      "project_stage": "建设实施",
+      "event_type": "招标公告",
+      "source_id": "bidcenter",
+      "source_level": "D_discovery_only",
+      "source_url": "https://www.bidcenter.com.cn/enterprise/wnscxfzyxgs/",
+      "verification_status": "pending_official_backfill",
+      "status": "unknown",
+      "chain_gap": "official_notice_and_deadline_pending",
+      "data_quality_note": "仅D级聚合企业页，108万元为聚合页展示金额，未找到官方原文、招标编号及截止时间；不得计入已核验核心。",
+      "summary": "10月16日D级线索，万宁市26个老旧小区工程质量检测约108万元，待A/B/C级公告及项目链反查。"
+    }
+  ],
+  "source_error_details": [
+    {
+      "source_id": "hainan_ccgp",
+      "error": "访问返回502 Bad Gateway"
+    },
+    {
+      "source_id": "ccgp_national",
+      "error": "访问返回403 Forbidden"
+    },
+    {
+      "source_id": "cebpubservice",
+      "error": "访问返回405 Method Not Allowed"
+    }
+  ],
+  "project_chain_backcheck": [
+    {
+      "canonical_project_id": "HN-HAIKOU-HENGGOU-PH2-C28-01-PROPERTY",
+      "project_id": "E4601000001001442001",
+      "known_stages": [
+        "运营准备"
+      ],
+      "checked_events": [
+        "2026-09-14招标公告",
+        "2026-10-08中标候选人公示（历史库已有）",
+        "2026-10-19中标结果公告"
+      ],
+      "pending_stages": [
+        "前期研究",
+        "征拆前期",
+        "勘察测绘",
+        "规划设计",
+        "建设准备",
+        "建设实施"
+      ],
+      "chain_gap": "other_stages_pending_review"
+    },
+    {
+      "canonical_project_id": "HN-WANNING-OLD-COMMUNITY-26",
+      "known_stages": [
+        "建设实施"
+      ],
+      "pending_stages": [
+        "前期研究",
+        "征拆前期",
+        "勘察测绘",
+        "规划设计",
+        "建设准备",
+        "运营准备"
+      ],
+      "chain_gap": "official_notice_and_deadline_pending"
+    }
+  ]
+}
