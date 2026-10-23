@@ -18,6 +18,7 @@
     <nav class="view-tabs" aria-label="数据范围">
       <button type="button" class="view-tab is-active" data-view="current" aria-pressed="true">当前巡检</button>
       <button type="button" class="view-tab" data-view="history" aria-pressed="false">近三年历史库 <span id="historyTabCount" class="tab-count">57</span></button>
+      <button type="button" class="view-tab" data-view="watch" aria-pressed="false">关联观察 <span id="watchTabCount" class="tab-count">0</span></button>
     </nav>
 
     <section id="summary" class="summary-card" aria-live="polite"></section>
@@ -79,7 +80,7 @@
         <div class="section-head">
           <div>
             <div class="section-kicker">RECENT EVENTS</div>
-            <h2>近期中标与结果事件</h2>
+            <h2>近期招标、变更及结果事件</h2>
           </div>
           <span id="eventCount" class="count-pill"></span>
         </div>
@@ -109,6 +110,20 @@
       </section>
     </div>
 
+    <div id="watchView" hidden>
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">RELATED DEVELOPMENT · WATCH</div>
+            <h2>关联开发项目观察</h2>
+          </div>
+          <span id="watchCount" class="count-pill"></span>
+        </div>
+        <p class="section-note">收录城市建设、综合开发及专业服务线索；未取得城市更新关联证据的项目不计入核心统计。D级来源仅供发现，仍需官方核验。</p>
+        <div id="watchList" class="project-list"></div>
+      </section>
+    </div>
+
     <div id="historyView" hidden>
       <section class="section">
         <div class="section-head">
@@ -125,7 +140,7 @@
 
     <footer>
       <p>公开招投标信息辅助检索。具体采购要求、资格条件、截止时间及变更事项以官方原文为准。</p>
-      <p><a href="./data/latest.json" target="_blank" rel="noopener">查看 latest.json</a> · <a href="./data/history/index.json" target="_blank" rel="noopener">查看历史库索引</a> · <a href="https://github.com/sqdwz/urban-renewal" target="_blank" rel="noopener">查看 GitHub 仓库</a></p>
+      <p><a href="./data/latest.json" target="_blank" rel="noopener">查看 latest.json</a> · <a href="./data/history/index.json" target="_blank" rel="noopener">查看历史库索引</a> · <a href="./data/watchlist/projects.json" target="_blank" rel="noopener">查看关联观察库</a> · <a href="https://github.com/sqdwz/urban-renewal" target="_blank" rel="noopener">查看 GitHub 仓库</a></p>
     </footer>
   </main>
   <script src="./app.js" defer></script>
