@@ -254,7 +254,22 @@ function renderFilterOptions(){
   fillSelect($('#yearFilter'),allYears(records),'全部年份',old.year);
 }
 function renderSources(){
-  $('#sourceList').innerHTML=(currentData.sources||[]).map(url=>{let name=url;try{name=new URL(url).hostname}catch{}return `<div class="source"><a href="${esc(url)}" target="_blank" rel="noopener" title="${esc(url)}">${esc(name)}</a></div>`}).join('')||'<div class="empty">暂无来源记录。</div>';
+  const audits=Array.isArray(currentData.source_audit)?currentData.source_audit:[];
+  if(audits.length){
+    const map=new Map();
+    audits.forEach(x=>{
+      if(!map.has(x.source_id))map.set(x.source_id,{total:0,complete:0,errors:0});
+      const r=map.get(x.source_id);r.total++;
+      if(x.coverage_status==='searched_complete')r.complete++;
+      if(['source_error','source_unavailable'].includes(x.coverage_status))r.errors++;
+    });
+    $('#sourceList').innerHTML=[...map].map(([id,r])=>`<div class="source">${esc(id)}：完整 ${r.complete}/${r.total}，异常 ${r.errors}</div>`).join('');
+  }else{
+    $('#sourceList').innerHTML=(currentData.sources||[]).map(url=>{
+      let name=url;try{name=new URL(url).hostname}catch{}
+      return `<div class="source"><a href="${esc(url)}" target="_blank" rel="noopener" title="${esc(url)}">${esc(name)}</a></div>`;
+    }).join('')||'<div class="empty">暂无来源记录。</div>';
+  }
 }
 function renderCurrent(){
   const f=currentFilters();
@@ -273,6 +288,15 @@ function renderCurrent(){
   $('#expandedList').innerHTML=expanded.length?expanded.map(renderProject).join(''):'<div class="empty">暂无符合筛选条件的扩展候选。</div>';
   renderCurrentStats();
   renderFilterHint(active.length+events.length+expanded.length,f);
+}
+function renderWatch(){
+  const f=currentFilters();
+  const rows=normalizedWatch(watchData).filter(x=>matches(x,f))
+    .sort((a,b)=>(b.publish_date||'').localeCompare(a.publish_date||''));
+  $('#watchCount').textContent=rows.length;
+  $('#watchList').innerHTML=rows.length?rows.map(renderProject).join(''):'<div class="empty">暂无符合筛选条件的关联观察记录。</div>';
+  $('#stats').innerHTML=`<div class="stat primary"><b>${(watchData?.projects||[]).length}</b><span>观察项目</span></div><div class="stat warn"><b>${normalizedWatch(watchData).length}</b><span>关联公告事件</span></div>`;
+  renderFilterHint(rows.length,f);
 }
 function renderHistory(){
   const f=currentFilters();
@@ -299,6 +323,9 @@ function renderSummary(){
     const s=currentData.summary||{};
     $('#meta').textContent=`巡检日期：${currentData.date||'未知'} ｜ 数据生成：${fmtDate(currentData.generated_at||'')} ｜ 海南省城市更新相关公开招投标信息`;
     $('#summary').innerHTML=`<strong>${esc(s.note||'暂无巡检摘要。')}</strong><br>核心项目与扩展候选分开统计；第三方聚合信息仅作线索，优先回溯官方原文。`;
+  }else if(activeView==='watch'){
+    $('#meta').textContent=`关联观察：${watchData?.projects?.length||0} 个项目 ｜ 非城市更新核心统计`;
+    $('#summary').innerHTML='<strong>关联开发项目观察库</strong>：专业服务公告即使没有“城市更新”关键词也可在此保存；D级线索必须回溯官方来源。';
   }else{
     const w=historyIndex?.window||{};
     const s=historyIndex?.summary||{};
@@ -309,7 +336,7 @@ function renderSummary(){
 function render(){
   renderSummary();
   renderFilterOptions();
-  if(activeView==='current') renderCurrent(); else renderHistory();
+  if(activeView==='current') renderCurrent(); else if(activeView==='watch') renderWatch(); else renderHistory();
 }
 function clearFilters(){
   ['searchInput','regionFilter','projectTypeFilter','serviceTypeFilter','tagFilter','yearFilter','verificationFilter'].forEach(id=>{const el=$('#'+id);if(el) el.value=''});
@@ -321,6 +348,7 @@ function switchView(view){
   clearFilters();
   $('#currentView').hidden=view!=='current';
   $('#historyView').hidden=view!=='history';
+  $('#watchView').hidden=view!=='watch';
   document.querySelectorAll('.history-only').forEach(el=>el.hidden=view!=='history');
   document.querySelectorAll('.view-tab').forEach(btn=>{const on=btn.dataset.view===view;btn.classList.toggle('is-active',on);btn.setAttribute('aria-pressed',String(on))});
   render();
@@ -344,8 +372,10 @@ async function loadHistory(){
 }
 async function load(){
   try{
-    const [latest]=await Promise.all([fetchJson('./data/latest.json'),loadHistory()]);
+    const [latest,watch]=await Promise.all([fetchJson('./data/latest.json'),fetchJson('./data/watchlist/projects.json').catch(()=>({projects:[]})),loadHistory()]);
     currentData=latest;
+    watchData=watch;
+    $('#watchTabCount').textContent=(watchData.projects||[]).length;
     renderSources();
     render();
   }catch(err){
@@ -360,9 +390,9 @@ $('#stats')?.addEventListener('click',e=>{
   const key=btn.dataset.stat;
   if(activeView==='history') activeStatFilter=key==='all'?null:(activeStatFilter===key?null:key);
   else activeStatFilter=activeStatFilter===key?null:key;
-  activeView==='current'?renderCurrent():renderHistory();
+  if(activeView==='current')renderCurrent();else if(activeView==='watch')renderWatch();else renderHistory();
 });
-['searchInput','regionFilter','projectTypeFilter','serviceTypeFilter','tagFilter','yearFilter','verificationFilter'].forEach(id=>$('#'+id)?.addEventListener(id==='searchInput'?'input':'change',()=>{if(!currentData)return;activeView==='current'?renderCurrent():renderHistory()}));
+['searchInput','regionFilter','projectTypeFilter','serviceTypeFilter','tagFilter','yearFilter','verificationFilter'].forEach(id=>$('#'+id)?.addEventListener(id==='searchInput'?'input':'change',()=>{if(!currentData)return;if(activeView==='current')renderCurrent();else if(activeView==='watch')renderWatch();else renderHistory()}));
 $('#clearBtn')?.addEventListener('click',()=>{clearFilters();render()});
 $('#refreshBtn')?.addEventListener('click',load);
 document.querySelectorAll('.view-tab').forEach(btn=>btn.addEventListener('click',()=>switchView(btn.dataset.view)));
