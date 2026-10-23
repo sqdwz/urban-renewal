@@ -2,6 +2,7 @@ const $ = (s) => document.querySelector(s);
 let currentData = null;
 let historyData = null;
 let historyIndex = null;
+let watchData = null;
 let activeView = 'current';
 let activeStatFilter = null;
 
@@ -29,15 +30,22 @@ function daysLeft(v){
   if(diff===0) return '今日截止';
   return `剩余 ${diff} 天`;
 }
-function sourceClass(item){return item.source_level==='official'||item.source_level==='official_index'?'source-official':'source-secondary'}
-function sourceText(item){return item.source_level==='official'||item.source_level==='official_index'?'官方来源':'补充来源'}
+function sourceClass(item){
+  return ['official','official_index','A_official_primary','B_official_crosscheck'].includes(item.source_level)?'source-official':'source-secondary';
+}
+function sourceText(item){
+  if(['official','official_index','A_official_primary','B_official_crosscheck'].includes(item.source_level)) return '官方来源';
+  if(item.source_level==='C_authoritative_association') return '专业权威来源';
+  return '待核验线索';
+}
 function statusText(item){
+  if(item._kind==='watch') return /流标|废标|终止/.test(item.event_type||'')?'已流标':(item.event_type||'观察中');
   if(item._kind==='history'){
     if(/中标|成交/.test(item.notice_type||'')) return '结果公告';
     if(/流标|终止|废标/.test(item.notice_type||'')) return '已结束';
     return item.notice_type||'历史记录';
   }
-  return ({active:'在招',awarded:'已中标',ended:'已结束',cancelled:'已终止',pending:'待核验'})[item.status]||item.status||'待核验';
+  return ({active:'在招',active_pending_recheck:'在招待复核',closed:'已截止',awarded:'已中标',ended:'已结束',cancelled:'已终止',pending:'待核验'})[item.status]||item.event_type||item.status||'待核验';
 }
 function textBlob(item){return [item.title,item.summary,item.notice_type,item.procurement_method,...(item.tags||[])].filter(Boolean).join(' ')}
 function deriveProjectType(item){
@@ -92,24 +100,41 @@ function normalizeItem(item,kind){
   let verification=item.verification_status;
   if(!verification){
     if(item.relevance==='expanded') verification='expanded';
-    else if(item.source_level==='official'||item.source_level==='official_index') verification='verified';
+    else if(['official','official_index','A_official_primary','B_official_crosscheck'].includes(item.source_level)) verification='verified';
+    else if(item.source_level==='C_authoritative_association') verification='verified_authoritative';
     else verification='pending_official_backfill';
   }
   return {...item,_kind:kind,project_type:deriveProjectType(item),service_type:services,project_stage:deriveStage(item,services),province:item.province||'海南省',city:deriveCity(item),district_county:deriveDistrict(item),verification_status:verification};
 }
+function distinctEvents(rows){
+  const seen=new Set();
+  return rows.filter(x=>{const key=x.id||[x.title,x.publish_date,x.event_type].join('|');if(seen.has(key))return false;seen.add(key);return true});
+}
 function normalizedCurrent(data){
-  return {
-    active:(data.items||[]).map(x=>normalizeItem(x,'active')),
-    events:(data.recent_events||[]).map(x=>normalizeItem(x,'event')),
-    expanded:(data.expanded_candidates||[]).map(x=>normalizeItem(x,'expanded'))
-  };
+  const active=distinctEvents([...(data.items||[]),...(data.upcoming_deadlines||[])]).map(x=>normalizeItem(x,'active'));
+  const events=distinctEvents([...(data.recent_events||[]),...(data.new_items||[]),...(data.backfilled_events||[]),...(data.discovery_leads_today||[])]).map(x=>normalizeItem(x,'event'));
+  return {active,events,expanded:(data.expanded_candidates||[]).map(x=>normalizeItem(x,'expanded'))};
+}
+function normalizedWatch(data){
+  return (data?.projects||[]).flatMap(project=>(project.events||[]).map(event=>normalizeItem({
+    ...event,city:project.city,province:project.province,
+    canonical_project_id:project.canonical_project_id,
+    project_type:'关联开发（待确认）',
+    project_stage:'前期研究',
+    project_investment_yuan:project.project_investment_yuan,
+    purchaser:(project.known_purchasers||[])[0]||null,
+    summary:event.summary||project.data_quality_note,
+    notice_type:event.event_type,
+    status:/流标|废标|终止/.test(event.event_type||'')?'cancelled':'ended',
+    tags:project.project_aliases||[]
+  },'watch')));
 }
 function currentRecords(){
   if(!currentData) return [];
   const n=normalizedCurrent(currentData);
   return [...n.active,...n.events,...n.expanded];
 }
-function activeRecords(){return activeView==='history'?(historyData||[]):currentRecords()}
+function activeRecords(){return activeView==='history'?(historyData||[]):activeView==='watch'?normalizedWatch(watchData):currentRecords()}
 function uniqueValues(values){return [...new Set(values.filter(Boolean))].sort((a,b)=>String(a).localeCompare(String(b),'zh-CN'))}
 function allTags(records){return uniqueValues(records.flatMap(x=>x.tags||[]))}
 function allRegions(records){return uniqueValues(records.map(x=>x.city))}
@@ -139,7 +164,7 @@ function matches(item,f){
 function currentStatMatches(item){
   if(!activeStatFilter) return true;
   if(activeStatFilter==='new') return item._kind!=='expanded' && (item.is_new_today===true || item.publish_date===currentData.date);
-  if(activeStatFilter==='active') return item._kind==='active' && item.status==='active';
+  if(activeStatFilter==='active') return item._kind==='active' && item.status?.startsWith('active');
   if(activeStatFilter==='deadline') return item._kind==='active' && item.deadline && new Date(item.deadline).getTime()>=Date.now();
   if(activeStatFilter==='expanded') return item._kind==='expanded';
   return true;
@@ -159,7 +184,7 @@ function amountText(item){
   return '未披露';
 }
 function verificationText(item){
-  return item.verification_status==='verified'?'已核验':item.verification_status==='expanded'?'扩展候选':'待补官方原文';
+  return item.verification_status==='verified'?'已核验':item.verification_status==='verified_authoritative'?'专业权威核验':item.verification_status==='expanded'?'扩展候选':'待补官方原文';
 }
 function renderProject(item){
   const auxTags=(item.tags||[]).filter(t=>t!==item.project_type&&!(item.service_type||[]).includes(t)).slice(0,6).map(t=>`<span class="tag tag-aux">${esc(t)}</span>`).join('');
@@ -196,7 +221,7 @@ function renderCurrentStats(){
   const s=currentData.summary||{};
   const cards=[
     {key:'new',label:'今日新增',value:s.new_today||0,cls:'primary'},
-    {key:'active',label:'当前有效',value:s.active_core||0,cls:'good'},
+    {key:'active',label:'当前有效',value:s.active_core===null?'待核定':(s.active_core||0),cls:'good'},
     {key:'deadline',label:'即将截止',value:s.upcoming_deadlines||0,cls:'warn'},
     {key:'expanded',label:'扩展候选',value:s.expanded_candidates||0,cls:''}
   ];
