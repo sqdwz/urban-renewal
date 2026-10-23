@@ -79,7 +79,7 @@ def inspect():
     if hist.get("summary", {}).get("total_records") != index.get("history", {}).get("total_records"):
         errors.append("History index count does not match data/index history count")
     try:
-        if (dt.date.today() - dt.date.fromisoformat(newest_date)).days > 1:
+        if (dt.datetime.now(dt.timezone(dt.timedelta(hours=8))).date() - dt.date.fromisoformat(newest_date)).days > 1:
             warnings.append("index.latest is older than one day (compare in China timezone for production)")
     except (ValueError, TypeError):
         errors.append("Invalid index.latest date")
@@ -93,8 +93,20 @@ def inspect():
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--strict", action="store_true")
+    parser.add_argument("--require-fresh", action="store_true")
     args = parser.parse_args()
     result = inspect()
+    if args.require_fresh:
+        try:
+            age_days = (dt.datetime.now(dt.timezone(dt.timedelta(hours=8))).date() -
+                        dt.date.fromisoformat(result["indexed_date"])).days
+            result["age_days"] = age_days
+            if age_days > 1:
+                result["errors"].append("Daily report stale >1 China-calendar day")
+                result["passed"] = False
+        except (ValueError, TypeError):
+            result["errors"].append("Unable to parse report date for freshness gate")
+            result["passed"] = False
     print(json.dumps(result, ensure_ascii=False, indent=2))
     if args.strict and not result["passed"]:
         raise SystemExit(1)
