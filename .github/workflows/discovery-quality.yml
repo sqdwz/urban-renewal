@@ -25,6 +25,8 @@ jobs:
           python-version: "3.12"
       - name: Regression tests for omissions
         run: python -m unittest discover -s tests -v
+      - name: Check browser script syntax
+        run: node --check app.js
       - name: Generate evidence-required query plan
         run: |
           mkdir -p audit-artifacts
