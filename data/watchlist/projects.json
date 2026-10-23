@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-23",
+  "purpose": "非核心但可能相关的海南省城市建设项目持续观察库；不计入城市更新核心统计",
+  "projects": [
+    {
+      "canonical_project_id": "HN-CHENGMAI-KAIYUAN-PLAZA",
+      "project_name": "澄迈开元广场项目（暂定名称）",
+      "project_aliases": [
+        "澄迈开元广场",
+        "开元广场"
+      ],
+      "city": "澄迈县",
+      "province": "海南省",
+      "category": "related_development_watch",
+      "project_type": "待确认（商业住宅综合开发）",
+      "urban_renewal_relation": "unconfirmed",
+      "verification_status": "pending_official_backfill",
+      "source_level": "D_discovery_only",
+      "known_purchasers": [],
+      "known_project_ids": [],
+      "project_investment_yuan": 400000000,
+      "project_investment_note": "来自第三方转载的预计项目总投资，并非可研服务预算或招标控制价",
+      "land_area_mu": 60,
+      "total_floor_area_sqm": 80264,
+      "first_discovered_at": "2026-10-23",
+      "last_checked_at": "2026-10-23",
+      "next_actions": [
+        "回溯9月18日可研比选的业主单位官方发布渠道",
+        "回溯9月30日流标官方原文",
+        "检索再比选、成交结果、工程勘察测绘、设计等后续公告",
+        "核查是否与城市更新类项目存在官方关联"
+      ],
+      "events": [
+        {
+          "id": "HN-CHENGMAI-KAIYUAN-20260918-FEASIBILITY-SELECTION",
+          "title": "澄迈开元广场项目（暂定名称）可行性研究报告编制服务单位比选公告",
+          "event_type": "比选公告",
+          "publish_date": "2026-09-18",
+          "deadline": "2026-09-23T09:30:00+08:00",
+          "service_type": [
+            "可研"
+          ],
+          "source_id": "bidcenter",
+          "source_level": "D_discovery_only",
+          "source_url": "https://www.bidcenter.com.cn/news-442947232-1.html",
+          "verification_status": "pending_official_backfill"
+        },
+        {
+          "id": "HN-CHENGMAI-KAIYUAN-20260930-FEASIBILITY-FAILED",
+          "title": "澄迈开元广场项目（暂定名称）可行性研究报告编制服务单位流标公告",
+          "event_type": "流标公告",
+          "publish_date": "2026-09-30",
+          "deadline": null,
+          "service_type": [
+            "可研"
+          ],
+          "source_id": "third_party_discovery",
+          "source_level": "D_discovery_only",
+          "source_url": "https://bid360.com.cn/zbgs/U-vzBGXDa.html",
+          "verification_status": "pending_official_backfill",
+          "summary": "第三方转载称仅2家单位参选，有效单位不足3家；待取得业主官方原文"
+        }
+      ],
+      "data_quality_note": "项目暂定名，不可假定城更关联；采购主体名称在可访问转载中部分隐藏；本观察库用于防漏，不代表A/B/C官方核验。"
+    }
+  ]
+}
