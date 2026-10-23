@@ -1,36 +1,244 @@
 {
   "name": "海南省城市更新招投标每日巡检",
-  "version": 5,
+  "version": 6,
   "region": "海南省",
   "coverage_config": "config/coverage-regions.json",
   "sources_config": "config/sources.json",
-  "core_keywords": ["城市更新","城中村","城中村改造","老旧小区","老旧小区改造","老旧街区","老旧街区提升改造","棚户区","棚户区改造","城市体检","安置区"],
-  "project_types": ["城市更新","城中村改造","老旧小区改造","老旧街区提升","棚户区改造","城市体检","安置区建设","综合片区改造","待确认"],
-  "service_types": ["前期策划","实施主体","摸底调查","测绘","物探","评估","社会稳定风险评估","可研","咨询","征迁咨询","信息化管理","实施方案","规划","设计","施工图审查","造价咨询","工程量清单/招标控制价","工程检测","场地准备","土方清运","施工","EPC","监理","拆除","前期物业","招标代理","代建管理"],
+  "core_keywords": [
+    "城市更新",
+    "城中村",
+    "城中村改造",
+    "老旧小区",
+    "老旧小区改造",
+    "老旧街区",
+    "老旧街区提升改造",
+    "棚户区",
+    "棚户区改造",
+    "城市体检",
+    "安置区"
+  ],
+  "project_types": [
+    "城市更新",
+    "城中村改造",
+    "老旧小区改造",
+    "老旧街区提升",
+    "棚户区改造",
+    "城市体检",
+    "安置区建设",
+    "综合片区改造",
+    "待确认"
+  ],
+  "service_types": [
+    "前期策划",
+    "实施主体",
+    "摸底调查",
+    "测绘",
+    "物探",
+    "评估",
+    "社会稳定风险评估",
+    "可研",
+    "咨询",
+    "征迁咨询",
+    "信息化管理",
+    "实施方案",
+    "规划",
+    "设计",
+    "施工图审查",
+    "造价咨询",
+    "工程量清单/招标控制价",
+    "工程检测",
+    "场地准备",
+    "土方清运",
+    "施工",
+    "EPC",
+    "监理",
+    "拆除",
+    "前期物业",
+    "招标代理",
+    "代建管理"
+  ],
   "service_aliases": {
-    "测绘": ["测量","房屋测绘","土地测绘","附属物测绘","不动产测绘","地形测量","征收测绘","土地及房屋测绘","土地、房屋测绘"],
-    "评估": ["房屋评估","资产评估","房地产评估"],
-    "社会稳定风险评估": ["社稳评估","稳评","社会稳定风险分析"],
-    "可研": ["可行性研究","可行性研究报告"],
-    "征迁咨询": ["房屋征迁咨询","征迁咨询","征收咨询","动迁咨询","征拆咨询"],
-    "信息化管理": ["征迁信息化","信息化管理","征拆信息化","征收信息管理"],
-    "设计": ["设计方案","方案设计","初步设计","概算编制","施工图设计"],
-    "施工图审查": ["施工图审查","施工图设计文件审查"],
-    "造价咨询": ["全过程造价","施工全过程造价","造价","跟踪审计","竣工结算审核"],
-    "工程量清单/招标控制价": ["工程量清单","清单控制价","招标控制价","预算编制"],
-    "工程检测": ["工程质量检测","质量检测","材料检测"],
-    "场地准备": ["场地准备","场平","场地平整","土方开挖"],
-    "土方清运": ["土方清运","土方运输","开挖清运"],
-    "施工": ["工程施工","施工总承包"],
-    "EPC": ["设计施工总承包","工程总承包"],
-    "拆除": ["拆除清运","清拆","建筑物拆除","房屋拆除"],
-    "前期物业": ["前期物业管理","物业管理服务"],
-    "摸底调查": ["人房地调查","入户调查","基础数据调查"],
-    "代建管理": ["代建","施工阶段代建管理","全过程代建"]
+    "测绘": [
+      "测量",
+      "房屋测绘",
+      "土地测绘",
+      "附属物测绘",
+      "不动产测绘",
+      "地形测量",
+      "征收测绘",
+      "土地及房屋测绘",
+      "土地、房屋测绘"
+    ],
+    "评估": [
+      "房屋评估",
+      "资产评估",
+      "房地产评估"
+    ],
+    "社会稳定风险评估": [
+      "社稳评估",
+      "稳评",
+      "社会稳定风险分析"
+    ],
+    "可研": [
+      "可行性研究",
+      "可行性研究报告"
+    ],
+    "征迁咨询": [
+      "房屋征迁咨询",
+      "征迁咨询",
+      "征收咨询",
+      "动迁咨询",
+      "征拆咨询"
+    ],
+    "信息化管理": [
+      "征迁信息化",
+      "信息化管理",
+      "征拆信息化",
+      "征收信息管理"
+    ],
+    "设计": [
+      "设计方案",
+      "方案设计",
+      "初步设计",
+      "概算编制",
+      "施工图设计"
+    ],
+    "施工图审查": [
+      "施工图审查",
+      "施工图设计文件审查"
+    ],
+    "造价咨询": [
+      "全过程造价",
+      "施工全过程造价",
+      "造价",
+      "跟踪审计",
+      "竣工结算审核"
+    ],
+    "工程量清单/招标控制价": [
+      "工程量清单",
+      "清单控制价",
+      "招标控制价",
+      "预算编制"
+    ],
+    "工程检测": [
+      "工程质量检测",
+      "质量检测",
+      "材料检测"
+    ],
+    "场地准备": [
+      "场地准备",
+      "场平",
+      "场地平整",
+      "土方开挖"
+    ],
+    "土方清运": [
+      "土方清运",
+      "土方运输",
+      "开挖清运"
+    ],
+    "施工": [
+      "工程施工",
+      "施工总承包"
+    ],
+    "EPC": [
+      "设计施工总承包",
+      "工程总承包"
+    ],
+    "拆除": [
+      "拆除清运",
+      "清拆",
+      "建筑物拆除",
+      "房屋拆除"
+    ],
+    "前期物业": [
+      "前期物业管理",
+      "物业管理服务"
+    ],
+    "摸底调查": [
+      "人房地调查",
+      "入户调查",
+      "基础数据调查"
+    ],
+    "代建管理": [
+      "代建",
+      "施工阶段代建管理",
+      "全过程代建"
+    ]
   },
-  "project_stages": ["前期研究","征拆前期","勘察测绘","规划设计","建设准备","建设实施","运营准备","结果阶段"],
-  "business_keywords": ["征收","拆迁","征拆","动迁","可研","可行性研究","评估","咨询","征迁咨询","房屋征迁","信息化管理","城市体检","摸底调查","人房地调查","社会稳定风险评估","社稳评估","测绘","土地房屋测绘","物探","规划","设计","施工图审查","造价咨询","清单控制价","工程检测","场地准备","场平","土方开挖","土方清运","施工","EPC","监理","拆除","拆除清运","实施主体","前期物业","招标代理","代建"],
-  "notice_types": ["招标计划","采购意向","招标公告","竞争性磋商","竞争性谈判","询价","比选","公开遴选","公开选聘","采购公告","需求公示","资格预审","变更公告","更正公告","流标公告","废标公告","终止公告","中标候选人公示","中标结果公告","成交结果公告","合同公示","结果公示"],
+  "project_stages": [
+    "前期研究",
+    "征拆前期",
+    "勘察测绘",
+    "规划设计",
+    "建设准备",
+    "建设实施",
+    "运营准备",
+    "结果阶段"
+  ],
+  "business_keywords": [
+    "征收",
+    "拆迁",
+    "征拆",
+    "动迁",
+    "可研",
+    "可行性研究",
+    "评估",
+    "咨询",
+    "征迁咨询",
+    "房屋征迁",
+    "信息化管理",
+    "城市体检",
+    "摸底调查",
+    "人房地调查",
+    "社会稳定风险评估",
+    "社稳评估",
+    "测绘",
+    "土地房屋测绘",
+    "物探",
+    "规划",
+    "设计",
+    "施工图审查",
+    "造价咨询",
+    "清单控制价",
+    "工程检测",
+    "场地准备",
+    "场平",
+    "土方开挖",
+    "土方清运",
+    "施工",
+    "EPC",
+    "监理",
+    "拆除",
+    "拆除清运",
+    "实施主体",
+    "前期物业",
+    "招标代理",
+    "代建"
+  ],
+  "notice_types": [
+    "招标计划",
+    "采购意向",
+    "招标公告",
+    "竞争性磋商",
+    "竞争性谈判",
+    "询价",
+    "比选",
+    "公开遴选",
+    "公开选聘",
+    "采购公告",
+    "需求公示",
+    "资格预审",
+    "变更公告",
+    "更正公告",
+    "流标公告",
+    "废标公告",
+    "终止公告",
+    "中标候选人公示",
+    "中标结果公告",
+    "成交结果公告",
+    "合同公示",
+    "结果公示"
+  ],
   "relevance_rules": {
     "high": "标题、正文、合同正文或官方关联公告可确认属于城市更新、城中村改造、老旧小区/老旧街区改造、棚户区改造、城市体检、安置区等核心主题，并属于招投标、采购或相关专业服务事项。",
     "medium": "命中专业服务词，且上下文、采购人、项目编号、审批名称或关联公告明确属于城市建设、片区改造、征拆安置或更新项目。",
@@ -48,16 +256,55 @@
       "中国招标投标公共服务平台",
       "海南省政府采购行业协会"
     ],
-    "discovery_optional": ["千里马招标网","采招网/Bidcenter","乙方宝等聚合平台"],
+    "discovery_optional": [
+      "千里马招标网",
+      "采招网/Bidcenter",
+      "乙方宝等聚合平台"
+    ],
     "jurisdiction_completion": "每个市县必须完成sources.json定义的mandatory_source_groups；未完成来源组的市县不得标记complete或zero_verified。",
-    "source_audit_fields": ["source_id","source_level","searched_at","query_group","result_count","new_record_count","coverage_status"],
+    "source_audit_fields": [
+      "source_id",
+      "source_level",
+      "searched_at",
+      "query_group",
+      "result_count",
+      "new_record_count",
+      "coverage_status"
+    ],
     "no_silent_skip": "任何必查来源访问失败、检索异常或被阻断时，必须在巡检结果中记录source_error/source_unavailable，不得当作0条结果。"
   },
   "province_coverage_strategy": {
     "mode": "mandatory_19_jurisdictions",
-    "required_jurisdictions": ["海口市","三亚市","三沙市","儋州市","五指山市","琼海市","文昌市","万宁市","东方市","定安县","屯昌县","澄迈县","临高县","白沙黎族自治县","昌江黎族自治县","乐东黎族自治县","陵水黎族自治县","保亭黎族苗族自治县","琼中黎族苗族自治县"],
+    "required_jurisdictions": [
+      "海口市",
+      "三亚市",
+      "三沙市",
+      "儋州市",
+      "五指山市",
+      "琼海市",
+      "文昌市",
+      "万宁市",
+      "东方市",
+      "定安县",
+      "屯昌县",
+      "澄迈县",
+      "临高县",
+      "白沙黎族自治县",
+      "昌江黎族自治县",
+      "乐东黎族自治县",
+      "陵水黎族自治县",
+      "保亭黎族苗族自治县",
+      "琼中黎族苗族自治县"
+    ],
     "rule": "每日发现巡检和历史回溯均必须逐市县执行并留下coverage_status。没有命中也必须记录，不能因搜索结果为空而跳过。",
-    "minimum_query_groups": ["核心项目主题词","老旧街区/老旧小区别名","专业服务类型词","采购人/实施主体反查","项目编号/地块号反查","招标计划/采购意向/合同/结果反查"],
+    "minimum_query_groups": [
+      "核心项目主题词",
+      "老旧街区/老旧小区别名",
+      "专业服务类型词",
+      "采购人/实施主体反查",
+      "项目编号/地块号反查",
+      "招标计划/采购意向/合同/结果反查"
+    ],
     "zero_result_rule": "首轮零命中只能标记zero_core_hit_first_pass，不允许直接判断该市县无项目。需完成sources.json必查来源组、政府网站、计划、合同和项目链反查后才能标记zero_verified。",
     "completion_rule": "只有19个市县均为complete或zero_verified，且所有已知核心项目完成项目链检查、必查来源无未处理错误，才允许coverage_status=province_complete。"
   },
@@ -82,10 +329,49 @@
     ]
   },
   "project_chain_rules": {
-    "canonical_fields": ["canonical_project_id","project_aliases","known_project_ids","known_purchasers","known_parcel_ids"],
-    "backward_services": ["规划","实施方案","可研","前期策划","摸底调查","测绘","物探","评估","社会稳定风险评估","征迁咨询","信息化管理","施工图审查","工程量清单/招标控制价","招标代理","拆除"],
-    "forward_services": ["实施主体","工程检测","场地准备","土方清运","设计","施工","EPC","监理","代建管理","前期物业"],
-    "evidence_priority": ["A_official_primary官方公告正文","A_official_primary官方合同正文","B_official_crosscheck国家交叉源","C_authoritative_association行业协会公告","D_discovery_only第三方线索"],
+    "canonical_fields": [
+      "canonical_project_id",
+      "project_aliases",
+      "known_project_ids",
+      "known_purchasers",
+      "known_parcel_ids"
+    ],
+    "backward_services": [
+      "规划",
+      "实施方案",
+      "可研",
+      "前期策划",
+      "摸底调查",
+      "测绘",
+      "物探",
+      "评估",
+      "社会稳定风险评估",
+      "征迁咨询",
+      "信息化管理",
+      "施工图审查",
+      "工程量清单/招标控制价",
+      "招标代理",
+      "拆除"
+    ],
+    "forward_services": [
+      "实施主体",
+      "工程检测",
+      "场地准备",
+      "土方清运",
+      "设计",
+      "施工",
+      "EPC",
+      "监理",
+      "代建管理",
+      "前期物业"
+    ],
+    "evidence_priority": [
+      "A_official_primary官方公告正文",
+      "A_official_primary官方合同正文",
+      "B_official_crosscheck国家交叉源",
+      "C_authoritative_association行业协会公告",
+      "D_discovery_only第三方线索"
+    ],
     "missing_notice": "合同或结果证明项目存在但未找到前置采购公告时，允许入库并标记chain_gap=missing_procurement_notice，同时将项目编号加入后续回溯队列。",
     "completion_check": "核心项目至少检查前期研究、征拆前期、勘察测绘、规划设计、建设准备、建设实施、运营准备七个阶段；缺失阶段不代表不存在，应标记为待回溯。"
   },
@@ -96,9 +382,215 @@
     "D_discovery_only": "只能进入pending_official_backfill/候选池，不得计入已核验核心数量。",
     "conflict_rule": "同一事项信息冲突时，优先最新更正公告；其次海南本地法定官方源；合同正文可用于确认项目名、编号、金额和交易关系；必须写data_quality_note。"
   },
-  "exclude_rules": ["排除青海省海南藏族自治州等海南州误匹配","农业、水利、矿业、纯乡村项目仅因出现测绘/评估/征收时不进入核心列表","普通市政更新、燃气更新、供水更新等若与城市更新/老旧街区/老旧小区无明确关联则不进入核心库","同一项目不同转载来源去重，优先保留A级海南本地官方源","同一项目公告、变更、中标、合同作为独立事件，但通过canonical_project_id/project_id关联"],
-  "required_query_fields": ["project_type","service_type","project_stage","province","city","district_county","status","source_id","source_level","verification_status","coverage_status"],
-  "recommended_chain_fields": ["canonical_project_id","project_aliases","parent_project","parcel_id","event_type","chain_gap","data_quality_note","crosscheck_sources"],
-  "amount_fields": ["budget_yuan","control_price_yuan","award_yuan","project_investment_yuan"],
-  "output": {"latest":"data/latest.json","index":"data/index.json","daily":"data/daily/YYYY-MM-DD.json","history_index":"data/history/index.json","coverage":"config/coverage-regions.json","sources":"config/sources.json"}
+  "exclude_rules": [
+    "排除青海省海南藏族自治州等海南州误匹配",
+    "农业、水利、矿业、纯乡村项目仅因出现测绘/评估/征收时不进入核心列表",
+    "普通市政更新、燃气更新、供水更新等若与城市更新/老旧街区/老旧小区无明确关联则不进入核心库",
+    "同一项目不同转载来源去重，优先保留A级海南本地官方源",
+    "同一项目公告、变更、中标、合同作为独立事件，但通过canonical_project_id/project_id关联"
+  ],
+  "required_query_fields": [
+    "project_type",
+    "service_type",
+    "project_stage",
+    "province",
+    "city",
+    "district_county",
+    "status",
+    "source_id",
+    "source_level",
+    "verification_status",
+    "coverage_status"
+  ],
+  "recommended_chain_fields": [
+    "canonical_project_id",
+    "project_aliases",
+    "parent_project",
+    "parcel_id",
+    "event_type",
+    "chain_gap",
+    "data_quality_note",
+    "crosscheck_sources"
+  ],
+  "amount_fields": [
+    "budget_yuan",
+    "control_price_yuan",
+    "award_yuan",
+    "project_investment_yuan"
+  ],
+  "output": {
+    "latest": "data/latest.json",
+    "index": "data/index.json",
+    "daily": "data/daily/YYYY-MM-DD.json",
+    "history_index": "data/history/index.json",
+    "coverage": "config/coverage-regions.json",
+    "sources": "config/sources.json"
+  },
+  "update_note": "v6 additive discovery and omission-control upgrade; v5 mandatory source coverage and A/B/C/D verification policies retained",
+  "discovery_tracks": {
+    "mode": "parallel_core_and_broad_procurement",
+    "core": {
+      "description": "延续v5：核心主题+服务类型+公告类型+已知项目链",
+      "query_basis": "province_coverage_strategy + query_strategy",
+      "classification": "high/medium仍须项目链证据"
+    },
+    "broad": {
+      "description": "独立发现轨道：不得要求标题、正文同时包含城市更新核心词；从专业服务、采购行为、工程项目名反向找项目，先入候选再判断归属",
+      "independent_of_core_keyword": true,
+      "mandatory": true,
+      "region_scope": "逐一覆盖19市县和已知下辖区、镇、项目公司，排除青海海南州",
+      "service_groups": [
+        [
+          "可行性研究",
+          "可研报告",
+          "项目建议书",
+          "立项",
+          "前期咨询",
+          "策划",
+          "实施方案",
+          "商业策划"
+        ],
+        [
+          "测绘",
+          "地形测量",
+          "勘察",
+          "物探",
+          "房屋调查",
+          "入户调查",
+          "测量"
+        ],
+        [
+          "房地产评估",
+          "资产评估",
+          "社会稳定风险评估",
+          "征拆咨询",
+          "征收咨询",
+          "动迁咨询"
+        ],
+        [
+          "规划设计",
+          "方案设计",
+          "初步设计",
+          "施工图",
+          "造价咨询",
+          "招标控制价"
+        ],
+        [
+          "工程检测",
+          "监理",
+          "EPC",
+          "工程总承包",
+          "场地平整",
+          "拆除",
+          "物业"
+        ],
+        [
+          "招标代理",
+          "比选",
+          "公开选聘",
+          "遴选",
+          "询价",
+          "流标",
+          "重新招标",
+          "中选",
+          "成交",
+          "合同"
+        ]
+      ],
+      "notice_groups": [
+        "采购意向/招标计划",
+        "招标/采购/磋商/谈判/询价/公开比选/选聘/遴选",
+        "更正/流标/废标/终止/二次三次招标",
+        "候选/中标/成交/结果",
+        "合同/履约"
+      ],
+      "project_name_patterns": [
+        "广场",
+        "城市综合体",
+        "商业综合体",
+        "综合开发",
+        "片区开发",
+        "地块开发",
+        "安置房",
+        "住房",
+        "老城区",
+        "旧城",
+        "产业园",
+        "大厦",
+        "城市客厅"
+      ],
+      "query_templates": [
+        "{市县名} + {专业服务词} + {公告类型词}",
+        "{市县名} + {项目名称形态} + {采购行为词}",
+        "{采购人或实施主体} + {服务类型/公告事件}",
+        "{已发现项目全名/简称/地块号/项目编号} + {流标/二次/中选/合同}",
+        "指定来源公告栏目 + 市县过滤 + 最近日期范围（逐页检索，不限核心主题）"
+      ],
+      "source_execution": "在A/B/C必查来源进行广义公告扫描；D只作补充线索；按来源支持的检索方式选择站内/栏目日期分页/公开搜索索引",
+      "guardrail": "广泛发现不等于扩大城市更新核心库。无明确更新关联的开发项目保留related_development_watch，通用业务保留expanded_candidates，禁止直接计入core"
+    }
+  },
+  "classification_rules_v6": {
+    "core": "通过A/B/C标题、正文或项目链能确认属于城市更新/城中村/老旧小区/街区/棚改/安置区及专业服务；按原source_level验证。",
+    "related_development_watch": "海南省城镇建设、综合开发、商业/住宅综合体、广场、片区开发等专业服务项目，暂未证实城市更新关联；不得计入core。",
+    "expanded_candidates": "仅测绘/评估/征收等通用业务而无足够建设项目或更新场景关联；不计入core。",
+    "pending_official_backfill": "D级线索无论核心或观察分类均不得标记verified，保留来源URL与完整回溯队列。",
+    "exclude": "青海海南州、地域不符、纯农业水利矿业乡村且无证据关联城市建设更新的项目；记录排除原因，避免误删"
+  },
+  "omission_control_v6": {
+    "incremental_windows": {
+      "daily_days": 7,
+      "rolling_days": 30,
+      "weekly_backfill_days": 90,
+      "monthly_history_backfill_days": 1095
+    },
+    "paging_rule": "每个必查来源分别按市县、公告栏目、日期窗口、分页直到到达窗口边界；仅打开首页或搜索引擎零命中不视为完成。",
+    "negative_evidence_rule": "空结果只代表已完整检索的具体query_group/来源/窗口；错误、403、405、超时与未翻页必须记null和source_error/source_unavailable，禁止记0或zero_verified。",
+    "source_audit_additional_fields": [
+      "discovery_track",
+      "notice_group",
+      "date_window",
+      "page_count",
+      "pagination_complete",
+      "method",
+      "error_reason",
+      "retry_after"
+    ],
+    "persistent_queues": [
+      "data/watchlist/projects.json",
+      "data/queues/official-backfill.json",
+      "data/queues/source-retry.json"
+    ],
+    "queue_order": [
+      "必查来源矩阵续跑及异常重试",
+      "最近7天双轨增量+30天滚动复查",
+      "当前已知项目链未完结事项",
+      "历史漏项核验及官方回填",
+      "每周90天/每月三年回溯"
+    ],
+    "track_invariants": [
+      "一条候选在审查前不得丢弃：要么入核心，要么入关联观察/扩展候选，要么排除并留原因",
+      "同一项目的公告、流标、更正、二次招标、候选、成交及合同为不同event，转载同event只保留一条并合并来源",
+      "官方源与D级事件不能互相覆盖，核验升级保留discovered_at与original_source",
+      "历史库及待办队列只可增量合并，不能因当日0命中清空"
+    ],
+    "project_chain_trigger": "新项目名/采购人/招标编号/地块号或结果页出现未知编号时立即扩展前后环节，并排入7天/30天复查",
+    "known_miss_regressions": [
+      "澄迈开元广场项目可行性研究报告编制服务单位比选",
+      "澄迈开元广场项目可研流标公告"
+    ],
+    "acceptance": "已知漏项能进入观察候选队列；即使不符合核心主题也不能在发现阶段消失"
+  },
+  "write_integrity_v6": {
+    "target_paths": [
+      "data/daily/YYYY-MM-DD.json",
+      "data/latest.json",
+      "data/index.json"
+    ],
+    "staging": "计算全部目标文件及history/watchlist/queues变更，提交前做JSON与重复事件校验；优先同一个git tree/commit更新，绝不可报告局部写入为已同步。",
+    "historical_ingest": "历史新事件写data/history/daily-backfill-YYYY-MM-DD.json并增量维护history/index.json，核验成功再合并进入核心统计。",
+    "consistency": "写后从main回读全部目标文件日期/commit与关键数量，index.latest.path对应文件且latest.date==daily.date；失败记sync_failed，并保留待重试清单。",
+    "stale_guard": "读取最新日期差距>1天或发现index.latest与latest不同步，先进入repair_queue，不允许用过时latest覆盖新index。",
+    "coverage_complete_gate": "19市县每个必查组真实searched_complete+pagination_complete，且没有未处理必查错误/未完成项目链，才可province_complete"
+  }
 }
