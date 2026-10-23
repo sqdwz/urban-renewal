@@ -1,0 +1,44 @@
+name: Discovery plan and data quality
+on:
+  workflow_dispatch:
+  schedule:
+    # 13:30 Asia/Shanghai; after existing 12:10 research automation
+    - cron: "30 5 * * *"
+  push:
+    paths:
+      - "config/**"
+      - "data/**"
+      - "scripts/**"
+      - "tests/**"
+      - ".github/workflows/discovery-quality.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  quality-and-regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Regression tests for omissions
+        run: python -m unittest discover -s tests -v
+      - name: Generate evidence-required query plan
+        run: |
+          mkdir -p audit-artifacts
+          DAY=$(TZ=Asia/Shanghai date +%F)
+          python scripts/build_discovery_plan.py --date "$DAY" --output "audit-artifacts/discovery-plan-$DAY.json"
+      - name: Check index, coverage, and freshness (does not scrape)
+        run: |
+          set -o pipefail
+          python scripts/audit_quality.py --strict --require-fresh | tee audit-artifacts/quality-report.json
+      - name: Keep audit report and unfinished query plan
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: discovery-quality-${{ github.run_id }}
+          path: audit-artifacts/
+          if-no-files-found: warn
+          retention-days: 14
