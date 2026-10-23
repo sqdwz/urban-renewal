@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-23",
+  "purpose": "D级待核验、项目链回溯与缺失官方原文队列；不会自动提升核验等级",
+  "tasks": [
+    {
+      "task_id": "BACKFILL-KAIYUAN-PLAZA",
+      "project_id": "HN-CHENGMAI-KAIYUAN-PLAZA",
+      "city": "澄迈县",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-23",
+      "event_ids": [
+        "HN-CHENGMAI-KAIYUAN-20260918-FEASIBILITY-SELECTION",
+        "HN-CHENGMAI-KAIYUAN-20260930-FEASIBILITY-FAILED"
+      ],
+      "search_keys": [
+        "澄迈开元广场",
+        "开元广场 可研 比选",
+        "开元广场 流标",
+        "澄迈 发展控股 可研 比选"
+      ],
+      "required_evidence": [
+        "业主/实施主体法定发布渠道",
+        "A/B/C发布页或原始公告正文"
+      ],
+      "next_actions": [
+        "核实采购人身份及原始公告",
+        "检索流标后二次比选及结果",
+        "更新观察库但不自行标记verified"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    }
+  ]
+}
