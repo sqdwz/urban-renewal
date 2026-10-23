@@ -1,57 +1,57 @@
-# Urban Renewal
+# Urban Renewal · 海南省招投标巡检
 
-海南省城市更新招投标每日巡检与历史数据仓库。
+海南省19市县城市更新及关联建设项目专业服务公告的每日发现、项目链追踪和历史补录。
 
-## 在线页面
+- 在线页面：https://sqdwz.github.io/urban-renewal/
+- 配置真源：`config/search-rules.json`（v6）、`config/sources.json`、`config/coverage-regions.json`
+- 页面：当前巡检、近三年历史库、关联观察三类入口
+- 数据状态以 `data/index.json` 和相应日报内容为准；source_error 与未覆盖来源不能算“0结果”
 
-- GitHub Pages：<https://sqdwz.github.io/urban-renewal/>
-- 页面当前直接读取 `data/latest.json`，仓库更新后由 GitHub Actions 自动重新部署。
+## v6 为什么升级
 
-## 监测范围
+v5容易漏掉项目名称没有“城市更新/老旧小区”等字眼的公告，例如“澄迈开元广场项目可行性研究报告编制服务单位比选”。v6增加**双轨发现**，但不降低城市更新核心入库门槛：
 
-核心主题：`城市更新`、`城中村`、`老旧小区`、`棚户区`。
+1. **A轨·核心发现**：城市更新、城中村、老旧小区、棚改、安置区等主题×全部服务/公告类型×项目链。
+2. **B轨·泛建设发现**：独立逐市县搜索可研、比选、流标、再比选、测绘、评估、设计、监理、工程检测、招标代理和合同等，不要求命中核心主题词。优先检查本地政府、城投国企和业主公告栏目。
+3. **证据分类**：官方或权威证据确认关联的进入核心；广场/商住综合体等尚未确认更新关联的进入 `related_development_watch`；仅命中通用服务词的进入 `expanded_candidates`。A/B官方为 `verified`，C专业权威为 `verified_authoritative`，D聚合转载仅 `pending_official_backfill`。
+4. **项目链和历史回溯**：保留招标、流标、更正、二次、候选、结果、合同为独立事件，按项目ID/业主/地块号关联；每日7天重叠窗口与30天抽查，每周90天、每月三年历史回溯。
+5. **不丢失失败任务**：source_error/source_unavailable以及未完成官方反查需保留队列，并记录实际分页完成状态。19市县每个必查来源组没有完整核验前不得标记 complete 或 zero_verified。
 
-业务关键词：`征收`、`拆迁`、`征拆`、`动迁`、`可研`、`评估`、`咨询`、`城市体检`、`摸底调查`、`社会稳定风险评估`、`测绘`、`设计方案`。
-
-仅命中“征收/测绘/评估”等通用业务词、但无法确认属于城市更新场景的项目，进入 `expanded_candidates`，不计入核心统计。
+必查来源与来源等级均以 `config/sources.json` 为准，当前的19市县清单以 `config/coverage-regions.json` 为准。
 
 ## 数据结构
 
-- `config/search-rules.json`：检索关键词、来源优先级和相关性规则
-- `data/latest.json`：最近一次巡检结果
-- `data/index.json`：总入口，连接日报和历史库
-- `data/daily/YYYY-MM-DD.json`：每日完整报告
-- `data/history/index.json`：历史数据索引
-- `data/history/projects-2023-08-27_2026-08-27.json`：近三年首轮历史回溯基线
-- `data/history/official-service-backfill-2026-08-27.json`：测绘、征拆前期、社稳评估、可研等服务类官方补漏
+| 路径 | 用途 |
+| --- | --- |
+| `data/daily/YYYY-MM-DD.json` | 单日日报、来源审计与19市县覆盖记录 |
+| `data/latest.json` | 网页读取的最新日报完整内容 |
+| `data/index.json` | 最新日报、历史库入口 |
+| `data/history/index.json` | 历史补录数据集索引 |
+| `data/history/*.json` | 各批次的已核验事件与D级待回填线索 |
+| `data/watchlist/projects.json` | **非核心**关联开发项目及其独立公告事件 |
+| `data/queues/official-backfill.json` | D级公告官方原文回溯任务 |
+| `data/queues/source-retry.json` | 必查来源异常重试任务 |
 
-## 近三年历史回溯
+`data/watchlist/projects.json` 已登记澄迈开元广场的2026-09-18可研比选和2026-09-30流标两条D级转载事件；**目前不能把它们列为已官方核验的城市更新核心项目**。4亿元为转载中的预计建设总投资，不是可研咨询服务采购金额。
 
-时间范围：`2023-08-27` 至 `2026-08-27`。
+## 自动化与质量检查
 
-当前历史基线共 `57` 条记录：
+当前研究执行者是 ChatGPT 的每日定时任务。仓库以前仅有 GitHub Pages 部署工作流，不存在完整的独立网页采集器；v6新增辅助生成计划与质量门禁，**不冒充已完成的网页采集**：
 
-- 官方原文或官方平台索引确认：`48` 条
-- 第三方发现、待继续回溯官方原文：`8` 条
-- 仅命中通用业务词、暂不能确认属于城市更新：`1` 条扩展候选
+```bash
+python scripts/build_discovery_plan.py --date 2026-10-23 --output /tmp/discovery-plan.json
+python -m unittest discover -s tests -v
+python scripts/audit_quality.py --strict --require-fresh
+node --check app.js
+```
 
-历史库为多轮检索形成的可查询基线，不宣称已经穷尽海南省三年内所有存量公告。后续每日巡检会继续补齐遗漏项目、官方链接、项目编号和后续中标/变更事件。
+`.github/workflows/discovery-quality.yml` 在推送及每天北京时间13:30执行回归测试、计划生成、数据日期/完整性质量检查并保留报告工件；这是**监测与提醒**，不会自动把待执行的查询计划算作来源已巡检。真正的检索结果必须附公告URL、查询窗口、分页与审计证据，并由每日定时任务入库。
 
-## 每条项目字段
+`.github/workflows/pages.yml` 负责部署网页，不承担项目采集。网页兼容新版日报 `new_items/upcoming_deadlines/backfilled_events`，并独立读取关联观察库。
 
-包含：唯一 ID、项目编号、公告类型、标题、地区、发布日期、截止时间、采购方式、预算、采购人、标签、相关性、来源、核验状态和摘要。
+## 写入原则
 
-## 来源优先级
-
-1. 全国公共资源交易平台（海南省）及各市县公共资源交易平台
-2. 海南省政府采购智慧云平台
-3. 海南省及市县政府、住建、资规、征收等部门官网
-4. 海南省招标投标协会 / 中国招标投标公共服务平台
-5. 第三方聚合站仅用于发现线索，并尽量回溯官方原文
-
-## 去重与排除
-
-- 同一项目转载信息去重，优先保留官方原文
-- 同一项目的招标、变更、中标可分别记录，并通过 `project_id` 关联
-- 排除青海省“海南州”等地域误匹配
-- 农业、水利、矿业等项目仅因出现“测绘/评估/征收”时，不进入城市更新核心列表
+- 保留既有有效历史记录，D级事件不能被无根据地提升为verified。
+- 日报、latest、index和历史索引需校验日期、去重、数量和来源状态；优先一次提交，写入后从main回读。
+- 任一来源没有完成真实检索，必须用partial标记；GitHub同步中断也应如实标记partial_write/sync_failed。
+- 发现更多候选但尚无可靠官方证据时，保存观察/回溯任务，不会把它们误计入核心统计。
