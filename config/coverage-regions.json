@@ -19,25 +19,182 @@
     "zero_verified_rule": "仅当必查来源组全部完成、项目主题词/服务词/采购人/项目编号/合同均完成反查且仍无核心项目时，才可标记zero_verified。"
   },
   "jurisdictions": [
-    {"name":"海口市","level":"地级市","subregions":["秀英区","龙华区","琼山区","美兰区"],"first_pass_status":"confirmed_many","priority":"continuous","source_audit_status":"in_progress"},
-    {"name":"三亚市","level":"地级市","subregions":["海棠区","吉阳区","天涯区","崖州区"],"first_pass_status":"confirmed_many","priority":"continuous","source_audit_status":"in_progress"},
-    {"name":"三沙市","level":"地级市","subregions":[],"first_pass_status":"zero_hit_first_pass","priority":"recrawl","source_audit_status":"in_progress"},
-    {"name":"儋州市","level":"地级市","subregions":["那大镇","白马井镇","洋浦经济开发区"],"first_pass_status":"confirmed","priority":"high","source_audit_status":"in_progress"},
-    {"name":"五指山市","level":"县级市","subregions":[],"first_pass_status":"zero_core_hit_first_pass","priority":"recrawl","source_audit_status":"in_progress"},
-    {"name":"琼海市","level":"县级市","subregions":["嘉积镇"],"first_pass_status":"confirmed","priority":"high","source_audit_status":"in_progress"},
-    {"name":"文昌市","level":"县级市","subregions":[],"first_pass_status":"candidate_found_pending_chain","priority":"high","source_audit_status":"in_progress"},
-    {"name":"万宁市","level":"县级市","subregions":["兴隆华侨旅游经济区"],"first_pass_status":"confirmed","priority":"high","source_audit_status":"in_progress"},
-    {"name":"东方市","level":"县级市","subregions":[],"first_pass_status":"confirmed","priority":"high","source_audit_status":"in_progress"},
-    {"name":"定安县","level":"县","subregions":[],"first_pass_status":"candidate_found_pending_chain","priority":"high","source_audit_status":"in_progress"},
-    {"name":"屯昌县","level":"县","subregions":[],"first_pass_status":"zero_core_hit_first_pass","priority":"recrawl","source_audit_status":"in_progress"},
-    {"name":"澄迈县","level":"县","subregions":["金江镇"],"first_pass_status":"confirmed","priority":"high","source_audit_status":"in_progress"},
-    {"name":"临高县","level":"县","subregions":[],"first_pass_status":"zero_core_hit_first_pass","priority":"recrawl","source_audit_status":"in_progress"},
-    {"name":"白沙黎族自治县","level":"自治县","subregions":[],"first_pass_status":"zero_core_hit_first_pass","priority":"recrawl","source_audit_status":"in_progress"},
-    {"name":"昌江黎族自治县","level":"自治县","subregions":[],"first_pass_status":"candidate_found_pending_chain","priority":"high","source_audit_status":"in_progress"},
-    {"name":"乐东黎族自治县","level":"自治县","subregions":[],"first_pass_status":"zero_core_hit_first_pass","priority":"recrawl","source_audit_status":"in_progress"},
-    {"name":"陵水黎族自治县","level":"自治县","subregions":["椰林镇"],"first_pass_status":"confirmed","priority":"high","source_audit_status":"in_progress"},
-    {"name":"保亭黎族苗族自治县","level":"自治县","subregions":["保城镇"],"first_pass_status":"confirmed","priority":"high","source_audit_status":"in_progress"},
-    {"name":"琼中黎族苗族自治县","level":"自治县","subregions":[],"first_pass_status":"zero_core_hit_first_pass","priority":"recrawl","source_audit_status":"in_progress"}
+    {
+      "name": "海口市",
+      "level": "地级市",
+      "subregions": [
+        "秀英区",
+        "龙华区",
+        "琼山区",
+        "美兰区"
+      ],
+      "first_pass_status": "confirmed_many",
+      "priority": "continuous",
+      "source_audit_status": "in_progress"
+    },
+    {
+      "name": "三亚市",
+      "level": "地级市",
+      "subregions": [
+        "海棠区",
+        "吉阳区",
+        "天涯区",
+        "崖州区"
+      ],
+      "first_pass_status": "confirmed_many",
+      "priority": "continuous",
+      "source_audit_status": "in_progress"
+    },
+    {
+      "name": "三沙市",
+      "level": "地级市",
+      "subregions": [],
+      "first_pass_status": "zero_hit_first_pass",
+      "priority": "recrawl",
+      "source_audit_status": "in_progress"
+    },
+    {
+      "name": "儋州市",
+      "level": "地级市",
+      "subregions": [
+        "那大镇",
+        "白马井镇",
+        "洋浦经济开发区"
+      ],
+      "first_pass_status": "confirmed",
+      "priority": "high",
+      "source_audit_status": "in_progress"
+    },
+    {
+      "name": "五指山市",
+      "level": "县级市",
+      "subregions": [],
+      "first_pass_status": "zero_core_hit_first_pass",
+      "priority": "recrawl",
+      "source_audit_status": "in_progress"
+    },
+    {
+      "name": "琼海市",
+      "level": "县级市",
+      "subregions": [
+        "嘉积镇"
+      ],
+      "first_pass_status": "confirmed",
+      "priority": "high",
+      "source_audit_status": "in_progress"
+    },
+    {
+      "name": "文昌市",
+      "level": "县级市",
+      "subregions": [],
+      "first_pass_status": "candidate_found_pending_chain",
+      "priority": "high",
+      "source_audit_status": "in_progress"
+    },
+    {
+      "name": "万宁市",
+      "level": "县级市",
+      "subregions": [
+        "兴隆华侨旅游经济区"
+      ],
+      "first_pass_status": "confirmed",
+      "priority": "high",
+      "source_audit_status": "in_progress"
+    },
+    {
+      "name": "东方市",
+      "level": "县级市",
+      "subregions": [],
+      "first_pass_status": "confirmed",
+      "priority": "high",
+      "source_audit_status": "in_progress"
+    },
+    {
+      "name": "定安县",
+      "level": "县",
+      "subregions": [],
+      "first_pass_status": "candidate_found_pending_chain",
+      "priority": "high",
+      "source_audit_status": "in_progress"
+    },
+    {
+      "name": "屯昌县",
+      "level": "县",
+      "subregions": [],
+      "first_pass_status": "zero_core_hit_first_pass",
+      "priority": "recrawl",
+      "source_audit_status": "in_progress"
+    },
+    {
+      "name": "澄迈县",
+      "level": "县",
+      "subregions": [
+        "金江镇"
+      ],
+      "first_pass_status": "confirmed",
+      "priority": "high",
+      "source_audit_status": "in_progress"
+    },
+    {
+      "name": "临高县",
+      "level": "县",
+      "subregions": [],
+      "first_pass_status": "zero_core_hit_first_pass",
+      "priority": "recrawl",
+      "source_audit_status": "in_progress"
+    },
+    {
+      "name": "白沙黎族自治县",
+      "level": "自治县",
+      "subregions": [],
+      "first_pass_status": "zero_core_hit_first_pass",
+      "priority": "recrawl",
+      "source_audit_status": "in_progress"
+    },
+    {
+      "name": "昌江黎族自治县",
+      "level": "自治县",
+      "subregions": [],
+      "first_pass_status": "candidate_found_pending_chain",
+      "priority": "high",
+      "source_audit_status": "in_progress"
+    },
+    {
+      "name": "乐东黎族自治县",
+      "level": "自治县",
+      "subregions": [],
+      "first_pass_status": "zero_core_hit_first_pass",
+      "priority": "recrawl",
+      "source_audit_status": "in_progress"
+    },
+    {
+      "name": "陵水黎族自治县",
+      "level": "自治县",
+      "subregions": [
+        "椰林镇"
+      ],
+      "first_pass_status": "confirmed",
+      "priority": "high",
+      "source_audit_status": "in_progress"
+    },
+    {
+      "name": "保亭黎族苗族自治县",
+      "level": "自治县",
+      "subregions": [
+        "保城镇"
+      ],
+      "first_pass_status": "confirmed",
+      "priority": "high",
+      "source_audit_status": "in_progress"
+    },
+    {
+      "name": "琼中黎族苗族自治县",
+      "level": "自治县",
+      "subregions": [],
+      "first_pass_status": "zero_core_hit_first_pass",
+      "priority": "recrawl",
+      "source_audit_status": "in_progress"
+    }
   ],
   "status_definitions": {
     "confirmed_many": "已确认多个核心项目，但仍需持续项目链补漏",
@@ -49,5 +206,24 @@
     "complete": "当前时间窗已完成来源矩阵、官方多源检索和项目链回溯",
     "source_error": "存在必查来源访问或检索异常，不能判定为完成",
     "source_unavailable": "必查来源当前不可用，需后续重试"
+  },
+  "v6_completion_addendum": {
+    "dual_track_required": [
+      "core_theme",
+      "broad_procurement"
+    ],
+    "note": "v5 mandatory_source_groups均保留，新增双轨查询组+最近7天/30天滚动窗口+按时序分页。不能以一次站点首页检索或搜索引擎无命中作为complete。",
+    "acceptable_source_statuses": [
+      "searched_complete"
+    ],
+    "blocker_statuses": [
+      "in_progress",
+      "searched_partial",
+      "source_error",
+      "source_unavailable",
+      "not_started"
+    ],
+    "daily_reporting": "分别列出双轨每市县扫描覆盖、未完成来源组和重试队列；必须保留19个独立jurisdiction记录。",
+    "no_empty_region_shortcut": true
   }
 }
