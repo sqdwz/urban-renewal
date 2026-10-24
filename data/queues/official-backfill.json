@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23",
+  "updated_at": "2026-10-24",
   "purpose": "D级待核验、项目链回溯与缺失官方原文队列；不会自动提升核验等级",
   "tasks": [
     {
@@ -28,6 +28,309 @@
         "核实采购人身份及原始公告",
         "检索流标后二次比选及结果",
         "更新观察库但不自行标记verified"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-HAIKOU-GL-II-20261022-ELEVATOR-TENDER",
+      "project_id": "HN-HAIKOU-QS-GUILIN-II-HAIJIAN",
+      "city": "海口市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-24",
+      "event_ids": [
+        "HN-HAIKOU-GL-II-20261022-ELEVATOR-TENDER"
+      ],
+      "search_keys": [
+        "海口市琼山区桂林片区（二期）城市更新项目（海建·凤翔豪庭）商业部分电梯采购及安装招标公告",
+        "海南海建城市更新有限公司"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "项目编号与前后环节公告"
+      ],
+      "next_actions": [
+        "回溯官方公告原文",
+        "检索更正、流标、二次招标及结果",
+        "确认官方来源后升级核验，不得仅凭D级转载标记verified"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-DINGAN-DINGCHENG-20261022-FEASIBILITY-EVALUATION-AWARD",
+      "project_id": "HN-DINGAN-DINGCHENG-OLD-COMMUNITY-UPGRADE",
+      "city": "定安县",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-24",
+      "event_ids": [
+        "HN-DINGAN-DINGCHENG-20261022-FEASIBILITY-EVALUATION-AWARD"
+      ],
+      "search_keys": [
+        "定安县定城镇老旧小区改造提升项目可行性研究报告评估中选公告",
+        "定安县营商环境建设主管部门（待官方确认）"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "项目编号与前后环节公告"
+      ],
+      "next_actions": [
+        "回溯官方公告原文",
+        "检索更正、流标、二次招标及结果",
+        "确认官方来源后升级核验，不得仅凭D级转载标记verified"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-DANZHOU-2026-OLD-COMMUNITY-20261022-CONSTRUCTION-FAILED",
+      "project_id": "HN-DANZHOU-2026-OLD-COMMUNITY-INFRA",
+      "city": "儋州市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-24",
+      "event_ids": [
+        "HN-DANZHOU-2026-OLD-COMMUNITY-20261022-CONSTRUCTION-FAILED"
+      ],
+      "search_keys": [
+        "儋州市2026年老旧小区改造及配套基础设施建设项目流标公告",
+        "儋州市城市更新投资发展有限公司"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "项目编号与前后环节公告"
+      ],
+      "next_actions": [
+        "回溯官方公告原文",
+        "检索更正、流标、二次招标及结果",
+        "确认官方来源后升级核验，不得仅凭D级转载标记verified"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-DANZHOU-2026-OLD-COMMUNITY-20261022-SUPERVISION-CAND",
+      "project_id": "HN-DANZHOU-2026-OLD-COMMUNITY-INFRA",
+      "city": "儋州市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-24",
+      "event_ids": [
+        "HN-DANZHOU-2026-OLD-COMMUNITY-20261022-SUPERVISION-CAND"
+      ],
+      "search_keys": [
+        "儋州市2026年老旧小区改造及配套基础设施建设项目监理中标候选人公示",
+        "X4600002901006499001",
+        "儋州市城市更新投资发展有限公司"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "项目编号与前后环节公告"
+      ],
+      "next_actions": [
+        "回溯官方公告原文",
+        "检索更正、流标、二次招标及结果",
+        "确认官方来源后升级核验，不得仅凭D级转载标记verified"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-DANZHOU-2026-OLD-COMMUNITY-20261022-HOUSE-APPRAISAL-RE2-AWARD",
+      "project_id": "HN-DANZHOU-2026-OLD-COMMUNITY-INFRA",
+      "city": "儋州市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-24",
+      "event_ids": [
+        "HN-DANZHOU-2026-OLD-COMMUNITY-20261022-HOUSE-APPRAISAL-RE2-AWARD"
+      ],
+      "search_keys": [
+        "儋州市2026年老旧小区改造及配套基础设施建设项目现状房屋结构鉴定（二次）成交结果",
+        "ZDPA-DZ-2026-006",
+        "儋州市城市更新投资发展有限公司"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "项目编号与前后环节公告"
+      ],
+      "next_actions": [
+        "回溯官方公告原文",
+        "检索更正、流标、二次招标及结果",
+        "确认官方来源后升级核验，不得仅凭D级转载标记verified"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-SANYA-YAZHOU-MEMORY-20261020-FULL-CONSULT-TENDER",
+      "project_id": "HN-SANYA-YAZHOU-MEMORY-URBAN-RENEWAL",
+      "city": "三亚市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-24",
+      "event_ids": [
+        "HN-SANYA-YAZHOU-MEMORY-20261020-FULL-CONSULT-TENDER"
+      ],
+      "search_keys": [
+        "崖州记忆城市更新项目全过程咨询服务公开招标公告",
+        "[HNSS]20261000001[GK]",
+        "三亚市崖州区住房和城乡建设局"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "项目编号与前后环节公告"
+      ],
+      "next_actions": [
+        "回溯官方公告原文",
+        "检索更正、流标、二次招标及结果",
+        "确认官方来源后升级核验，不得仅凭D级转载标记verified"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-WANNING-23-20261016-CONSTRUCTION-TENDER",
+      "project_id": "HN-WANNING-TONGYONG-23-OLD-COMMUNITY",
+      "city": "万宁市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-24",
+      "event_ids": [
+        "HN-WANNING-23-20261016-CONSTRUCTION-TENDER"
+      ],
+      "search_keys": [
+        "万宁市通用厂小区等23个老旧小区改造及配套基础设施建设项目施工招标公告",
+        "万宁市城乡发展有限公司"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "项目编号与前后环节公告"
+      ],
+      "next_actions": [
+        "回溯官方公告原文",
+        "检索更正、流标、二次招标及结果",
+        "确认官方来源后升级核验，不得仅凭D级转载标记verified"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-WANNING-23-20261016-SUPERVISION-TENDER",
+      "project_id": "HN-WANNING-TONGYONG-23-OLD-COMMUNITY",
+      "city": "万宁市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-24",
+      "event_ids": [
+        "HN-WANNING-23-20261016-SUPERVISION-TENDER"
+      ],
+      "search_keys": [
+        "万宁市通用厂小区等23个老旧小区改造及配套基础设施建设项目监理招标公告",
+        "万宁市城乡发展有限公司"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "项目编号与前后环节公告"
+      ],
+      "next_actions": [
+        "回溯官方公告原文",
+        "检索更正、流标、二次招标及结果",
+        "确认官方来源后升级核验，不得仅凭D级转载标记verified"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-BAOTING-2026-OLD-COMMUNITY-SECTION1-20261021-TEST",
+      "project_id": "HN-BAOTING-2026-OLD-COMMUNITY",
+      "city": "保亭黎族苗族自治县",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-24",
+      "event_ids": [
+        "HN-BAOTING-2026-OLD-COMMUNITY-SECTION1-20261021-TEST"
+      ],
+      "search_keys": [
+        "保亭黎族苗族自治县2026年城镇老旧小区改造项目（一标段）原材料检测选取公告",
+        "保亭黎族苗族自治县城乡投资有限责任公司"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "项目编号与前后环节公告"
+      ],
+      "next_actions": [
+        "回溯官方公告原文",
+        "检索更正、流标、二次招标及结果",
+        "确认官方来源后升级核验，不得仅凭D级转载标记verified"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-WANNING-26-20261016-QUALITY-TEST",
+      "project_id": "HN-WANNING-HUAQIAO-26",
+      "city": "万宁市",
+      "priority": "normal",
+      "status": "pending",
+      "first_seen": "2026-10-24",
+      "event_ids": [
+        "HN-WANNING-26-20261016-QUALITY-TEST"
+      ],
+      "search_keys": [
+        "万宁市华侨小区等26个老旧小区改造及配套基础设施建设项目工程质量检测招标公告"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告"
+      ],
+      "next_actions": [
+        "官方回溯核验"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-LINGAO-OLD-CITY-20261020-ALC-MATERIAL",
+      "project_id": "HN-LINGAO-OLD-CITY-URBAN-RENEWAL-PH1-RESETTLEMENT",
+      "city": "临高县",
+      "priority": "normal",
+      "status": "pending",
+      "first_seen": "2026-10-24",
+      "event_ids": [
+        "HN-LINGAO-OLD-CITY-20261020-ALC-MATERIAL"
+      ],
+      "search_keys": [
+        "海南临高县老城区城市更新改造项目（一期）安置房小区1、2号楼砌体及ALC板采购公告"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告"
+      ],
+      "next_actions": [
+        "官方回溯核验"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-BAOTING-2026-OLD-COMMUNITY-SECTION2-20261021-TEST",
+      "project_id": "HN-BAOTING-2026-OLD-COMMUNITY",
+      "city": "保亭黎族苗族自治县",
+      "priority": "normal",
+      "status": "pending",
+      "first_seen": "2026-10-24",
+      "event_ids": [
+        "HN-BAOTING-2026-OLD-COMMUNITY-SECTION2-20261021-TEST"
+      ],
+      "search_keys": [
+        "保亭黎族苗族自治县2026年城镇老旧小区改造项目（二标段）原材料检测选取公告"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告"
+      ],
+      "next_actions": [
+        "官方回溯核验"
       ],
       "last_attempt_at": null,
       "attempts": 0

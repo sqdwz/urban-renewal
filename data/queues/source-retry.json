@@ -1,31 +1,37 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23",
+  "updated_at": "2026-10-24",
   "purpose": "来源异常续跑队列；既有状态来自历史日报，不代表今日已再次连接失败",
   "tasks": [
     {
       "source_id": "hainan_ccgp",
-      "last_observed_error": "2026-10-22",
+      "last_observed_error": "2026-10-24",
       "error_type": "timeout",
       "scope": "海南19市县",
       "status": "pending_recheck",
-      "result_count": null
+      "result_count": null,
+      "last_attempt_at": "2026-10-24T12:06:33+08:00",
+      "attempts": 1
     },
     {
       "source_id": "ccgp_national",
-      "last_observed_error": "2026-10-22",
+      "last_observed_error": "2026-10-24",
       "error_type": "HTTP 403",
       "scope": "海南19市县",
       "status": "pending_recheck",
-      "result_count": null
+      "result_count": null,
+      "last_attempt_at": "2026-10-24T12:06:33+08:00",
+      "attempts": 1
     },
     {
       "source_id": "cebpubservice",
-      "last_observed_error": "2026-10-22",
+      "last_observed_error": "2026-10-24",
       "error_type": "HTTP 405",
       "scope": "海南19市县",
       "status": "pending_recheck",
-      "result_count": null
+      "result_count": null,
+      "last_attempt_at": "2026-10-24T12:06:33+08:00",
+      "attempts": 1
     }
   ]
 }

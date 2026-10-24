@@ -1,15 +1,15 @@
 {
   "type": "urban-renewal-history-index",
-  "updated_at": "2026-10-14T04:12:08.934Z",
+  "updated_at": "2026-10-24T12:06:33+08:00",
   "window": {
     "start_date": "2023-08-27",
     "end_date": "2026-10-12"
   },
   "summary": {
-    "total_records": 144,
-    "verified_or_official_index": 95,
+    "total_records": 160,
+    "verified_or_official_index": 99,
     "verified_authoritative_association": 3,
-    "secondary_pending_backfill": 48,
+    "secondary_pending_backfill": 60,
     "expanded_candidates": 1,
     "jurisdictions_total": 19,
     "jurisdictions_with_confirmed_or_candidate_core": 12,
@@ -161,8 +161,15 @@
       "path": "data/history/daily-backfill-2026-10-13.json",
       "total_records": 3,
       "secondary_pending_backfill": 3
+    },
+    {
+      "name": "2026-10-24 v6巡检历史补漏：10月22日待写入事件与新增D级项目链",
+      "path": "data/history/daily-backfill-2026-10-24.json",
+      "total_records": 16,
+      "verified_or_authoritative": 4,
+      "secondary_pending_backfill": 12
     }
   ],
   "coverage_config": "config/coverage-regions.json",
-  "note": "历史新增3条D级线索，需A/B/C级官方回填；19市县必查来源未完成。"
+  "note": "v6历史补漏增量合并；原有历史分级计数存在遗留口径差异，未删除旧记录。"
 }
