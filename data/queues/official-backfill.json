@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-24",
+  "updated_at": "2026-10-25",
   "purpose": "D级待核验、项目链回溯与缺失官方原文队列；不会自动提升核验等级",
   "tasks": [
     {
@@ -331,6 +331,160 @@
       ],
       "next_actions": [
         "官方回溯核验"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-HAIKOU-ML-2026-OLD-COMMUNITY-20261022-FIRE-TEST",
+      "project_id": "HN-HAIKOU-ML-2026-OLD-COMMUNITY",
+      "city": "海口市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-25",
+      "event_ids": [
+        "HN-HAIKOU-ML-2026-OLD-COMMUNITY-20261022-FIRE-TEST"
+      ],
+      "search_keys": [
+        "海口市美兰区2026年老旧小区改造项目（海府、博爱、和平南街道片区）消防安装质量检测单位招标公告"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告正文"
+      ],
+      "next_actions": [
+        "核验采购人、金额、截止及前后项目链"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-DANZHOU-2026-OLD-COMMUNITY-20261019-QUALITY-TEST",
+      "project_id": "HN-DANZHOU-2026-OLD-COMMUNITY-INFRA",
+      "city": "儋州市",
+      "priority": "normal",
+      "status": "pending",
+      "first_seen": "2026-10-25",
+      "event_ids": [
+        "HN-DANZHOU-2026-OLD-COMMUNITY-20261019-QUALITY-TEST"
+      ],
+      "search_keys": [
+        "儋州市2026年老旧小区改造及配套基础设施建设项目（工程质量检测）磋商公告"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告正文"
+      ],
+      "next_actions": [
+        "核验采购人、金额、截止及前后项目链"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-DANZHOU-LIANGYUAN9-20261019-QUALITY-TEST",
+      "project_id": "HN-DANZHOU-LIANGYUAN9-OLD-COMMUNITY",
+      "city": "儋州市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-25",
+      "event_ids": [
+        "HN-DANZHOU-LIANGYUAN9-20261019-QUALITY-TEST"
+      ],
+      "search_keys": [
+        "儋州市两院片区热科院南区宿舍等9个老旧小区及周边配套基础设施改造项目工程质量检测竞争性磋商公告"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告正文"
+      ],
+      "next_actions": [
+        "核验采购人、金额、截止及前后项目链"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-DANZHOU-2025-OLD-COMMUNITY-II-20261019-QUALITY-TEST",
+      "project_id": "HN-DANZHOU-2025-OLD-COMMUNITY-II",
+      "city": "儋州市",
+      "priority": "normal",
+      "status": "pending",
+      "first_seen": "2026-10-25",
+      "event_ids": [
+        "HN-DANZHOU-2025-OLD-COMMUNITY-II-20261019-QUALITY-TEST"
+      ],
+      "search_keys": [
+        "儋州市2025年老旧小区及周边配套基础设施提升项目（二期）（工程质量检测）竞争性磋商公告"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告正文"
+      ],
+      "next_actions": [
+        "核验采购人、金额、截止及前后项目链"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-WANNING-HUAQIAO26-20261020-SUPERVISION-CAND",
+      "project_id": "HN-WANNING-HUAQIAO-26",
+      "city": "万宁市",
+      "priority": "normal",
+      "status": "pending",
+      "first_seen": "2026-10-25",
+      "event_ids": [
+        "HN-WANNING-HUAQIAO26-20261020-SUPERVISION-CAND"
+      ],
+      "search_keys": [
+        "万宁市华侨小区等26个老旧小区改造及配套基础设施建设项目（监理）中标候选人公示"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告正文"
+      ],
+      "next_actions": [
+        "核验采购人、金额、截止及前后项目链"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-WANNING-HUAQIAO26-20261021-CONSTRUCTION-CAND",
+      "project_id": "HN-WANNING-HUAQIAO-26",
+      "city": "万宁市",
+      "priority": "normal",
+      "status": "pending",
+      "first_seen": "2026-10-25",
+      "event_ids": [
+        "HN-WANNING-HUAQIAO26-20261021-CONSTRUCTION-CAND"
+      ],
+      "search_keys": [
+        "万宁市华侨小区等26个老旧小区改造及配套基础设施建设项目施工中标候选人公示"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告正文"
+      ],
+      "next_actions": [
+        "核验采购人、金额、截止及前后项目链"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-LEDONG-2026-OLD-COMMUNITY-20261022-CONSTRUCTION-PLAN",
+      "project_id": "HN-LEDONG-2026-OLD-COMMUNITY",
+      "city": "乐东黎族自治县",
+      "priority": "normal",
+      "status": "pending",
+      "first_seen": "2026-10-25",
+      "event_ids": [
+        "HN-LEDONG-2026-OLD-COMMUNITY-20261022-CONSTRUCTION-PLAN"
+      ],
+      "search_keys": [
+        "乐东县2026年城镇老旧小区改造工程（施工）招标计划公告"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告正文"
+      ],
+      "next_actions": [
+        "核验采购人、金额、截止及前后项目链"
       ],
       "last_attempt_at": null,
       "attempts": 0

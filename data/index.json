@@ -1,23 +1,41 @@
 {
   "latest": {
-    "date": "2026-10-24",
-    "path": "data/daily/2026-10-24.json",
+    "date": "2026-10-25",
+    "path": "data/daily/2026-10-25.json",
     "new_today": 0,
     "active_core": null,
     "related_development_watch": 1,
     "expanded_candidates": 1,
-    "upcoming_deadlines": 7,
-    "backfilled_core_events": 4,
-    "backfilled_pending_events": 12,
-    "source_error_count": 3,
+    "upcoming_deadlines": 9,
+    "backfilled_core_events": 1,
+    "backfilled_pending_events": 7,
+    "source_error_count": 4,
     "source_unavailable_count": 0,
     "jurisdictions_complete": 0,
     "jurisdictions_incomplete": 19,
-    "generated_at": "2026-10-24T12:06:33+08:00",
+    "generated_at": "2026-10-25T12:11:58+08:00",
     "scan_status": "partial_incomplete_mandatory_sources",
     "history_ingest_status": "ingested"
   },
   "recent": [
+    {
+      "date": "2026-10-25",
+      "path": "data/daily/2026-10-25.json",
+      "new_today": 0,
+      "active_core": null,
+      "related_development_watch": 1,
+      "expanded_candidates": 1,
+      "upcoming_deadlines": 9,
+      "backfilled_core_events": 1,
+      "backfilled_pending_events": 7,
+      "source_error_count": 4,
+      "source_unavailable_count": 0,
+      "jurisdictions_complete": 0,
+      "jurisdictions_incomplete": 19,
+      "generated_at": "2026-10-25T12:11:58+08:00",
+      "scan_status": "partial_incomplete_mandatory_sources",
+      "history_ingest_status": "ingested"
+    },
     {
       "date": "2026-10-24",
       "path": "data/daily/2026-10-24.json",
@@ -71,22 +89,18 @@
     {
       "date": "2026-09-19",
       "path": "data/daily/2026-09-19.json"
-    },
-    {
-      "date": "2026-09-18",
-      "path": "data/daily/2026-09-18.json"
     }
   ],
   "history": {
     "start_date": "2023-08-27",
-    "end_date": "2026-10-23",
+    "end_date": "2026-10-25",
     "index_path": "data/history/index.json",
-    "total_records": 160,
-    "verified_or_official_index": 99,
+    "total_records": 168,
+    "verified_or_official_index": 100,
     "verified_authoritative_association": 3,
-    "secondary_pending_backfill": 60,
+    "secondary_pending_backfill": 67,
     "expanded_candidates": 1,
-    "dataset_count": 28,
+    "dataset_count": 29,
     "jurisdictions_total": 19,
     "jurisdictions_with_confirmed_or_candidate_core": 12,
     "jurisdictions_zero_core_first_pass": 7,

@@ -1,15 +1,15 @@
 {
   "type": "urban-renewal-history-index",
-  "updated_at": "2026-10-24T12:06:33+08:00",
+  "updated_at": "2026-10-25T12:11:58+08:00",
   "window": {
     "start_date": "2023-08-27",
-    "end_date": "2026-10-12"
+    "end_date": "2026-10-24"
   },
   "summary": {
-    "total_records": 160,
-    "verified_or_official_index": 99,
+    "total_records": 168,
+    "verified_or_official_index": 100,
     "verified_authoritative_association": 3,
-    "secondary_pending_backfill": 60,
+    "secondary_pending_backfill": 67,
     "expanded_candidates": 1,
     "jurisdictions_total": 19,
     "jurisdictions_with_confirmed_or_candidate_core": 12,
@@ -168,6 +168,13 @@
       "total_records": 16,
       "verified_or_authoritative": 4,
       "secondary_pending_backfill": 12
+    },
+    {
+      "name": "2026-10-25双轨巡检补录滨濂征拆意向及工程检测等8条事件",
+      "path": "data/history/daily-backfill-2026-10-25.json",
+      "total_records": 8,
+      "verified_or_authoritative": 1,
+      "secondary_pending_backfill": 7
     }
   ],
   "coverage_config": "config/coverage-regions.json",
