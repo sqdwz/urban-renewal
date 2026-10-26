@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23",
+  "updated_at": "2026-10-26T12:09:58.031+08:00",
   "purpose": "非核心但可能相关的海南省城市建设项目持续观察库；不计入城市更新核心统计",
   "projects": [
     {
@@ -63,6 +63,119 @@
         }
       ],
       "data_quality_note": "项目暂定名，不可假定城更关联；采购主体名称在可访问转载中部分隐藏；本观察库用于防漏，不代表A/B/C官方核验。"
+    },
+    {
+      "canonical_project_id": "HN-BAISHA-DAAN-RENTAL-HOUSING",
+      "project_name": "白沙黎族自治县打安镇保障性租赁住房建设项目",
+      "project_aliases": [
+        "打安镇保障性租赁住房",
+        "打安保障性租赁住房"
+      ],
+      "province": "海南省",
+      "city": "白沙黎族自治县",
+      "district_county": "打安镇",
+      "category": "related_development_watch",
+      "project_type": "保障性租赁住房建设（非已确认城市更新）",
+      "urban_renewal_relation": "unconfirmed",
+      "verification_status": "pending_official_backfill",
+      "source_level": "D_discovery_only",
+      "known_purchasers": [
+        "白沙黎族自治县打安镇人民政府（第三方转载待核）"
+      ],
+      "known_project_ids": [],
+      "project_investment_yuan": 30559100,
+      "project_investment_note": "第三方转载项目总投资约3055.91万元，不是任何单项服务预算",
+      "first_discovered_at": "2026-10-26",
+      "last_checked_at": "2026-10-26",
+      "events": [
+        {
+          "id": "HN-BAISHA-DAAN-RENTAL-20261024-ENERGY",
+          "title": "关于遴选白沙黎族自治县打安镇保障性租赁住房建设项目节能评估报告编制服务单位公告",
+          "service_type": "节能评估",
+          "control_price_yuan": 30000,
+          "source_id": "yfbzb",
+          "source_url": "https://www.yfbzb.com/inviteBid/detail/20261024_641544238.html",
+          "deadline": null,
+          "detail_note": "第三方转载标题与正文中出现社稳字样混用，需核对官方原文",
+          "canonical_project_id": "HN-BAISHA-DAAN-RENTAL-HOUSING",
+          "event_type": "公开遴选公告",
+          "procurement_method": "公开遴选",
+          "publish_date": "2026-10-24",
+          "date_quality_note": "第三方转载标注10月24日，部分聚合站索引为10月23日；原始发布日期待核",
+          "province": "海南省",
+          "city": "白沙黎族自治县",
+          "district_county": "打安镇",
+          "project_type": "待确认（保障性租赁住房新建）",
+          "project_stage": "前期研究",
+          "purchaser": "白沙黎族自治县打安镇人民政府（仅第三方转载提及）",
+          "project_id": null,
+          "amount_yuan": null,
+          "source_level": "D_discovery_only",
+          "verification_status": "pending_official_backfill",
+          "status": "official_backfill_pending",
+          "data_quality_note": "仅D级公开聚合线索，项目建设总投资不得误当服务采购金额。第三方转载标题与正文中出现社稳字样混用，需核对官方原文"
+        },
+        {
+          "id": "HN-BAISHA-DAAN-RENTAL-20261024-SOCIAL-STABILITY",
+          "title": "关于遴选白沙黎族自治县打安镇保障性租赁住房建设项目社会稳定风险评估编制服务单位公告",
+          "service_type": "社会稳定风险评估",
+          "control_price_yuan": 80000,
+          "source_id": "yfbzb",
+          "source_url": "https://www.yfbzb.com/inviteBid/detail/20261024_641544186.html",
+          "deadline": null,
+          "canonical_project_id": "HN-BAISHA-DAAN-RENTAL-HOUSING",
+          "event_type": "公开遴选公告",
+          "procurement_method": "公开遴选",
+          "publish_date": "2026-10-24",
+          "date_quality_note": "第三方转载标注10月24日，部分聚合站索引为10月23日；原始发布日期待核",
+          "province": "海南省",
+          "city": "白沙黎族自治县",
+          "district_county": "打安镇",
+          "project_type": "待确认（保障性租赁住房新建）",
+          "project_stage": "前期研究",
+          "purchaser": "白沙黎族自治县打安镇人民政府（仅第三方转载提及）",
+          "project_id": null,
+          "amount_yuan": null,
+          "source_level": "D_discovery_only",
+          "verification_status": "pending_official_backfill",
+          "status": "official_backfill_pending",
+          "data_quality_note": "仅D级公开聚合线索，项目建设总投资不得误当服务采购金额。"
+        },
+        {
+          "id": "HN-BAISHA-DAAN-RENTAL-20261024-ENVIRONMENT",
+          "title": "关于遴选白沙黎族自治县打安镇保障性租赁住房建设项目环境影响评价服务单位公告",
+          "service_type": "环境影响评价",
+          "control_price_yuan": 14600,
+          "source_id": "qianlima",
+          "source_url": "https://industry.qianlima.com/industry/505850-2703",
+          "deadline": "2026-10-27",
+          "detail_note": "第三方行业索引标示报名截止日期10月27日，时刻未见，待官方核验",
+          "canonical_project_id": "HN-BAISHA-DAAN-RENTAL-HOUSING",
+          "event_type": "公开遴选公告",
+          "procurement_method": "公开遴选",
+          "publish_date": "2026-10-24",
+          "date_quality_note": "第三方转载标注10月24日，部分聚合站索引为10月23日；原始发布日期待核",
+          "province": "海南省",
+          "city": "白沙黎族自治县",
+          "district_county": "打安镇",
+          "project_type": "待确认（保障性租赁住房新建）",
+          "project_stage": "前期研究",
+          "purchaser": "白沙黎族自治县打安镇人民政府（仅第三方转载提及）",
+          "project_id": null,
+          "amount_yuan": null,
+          "source_level": "D_discovery_only",
+          "verification_status": "pending_official_backfill",
+          "status": "official_backfill_pending",
+          "data_quality_note": "仅D级公开聚合线索，项目建设总投资不得误当服务采购金额。第三方行业索引标示报名截止日期10月27日，时刻未见，待官方核验"
+        }
+      ],
+      "next_actions": [
+        "通过白沙县政府和打安镇人民政府及公开公众号打安兰花小镇回溯三条遴选原文",
+        "检查2026-10-16施工图审查及8月勘察测绘、设计、造价公告链",
+        "核验是否涉及旧宿舍原址重建、城市更新政策范围；未证实不得计入核心库",
+        "跟进10月27日环境影响评价服务报名截止及遴选结果"
+      ],
+      "data_quality_note": "项目为保障性租赁住房新建，尚无城市更新关联的A/B/C证据。"
     }
   ]
 }

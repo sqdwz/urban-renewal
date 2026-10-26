@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-25",
+  "updated_at": "2026-10-26T12:09:58.031+08:00",
   "purpose": "D级待核验、项目链回溯与缺失官方原文队列；不会自动提升核验等级",
   "tasks": [
     {
@@ -488,6 +488,37 @@
       ],
       "last_attempt_at": null,
       "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-BAISHA-DAAN-RENTAL-20261024",
+      "project_id": "HN-BAISHA-DAAN-RENTAL-HOUSING",
+      "city": "白沙黎族自治县",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-26",
+      "event_ids": [
+        "HN-BAISHA-DAAN-RENTAL-20261024-ENERGY",
+        "HN-BAISHA-DAAN-RENTAL-20261024-SOCIAL-STABILITY",
+        "HN-BAISHA-DAAN-RENTAL-20261024-ENVIRONMENT"
+      ],
+      "search_keys": [
+        "白沙黎族自治县打安镇保障性租赁住房建设项目",
+        "打安镇保障性租赁住房 节能评估",
+        "打安镇保障性租赁住房 社会稳定风险评估",
+        "打安镇保障性租赁住房 环境影响评价",
+        "打安兰花小镇 打安镇 2026"
+      ],
+      "required_evidence": [
+        "打安镇人民政府/白沙县政府发布的公告原文",
+        "项目采购主体和公告日期、服务限价、报名截止时间"
+      ],
+      "next_actions": [
+        "A/B/C官方核验3条遴选及10月16日施工图审查前置链",
+        "核验是否属于城市更新范围；否则保留关联观察",
+        "检查环境影响评价服务10月27日报名截止和后续结果"
+      ],
+      "last_attempt_at": "2026-10-26T12:09:58.031+08:00",
+      "attempts": 1
     }
   ]
 }
