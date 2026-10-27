@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-26T12:09:58.031+08:00",
+  "updated_at": "2026-10-27T12:10:00.739+08:00",
   "purpose": "D级待核验、项目链回溯与缺失官方原文队列；不会自动提升核验等级",
   "tasks": [
     {
@@ -518,6 +518,51 @@
         "检查环境影响评价服务10月27日报名截止和后续结果"
       ],
       "last_attempt_at": "2026-10-26T12:09:58.031+08:00",
+      "attempts": 1
+    },
+    {
+      "task_id": "BACKFILL-LINGSHUI-QINGSHUIWAN-20261010-PROPERTY",
+      "project_id": "HN-LINGSHUI-QINGSHUIWAN-RENTAL",
+      "city": "陵水黎族自治县",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-27",
+      "event_ids": [
+        "HN-LINGSHUI-QINGSHUIWAN-RENTAL-20261010-PROPERTY-TENDER"
+      ],
+      "search_keys": [
+        "lszw20261010002",
+        "清水湾产业配套保障性租赁住房 前期物业"
+      ],
+      "required_evidence": [
+        "A/B/C法定公告原文"
+      ],
+      "next_actions": [
+        "官方原文与后续结果反查"
+      ],
+      "last_attempt_at": "2026-10-27T12:10:00.739+08:00",
+      "attempts": 1
+    },
+    {
+      "task_id": "CHAIN-SANYA-HEDONGLU-MICRO-2026",
+      "project_id": "HN-SANYA-JIYANG-HEDONGLU-MICRO-RENEWAL",
+      "city": "三亚市",
+      "priority": "medium",
+      "status": "pending_chain_discovery",
+      "first_seen": "2026-10-27",
+      "event_ids": [],
+      "search_keys": [
+        "2312-460203-04-01-283962",
+        "河东路片区微更新",
+        "三亚城市投资建设集团有限公司"
+      ],
+      "required_evidence": [
+        "正式招标公告或采购意向，审批不算"
+      ],
+      "next_actions": [
+        "反查招标计划、设计、施工及监理"
+      ],
+      "last_attempt_at": "2026-10-27T12:10:00.739+08:00",
       "attempts": 1
     }
   ]

@@ -1,13 +1,13 @@
 {
   "type": "urban-renewal-history-index",
-  "updated_at": "2026-10-25T12:11:58+08:00",
+  "updated_at": "2026-10-27T12:10:00.739+08:00",
   "window": {
     "start_date": "2023-08-27",
-    "end_date": "2026-10-24"
+    "end_date": "2026-10-26"
   },
   "summary": {
-    "total_records": 168,
-    "verified_or_official_index": 100,
+    "total_records": 169,
+    "verified_or_official_index": 101,
     "verified_authoritative_association": 3,
     "secondary_pending_backfill": 67,
     "expanded_candidates": 1,
@@ -175,8 +175,15 @@
       "total_records": 8,
       "verified_or_authoritative": 1,
       "secondary_pending_backfill": 7
+    },
+    {
+      "name": "2026-10-27滚动巡检补录10月26日滨濂设计中标结果",
+      "path": "data/history/daily-backfill-2026-10-27.json",
+      "total_records": 1,
+      "verified_or_authoritative": 1,
+      "secondary_pending_backfill": 0
     }
   ],
   "coverage_config": "config/coverage-regions.json",
-  "note": "v6历史补漏增量合并；原有历史分级计数存在遗留口径差异，未删除旧记录。"
+  "note": "历史增量补录1条A级官方中标结果；原有分级计数口径差异保留，未删除历史记录。"
 }

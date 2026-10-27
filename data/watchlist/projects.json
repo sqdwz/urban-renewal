@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-26T12:09:58.031+08:00",
+  "updated_at": "2026-10-27T12:10:00.739+08:00",
   "purpose": "非核心但可能相关的海南省城市建设项目持续观察库；不计入城市更新核心统计",
   "projects": [
     {
@@ -176,6 +176,111 @@
         "跟进10月27日环境影响评价服务报名截止及遴选结果"
       ],
       "data_quality_note": "项目为保障性租赁住房新建，尚无城市更新关联的A/B/C证据。"
+    },
+    {
+      "canonical_project_id": "HN-LINGSHUI-QINGSHUIWAN-RENTAL",
+      "project_name": "陵水县清水湾产业配套保障性租赁住房项目",
+      "project_aliases": [
+        "清水湾产业配套保障性租赁住房"
+      ],
+      "province": "海南省",
+      "city": "陵水黎族自治县",
+      "district_county": "英州镇",
+      "category": "related_development_watch",
+      "project_type": "待确认（保障性租赁住房新建）",
+      "urban_renewal_relation": "unconfirmed",
+      "verification_status": "pending_official_backfill",
+      "source_level": "D_discovery_only",
+      "known_purchasers": [
+        "海南惠众创基实业有限公司"
+      ],
+      "known_project_ids": [
+        "lszw20261010002"
+      ],
+      "first_discovered_at": "2026-10-27",
+      "last_checked_at": "2026-10-27",
+      "events": [
+        {
+          "id": "HN-LINGSHUI-QINGSHUIWAN-RENTAL-20261010-PROPERTY-TENDER",
+          "canonical_project_id": "HN-LINGSHUI-QINGSHUIWAN-RENTAL",
+          "project_id": "lszw20261010002",
+          "title": "陵水县清水湾产业配套保障性租赁住房项目前期物业服务招标公告",
+          "province": "海南省",
+          "city": "陵水黎族自治县",
+          "district_county": "英州镇",
+          "publish_date": "2026-10-10",
+          "deadline": "2026-11-02T09:00:00+08:00",
+          "procurement_method": "公开招标",
+          "purchaser": "海南惠众创基实业有限公司",
+          "project_type": "待确认（保障性租赁住房新建）",
+          "service_type": "前期物业",
+          "project_stage": "运营准备",
+          "event_type": "招标公告",
+          "control_price_yuan": 1478683.44,
+          "amount_unit": "元/年",
+          "source_id": "third_party_discovery",
+          "source_level": "D_discovery_only",
+          "source_url": "https://hi.zhaobiao.lanyancloud.com/notice/d1269c177a1d4754",
+          "verification_status": "pending_official_backfill",
+          "classification": "related_development_watch",
+          "summary": "第三方10月10日转载，前期物业年限价147.87万元，11月2日09:00截止，未取得A/B/C原文。",
+          "data_quality_note": "D级历史线索，不得计入已核验核心项目。"
+        }
+      ],
+      "next_actions": [
+        "用lszw20261010002反查官方原文",
+        "检查后续中标与更正",
+        "确认与城市更新是否关联"
+      ],
+      "data_quality_note": "仅D级，暂不计入核心。"
+    },
+    {
+      "canonical_project_id": "HN-SANYA-JIYANG-HEDONGLU-MICRO-RENEWAL",
+      "project_name": "三亚市吉阳区河东路片区微更新项目",
+      "project_aliases": [
+        "河东路片区微更新"
+      ],
+      "province": "海南省",
+      "city": "三亚市",
+      "district_county": "吉阳区",
+      "category": "core_project_pipeline_watch",
+      "project_type": "城市更新（微更新）",
+      "urban_renewal_relation": "confirmed_official",
+      "verification_status": "verified_project_approval_only",
+      "source_level": "A_official_primary",
+      "known_purchasers": [
+        "三亚城市投资建设集团有限公司"
+      ],
+      "known_project_ids": [
+        "2312-460203-04-01-283962"
+      ],
+      "project_investment_yuan": 38237700,
+      "project_investment_note": "官方可研批复项目总投资，非采购金额",
+      "first_discovered_at": "2026-10-27",
+      "last_checked_at": "2026-10-27",
+      "events": [
+        {
+          "id": "HN-SANYA-HEDONGLU-20260921-REAPPROVAL",
+          "event_type": "重新立项批复（非招标）",
+          "publish_date": "2026-09-21",
+          "source_url": "https://fg.sanya.gov.cn/fgwsite/xmsp/202609/88e8fe815a1e4967bb33b3e68a46e905.shtml",
+          "source_level": "A_official_primary",
+          "verification_status": "verified_project_approval_only"
+        },
+        {
+          "id": "HN-SANYA-HEDONGLU-20260922-FEASIBILITY-APPROVAL",
+          "event_type": "可研批复（非招标）",
+          "publish_date": "2026-09-22",
+          "source_url": "https://fg.sanya.gov.cn/fgwsite/xmsp/202609/7f257d05ba724d84a593ac7ba35b26a6.shtml",
+          "source_level": "A_official_primary",
+          "verification_status": "verified_project_approval_only"
+        }
+      ],
+      "next_actions": [
+        "按项目代码及三亚城投反查招标计划、初设、勘察测绘、施工等公告",
+        "找到招标事件后再计入核心招投标历史"
+      ],
+      "data_quality_note": "官方审批可证实项目存在，但不是招标采购公告，不能计入招标历史事件。"
     }
   ]
 }

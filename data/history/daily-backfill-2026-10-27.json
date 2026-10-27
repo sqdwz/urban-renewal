@@ -1,0 +1,49 @@
+{
+  "type": "urban-renewal-history-backfill",
+  "schema_version": 3,
+  "date": "2026-10-27",
+  "total_records": 1,
+  "verified_records": 1,
+  "pending_records": 0,
+  "items": [
+    {
+      "id": "HN-HAIKOU-LH-BINLIAN-YOUYILU-20261026-DESIGN-AWARD",
+      "canonical_project_id": "HN-HAIKOU-LH-BINLIAN-YOUYILU",
+      "project_id": "X4600002901006487001",
+      "title": "海口市龙华区滨濂片区友谊路中段城市更新项目（设计）中标结果公告",
+      "province": "海南省",
+      "city": "海口市",
+      "district_county": "龙华区",
+      "publish_date": "2026-10-26",
+      "deadline": null,
+      "procurement_method": "公开招标",
+      "amount_yuan": 1095000,
+      "award_yuan": 1095000,
+      "purchaser": "海口龙华城投项目管理有限公司",
+      "winning_bidder": "一方设计集团有限公司",
+      "project_type": "城市更新",
+      "service_type": "设计",
+      "project_stage": "结果阶段",
+      "event_type": "中标结果公告",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/95944",
+      "verification_status": "verified",
+      "status": "awarded",
+      "project_aliases": [
+        "滨濂片区友谊路中段城市更新"
+      ],
+      "known_project_ids": [
+        "X4600002901006487001"
+      ],
+      "known_purchasers": [
+        "海口龙华城投项目管理有限公司"
+      ],
+      "chain_gap": "other_stages_pending_review",
+      "summary": "2026-10-26官方中标结果：一方设计集团有限公司109.50万元。关联2026-09-30设计招标、2026-10-21中标候选和2026-10-12征拆采购意向。",
+      "data_quality_note": "10月27日滚动巡检发现的10月26日历史公告，不计10月27日新增。",
+      "history_ingest_origin": "2026-10-27 rolling 7-day official audit"
+    }
+  ],
+  "note": "官方10月26日设计中标结果补录，与9月30日设计招标、10月21日候选公示、10月12日征拆采购意向关联；历史增量，不删除已有记录。"
+}
