@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-27T12:10:00.739+08:00",
+  "updated_at": "2026-10-28T12:10:41+08:00",
   "purpose": "D级待核验、项目链回溯与缺失官方原文队列；不会自动提升核验等级",
   "tasks": [
     {
@@ -564,6 +564,162 @@
       ],
       "last_attempt_at": "2026-10-27T12:10:00.739+08:00",
       "attempts": 1
+    },
+    {
+      "task_id": "BACKFILL-HN-DANZHOU-2026-OLD-COMMUNITY-20261027-SUPERVISION-AWARD",
+      "project_id": "HN-DANZHOU-2026-OLD-COMMUNITY-INFRA",
+      "city": "儋州市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-28",
+      "event_ids": [
+        "HN-DANZHOU-2026-OLD-COMMUNITY-20261027-SUPERVISION-AWARD"
+      ],
+      "search_keys": [
+        "儋州市2026年老旧小区改造及配套基础设施建设项目监理中标结果公告",
+        "X4600002901006499001",
+        "儋州市城市更新投资发展有限公司"
+      ],
+      "required_evidence": [
+        "海南省公共资源交易平台机器管招投标官方原文",
+        "A/B/C来源及前置公告"
+      ],
+      "next_actions": [
+        "核对编号、日期、金额、候选及结果",
+        "反查招标计划/公告/变更/合同"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-DANZHOU-2025-OLD-COMMUNITY-II-20261026-SUPERVISION-CAND",
+      "project_id": "HN-DANZHOU-2025-OLD-COMMUNITY-II",
+      "city": "儋州市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-28",
+      "event_ids": [
+        "HN-DANZHOU-2025-OLD-COMMUNITY-II-20261026-SUPERVISION-CAND"
+      ],
+      "search_keys": [
+        "儋州市2025年老旧小区及周边配套基础设施提升项目（二期）监理中标候选人公示",
+        "X4600002901006486001",
+        "儋州市城市更新投资发展有限公司"
+      ],
+      "required_evidence": [
+        "海南省公共资源交易平台机器管招投标官方原文",
+        "A/B/C来源及前置公告"
+      ],
+      "next_actions": [
+        "核对编号、日期、金额、候选及结果",
+        "反查招标计划/公告/变更/合同"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-DANZHOU-2025-OLD-COMMUNITY-II-20261026-CONSTRUCTION-CAND",
+      "project_id": "HN-DANZHOU-2025-OLD-COMMUNITY-II",
+      "city": "儋州市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-28",
+      "event_ids": [
+        "HN-DANZHOU-2025-OLD-COMMUNITY-II-20261026-CONSTRUCTION-CAND"
+      ],
+      "search_keys": [
+        "儋州市2025年老旧小区及周边配套基础设施提升项目（二期）施工中标候选人公示",
+        "X4600002901006513001",
+        "儋州市城市更新投资发展有限公司"
+      ],
+      "required_evidence": [
+        "海南省公共资源交易平台机器管招投标官方原文",
+        "A/B/C来源及前置公告"
+      ],
+      "next_actions": [
+        "核对编号、日期、金额、候选及结果",
+        "反查招标计划/公告/变更/合同"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-DANZHOU-LIANGYUAN9-20261024-SECTION2-CAND",
+      "project_id": "HN-DANZHOU-LIANGYUAN9-OLD-COMMUNITY",
+      "city": "儋州市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-28",
+      "event_ids": [
+        "HN-DANZHOU-LIANGYUAN9-20261024-SECTION2-CAND"
+      ],
+      "search_keys": [
+        "儋州市两院片区热科院南区宿舍等9个老旧小区及周边配套基础设施改造项目（二标段）中标候选人公示",
+        "X4600002901006510001",
+        "儋州市城市更新投资发展有限公司"
+      ],
+      "required_evidence": [
+        "海南省公共资源交易平台机器管招投标官方原文",
+        "A/B/C来源及前置公告"
+      ],
+      "next_actions": [
+        "核对编号、日期、金额、候选及结果",
+        "反查招标计划/公告/变更/合同"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-DANZHOU-LIANGYUAN9-20261015-SECTION1-AWARD",
+      "project_id": "HN-DANZHOU-LIANGYUAN9-OLD-COMMUNITY",
+      "city": "儋州市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-28",
+      "event_ids": [
+        "HN-DANZHOU-LIANGYUAN9-20261015-SECTION1-AWARD"
+      ],
+      "search_keys": [
+        "儋州市两院片区热科院南区宿舍等9个老旧小区及周边配套基础设施改造项目（一标段）中标结果公告",
+        "X4600002901006199001",
+        "儋州市城市更新投资发展有限公司"
+      ],
+      "required_evidence": [
+        "海南省公共资源交易平台机器管招投标官方原文",
+        "A/B/C来源及前置公告"
+      ],
+      "next_actions": [
+        "核对编号、日期、金额、候选及结果",
+        "反查招标计划/公告/变更/合同"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-DANZHOU-LIANGYUAN9-20261001-SECTION1-CAND",
+      "project_id": "HN-DANZHOU-LIANGYUAN9-OLD-COMMUNITY",
+      "city": "儋州市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-28",
+      "event_ids": [
+        "HN-DANZHOU-LIANGYUAN9-20261001-SECTION1-CAND"
+      ],
+      "search_keys": [
+        "儋州市两院片区热科院南区宿舍等9个老旧小区及周边配套基础设施改造项目（一标段）中标候选人公示",
+        "X4600002901006199001",
+        "儋州市城市更新投资发展有限公司"
+      ],
+      "required_evidence": [
+        "海南省公共资源交易平台机器管招投标官方原文",
+        "A/B/C来源及前置公告"
+      ],
+      "next_actions": [
+        "核对编号、日期、金额、候选及结果",
+        "反查招标计划/公告/变更/合同"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
     }
   ]
 }
