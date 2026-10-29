@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28T12:10:41+08:00",
+  "updated_at": "2026-10-29",
   "purpose": "D级待核验、项目链回溯与缺失官方原文队列；不会自动提升核验等级",
   "tasks": [
     {
@@ -29,8 +29,9 @@
         "检索流标后二次比选及结果",
         "更新观察库但不自行标记verified"
       ],
-      "last_attempt_at": null,
-      "attempts": 0
+      "last_attempt_at": "2026-10-29T12:10:17+08:00",
+      "attempts": 1,
+      "last_attempt_note": "尝试澄迈县官方公开搜索索引反查，未获得可核验官方原文；保留D级。"
     },
     {
       "task_id": "BACKFILL-HN-HAIKOU-GL-II-20261022-ELEVATOR-TENDER",
@@ -717,6 +718,57 @@
       "next_actions": [
         "核对编号、日期、金额、候选及结果",
         "反查招标计划/公告/变更/合同"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-CHANGJIANG-20261028-PLANNING-CONSULT",
+      "project_id": "HN-CHANGJIANG-2026-2028-PLANNING-FUNDING-CONSULT",
+      "city": "昌江黎族自治县",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-10-29",
+      "event_ids": [
+        "HN-CHANGJIANG-20261028-PLANNING-FUNDING-CONSULT-ADDENDUM"
+      ],
+      "search_keys": [
+        "昌江黎族自治县发展和改革委员会 2026—2028 项目策划 资金申请 咨询 补充公告",
+        "遴选2026年—2028年项目策划及资金申请咨询服务机构"
+      ],
+      "required_evidence": [
+        "昌江黎族自治县人民政府/发改委官方公告原文",
+        "延期截止日期及具体时刻"
+      ],
+      "next_actions": [
+        "核验11月1日截止时间",
+        "追溯原始遴选公告与结果",
+        "核查是否关联城市更新，未确认则保留扩展候选"
+      ],
+      "last_attempt_at": null,
+      "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-QIONGHAI-20261027-FH02-PLAN",
+      "project_id": "HN-QIONGHAI-FH02-CONTROLLED-PLAN-ADJUSTMENT",
+      "city": "琼海市",
+      "priority": "normal",
+      "status": "pending",
+      "first_seen": "2026-10-29",
+      "event_ids": [
+        "HN-QIONGHAI-20261027-FH02-PLAN-RESULT"
+      ],
+      "search_keys": [
+        "琼海市中心城区控制性详细规划 FH02-19-02 FH02-23-02 公开遴选结果",
+        "琼海市自然资源和规划局 2026年10月27日 规划调整"
+      ],
+      "required_evidence": [
+        "琼海市自然资源和规划局官方原文",
+        "中选单位及采购结果"
+      ],
+      "next_actions": [
+        "核实是否与城市更新地块相关",
+        "补齐规划编制前置公告和结果"
       ],
       "last_attempt_at": null,
       "attempts": 0

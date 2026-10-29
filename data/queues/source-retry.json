@@ -1,48 +1,48 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28T12:10:41+08:00",
+  "updated_at": "2026-10-29",
   "purpose": "来源异常续跑队列；既有状态来自历史日报，不代表今日已再次连接失败",
   "tasks": [
     {
       "source_id": "hainan_ccgp",
-      "last_observed_error": "2026-10-28",
-      "error_type": "ccgp-hainan.gov.cn official root timeout",
+      "last_observed_error": "2026-10-29",
+      "error_type": "官方入口超时（2026-10-29）",
       "scope": "海南19市县",
       "status": "pending_recheck",
       "result_count": null,
-      "last_attempt_at": "2026-10-28T12:10:41+08:00",
-      "attempts": 5
+      "last_attempt_at": "2026-10-29T12:10:17+08:00",
+      "attempts": 6
     },
     {
       "source_id": "ccgp_national",
-      "last_observed_error": "2026-10-28",
-      "error_type": "www.ccgp.gov.cn root HTTP 403",
+      "last_observed_error": "2026-10-29",
+      "error_type": "HTTP 403 Forbidden（2026-10-29）",
       "scope": "海南19市县",
       "status": "pending_recheck",
       "result_count": null,
-      "last_attempt_at": "2026-10-28T12:10:41+08:00",
-      "attempts": 5,
+      "last_attempt_at": "2026-10-29T12:10:17+08:00",
+      "attempts": 6,
       "recovery_note": "官方站点入口恢复可访问，但市县分类/公告日期分页未完成，不能视为完整恢复"
     },
     {
       "source_id": "cebpubservice",
-      "last_observed_error": "2026-10-28",
-      "error_type": "bulletin.cebpubservice.com HTTP 405",
+      "last_observed_error": "2026-10-29",
+      "error_type": "HTTP 405 Method Not Allowed（2026-10-29）",
       "scope": "海南19市县",
       "status": "pending_recheck",
       "result_count": null,
-      "last_attempt_at": "2026-10-28T12:10:41+08:00",
-      "attempts": 5
+      "last_attempt_at": "2026-10-29T12:10:17+08:00",
+      "attempts": 6
     },
     {
       "source_id": "hainan_ggzy",
       "scope": "海南19市县",
-      "status": "entry_recovered_pending_full_audit",
+      "status": "pending_recheck",
       "result_count": null,
-      "attempts": 4,
-      "last_observed_error": "2026-10-25",
-      "error_type": "entry_path_404_without_trailing_slash; full source listing not checked",
-      "last_attempt_at": "2026-10-28T12:10:41+08:00",
+      "attempts": 5,
+      "last_observed_error": "2026-10-29",
+      "error_type": "官方入口超时（2026-10-29）",
+      "last_attempt_at": "2026-10-29T12:10:17+08:00",
       "recovery_note": "入口及交易信息栏目可访问，市县日期过滤及分页未完成"
     },
     {
@@ -50,10 +50,10 @@
       "scope": "海南19市县",
       "status": "pending_recheck",
       "result_count": null,
-      "attempts": 3,
-      "last_observed_error": "2026-10-27",
+      "attempts": 4,
+      "last_observed_error": "2026-10-29",
       "error_type": "no verified direct URL; source_unavailable",
-      "last_attempt_at": "2026-10-28T12:10:41+08:00"
+      "last_attempt_at": "2026-10-29T12:10:17+08:00"
     }
   ]
 }

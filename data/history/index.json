@@ -1,6 +1,6 @@
 {
   "type": "urban-renewal-history-index",
-  "updated_at": "2026-10-28T12:10:41+08:00",
+  "updated_at": "2026-10-29",
   "window": {
     "start_date": "2023-08-27",
     "end_date": "2026-10-27"
@@ -191,5 +191,17 @@
     }
   ],
   "coverage_config": "config/coverage-regions.json",
-  "note": "新增6条D级历史线索，未提升为官方核验。"
+  "note": "新增6条D级历史线索，未提升为官方核验。；2026-10-29无新增核心历史记录，既有总数保留；发现横沟村C28-01 2026-09-14同事件跨文件重复，待去重审计。",
+  "quality_alerts": [
+    {
+      "type": "possible_duplicate_event",
+      "project_id": "E4601000001001442001",
+      "publish_date": "2026-09-14",
+      "paths": [
+        "data/history/daily-backfill-2026-09-16.json",
+        "data/history/daily-backfill-2026-10-24.json"
+      ],
+      "action": "人工或脚本核对后原位修复，不在每日巡检中破坏性删记录"
+    }
+  ]
 }

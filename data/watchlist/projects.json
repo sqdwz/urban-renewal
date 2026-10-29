@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-27T12:10:00.739+08:00",
+  "updated_at": "2026-10-29",
   "purpose": "非核心但可能相关的海南省城市建设项目持续观察库；不计入城市更新核心统计",
   "projects": [
     {
@@ -24,7 +24,7 @@
       "land_area_mu": 60,
       "total_floor_area_sqm": 80264,
       "first_discovered_at": "2026-10-23",
-      "last_checked_at": "2026-10-23",
+      "last_checked_at": "2026-10-29",
       "next_actions": [
         "回溯9月18日可研比选的业主单位官方发布渠道",
         "回溯9月30日流标官方原文",
@@ -62,7 +62,8 @@
           "summary": "第三方转载称仅2家单位参选，有效单位不足3家；待取得业主官方原文"
         }
       ],
-      "data_quality_note": "项目暂定名，不可假定城更关联；采购主体名称在可访问转载中部分隐藏；本观察库用于防漏，不代表A/B/C官方核验。"
+      "data_quality_note": "项目暂定名，不可假定城更关联；采购主体名称在可访问转载中部分隐藏；本观察库用于防漏，不代表A/B/C官方核验。",
+      "official_backfill_note": "10月29日官方索引反查未取得原文或二次比选；两条D级事件不升级"
     },
     {
       "canonical_project_id": "HN-BAISHA-DAAN-RENTAL-HOUSING",
