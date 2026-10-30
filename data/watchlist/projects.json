@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29",
+  "updated_at": "2026-10-30",
   "purpose": "非核心但可能相关的海南省城市建设项目持续观察库；不计入城市更新核心统计",
   "projects": [
     {
@@ -282,6 +282,50 @@
         "找到招标事件后再计入核心招投标历史"
       ],
       "data_quality_note": "官方审批可证实项目存在，但不是招标采购公告，不能计入招标历史事件。"
+    },
+    {
+      "canonical_project_id": "HN-HAIKOU-MEIAN-ROAD-RESETTLEMENT-HOUSING",
+      "project_name": "美安路网安置房项目",
+      "project_aliases": [
+        "美安路网安置房",
+        "美安路网安置房前期物业服务项目"
+      ],
+      "city": "海口市",
+      "province": "海南省",
+      "category": "related_development_watch",
+      "project_type": "安置房",
+      "urban_renewal_relation": "unconfirmed",
+      "verification_status": "verified_project_event_only",
+      "source_level": "A_official_primary",
+      "first_discovered_at": "2026-10-30",
+      "last_checked_at": "2026-10-30",
+      "next_actions": [
+        "核实是否属于城市更新或征收安置",
+        "追溯首次招标及二次招标原因",
+        "跟踪中标结果"
+      ],
+      "events": [
+        {
+          "id": "HN-HAIKOU-MEIAN-20261029-PROPERTY-RE2-CAND",
+          "canonical_project_id": "HN-HAIKOU-MEIAN-ROAD-RESETTLEMENT-HOUSING",
+          "project_id": "E4601000001001443002",
+          "title": "美安路网安置房前期物业服务项目（二次招标）中标候选人公示",
+          "province": "海南省",
+          "city": "海口市",
+          "publish_date": "2026-10-29",
+          "notice_end": "2026-11-02T09:00:00+08:00",
+          "event_type": "中标候选人公示",
+          "service_type": "前期物业",
+          "source_id": "haikou_ggzy",
+          "source_level": "A_official_primary",
+          "source_url": "https://ggzy.haikou.gov.cn/gonggao/96021",
+          "verification_status": "verified",
+          "classification": "related_development_watch",
+          "winning_candidate": "海口盛元物业管理有限公司",
+          "summary": "首位候选住宅报价1.58元/平方米/月；公示截至11月2日09:00。"
+        }
+      ],
+      "data_quality_note": "A级公告已核验，不代表城市更新关联已证实。"
     }
   ]
 }
