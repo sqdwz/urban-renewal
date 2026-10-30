@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29",
+  "updated_at": "2026-10-30",
   "purpose": "D级待核验、项目链回溯与缺失官方原文队列；不会自动提升核验等级",
   "tasks": [
     {
@@ -772,6 +772,32 @@
       ],
       "last_attempt_at": null,
       "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-SANYA-YAZHOU-DOORWINDOW-20261029",
+      "project_id": "HN-SANYA-YAZHOU-LOGISTICS-SHANTYTOWN-RESETTLEMENT",
+      "city": "三亚市",
+      "priority": "medium",
+      "status": "pending",
+      "first_seen": "2026-10-30",
+      "event_ids": [
+        "HN-SANYA-YAZHOU-LOGISTICS-20261029-DOORWINDOW-SUBCONTRACT"
+      ],
+      "search_keys": [
+        "ZT12JMCAZQXM-FBZB-2026-0004",
+        "三亚崖州湾科技城综合物流园棚改安置区 门窗安装",
+        "铁建云链 梅村安置房 门窗"
+      ],
+      "required_evidence": [
+        "施工总包单位或铁建云链原始招标公告"
+      ],
+      "next_actions": [
+        "核实原文、采购主体、截止时间",
+        "跟踪中标候选与结果"
+      ],
+      "last_attempt_at": "2026-10-30T12:14:00+08:00",
+      "attempts": 1,
+      "last_attempt_note": "公开索引未找到可核验的原始发布页；仅保留D级转载线索"
     }
   ]
 }
