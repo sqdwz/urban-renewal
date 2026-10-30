@@ -1,15 +1,15 @@
 {
   "type": "urban-renewal-history-index",
-  "updated_at": "2026-10-29",
+  "updated_at": "2026-10-30T12:14:09.228+08:00",
   "window": {
     "start_date": "2023-08-27",
-    "end_date": "2026-10-27"
+    "end_date": "2026-10-29"
   },
   "summary": {
-    "total_records": 175,
-    "verified_or_official_index": 101,
+    "total_records": 178,
+    "verified_or_official_index": 103,
     "verified_authoritative_association": 3,
-    "secondary_pending_backfill": 73,
+    "secondary_pending_backfill": 74,
     "expanded_candidates": 1,
     "jurisdictions_total": 19,
     "jurisdictions_with_confirmed_or_candidate_core": 12,
@@ -188,6 +188,13 @@
       "path": "data/history/daily-backfill-2026-10-28.json",
       "total_records": 6,
       "secondary_pending_backfill": 6
+    },
+    {
+      "name": "2026-10-30海口老旧小区供水2条A级及三亚棚改分包1条D级",
+      "path": "data/history/daily-backfill-2026-10-30.json",
+      "total_records": 3,
+      "verified_or_authoritative": 2,
+      "secondary_pending_backfill": 1
     }
   ],
   "coverage_config": "config/coverage-regions.json",
