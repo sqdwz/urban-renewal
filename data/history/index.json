@@ -1,13 +1,13 @@
 {
   "type": "urban-renewal-history-index",
-  "updated_at": "2026-10-30T12:14:09.228+08:00",
+  "updated_at": "2026-10-31T12:07:07+08:00",
   "window": {
     "start_date": "2023-08-27",
     "end_date": "2026-10-29"
   },
   "summary": {
-    "total_records": 178,
-    "verified_or_official_index": 103,
+    "total_records": 179,
+    "verified_or_official_index": 104,
     "verified_authoritative_association": 3,
     "secondary_pending_backfill": 74,
     "expanded_candidates": 1,
@@ -195,10 +195,17 @@
       "total_records": 3,
       "verified_or_authoritative": 2,
       "secondary_pending_backfill": 1
+    },
+    {
+      "name": "2026-10-31海口老旧小区二次供水设计A级官方补漏",
+      "path": "data/history/daily-backfill-2026-10-31.json",
+      "total_records": 1,
+      "verified_or_authoritative": 1,
+      "secondary_pending_backfill": 0
     }
   ],
   "coverage_config": "config/coverage-regions.json",
-  "note": "新增6条D级历史线索，未提升为官方核验。；2026-10-29无新增核心历史记录，既有总数保留；发现横沟村C28-01 2026-09-14同事件跨文件重复，待去重审计。",
+  "note": "10月31日补录海口老旧小区供水设计A级1条，澄迈综保区A项目链单独观察，保留历史重复质量告警。",
   "quality_alerts": [
     {
       "type": "possible_duplicate_event",

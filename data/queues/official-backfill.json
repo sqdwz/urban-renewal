@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30",
+  "updated_at": "2026-10-31",
   "purpose": "D级待核验、项目链回溯与缺失官方原文队列；不会自动提升核验等级",
   "tasks": [
     {
@@ -29,9 +29,9 @@
         "检索流标后二次比选及结果",
         "更新观察库但不自行标记verified"
       ],
-      "last_attempt_at": "2026-10-29T12:10:17+08:00",
-      "attempts": 1,
-      "last_attempt_note": "尝试澄迈县官方公开搜索索引反查，未获得可核验官方原文；保留D级。"
+      "last_attempt_at": "2026-10-31T12:07:07+08:00",
+      "attempts": 2,
+      "last_attempt_note": "澄迈官方索引与项目名反查无可核验原文，保留D级"
     },
     {
       "task_id": "BACKFILL-HN-HAIKOU-GL-II-20261022-ELEVATOR-TENDER",
@@ -798,6 +798,34 @@
       "last_attempt_at": "2026-10-30T12:14:00+08:00",
       "attempts": 1,
       "last_attempt_note": "公开索引未找到可核验的原始发布页；仅保留D级转载线索"
+    },
+    {
+      "task_id": "CHAIN-HN-CHENGMAI-FTZ-CLEANROOM-RELATION",
+      "project_id": "HN-CHENGMAI-HAIKOU-FTZ-DIGITAL-INCUBATOR-CLEANROOM",
+      "city": "澄迈县",
+      "priority": "normal",
+      "status": "pending_chain_discovery",
+      "first_seen": "2026-10-31",
+      "event_ids": [
+        "HN-CHENGMAI-FTZ-CLEANROOM-20260930-TENDER",
+        "HN-CHENGMAI-FTZ-CLEANROOM-20261022-CAND",
+        "HN-CHENGMAI-FTZ-CLEANROOM-20261030-AWARD"
+      ],
+      "search_keys": [
+        "X4600002901006450001 合同",
+        "海口综保区数字经济孵化器 城市更新"
+      ],
+      "required_evidence": [
+        "城市更新关联官方证明",
+        "后续合同公示"
+      ],
+      "next_actions": [
+        "核实是否属于城市更新",
+        "按澄迈实际所在地跟踪"
+      ],
+      "last_attempt_at": "2026-10-31T12:07:07+08:00",
+      "attempts": 1,
+      "last_attempt_note": "三阶段招采官方证据已确认，城市更新关联未确认"
     }
   ]
 }

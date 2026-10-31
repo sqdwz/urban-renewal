@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30",
+  "updated_at": "2026-10-31",
   "purpose": "非核心但可能相关的海南省城市建设项目持续观察库；不计入城市更新核心统计",
   "projects": [
     {
@@ -24,7 +24,7 @@
       "land_area_mu": 60,
       "total_floor_area_sqm": 80264,
       "first_discovered_at": "2026-10-23",
-      "last_checked_at": "2026-10-29",
+      "last_checked_at": "2026-10-31",
       "next_actions": [
         "回溯9月18日可研比选的业主单位官方发布渠道",
         "回溯9月30日流标官方原文",
@@ -63,7 +63,7 @@
         }
       ],
       "data_quality_note": "项目暂定名，不可假定城更关联；采购主体名称在可访问转载中部分隐藏；本观察库用于防漏，不代表A/B/C官方核验。",
-      "official_backfill_note": "10月29日官方索引反查未取得原文或二次比选；两条D级事件不升级"
+      "official_backfill_note": "10月31日公开索引反查未取得A/B/C原始比选、流标及再比选，仍D级，不能断言后续公告不存在"
     },
     {
       "canonical_project_id": "HN-BAISHA-DAAN-RENTAL-HOUSING",
@@ -326,6 +326,96 @@
         }
       ],
       "data_quality_note": "A级公告已核验，不代表城市更新关联已证实。"
+    },
+    {
+      "canonical_project_id": "HN-CHENGMAI-HAIKOU-FTZ-DIGITAL-INCUBATOR-CLEANROOM",
+      "project_name": "海口综保区数字经济孵化器半导体晶圆与存储模组洁净智造改造项目",
+      "project_aliases": [
+        "海口综保区数字经济孵化器",
+        "半导体晶圆与存储模组洁净智造改造"
+      ],
+      "province": "海南省",
+      "city": "澄迈县",
+      "district_county": "澄迈县老城镇",
+      "project_site": "澄迈县老城镇南一环路69号海口综合保税区（老城园区）A-01地块",
+      "publishing_platform_jurisdiction": "海口市",
+      "category": "related_development_watch",
+      "project_type": "产业厂房装修改造",
+      "urban_renewal_relation": "unconfirmed",
+      "verification_status": "verified_project_event_only",
+      "source_level": "A_official_primary",
+      "known_purchasers": [
+        "海口市恒慧基础建设有限公司"
+      ],
+      "known_project_ids": [
+        "X4600002901006450001"
+      ],
+      "floor_area_sqm": 5975.85,
+      "first_discovered_at": "2026-10-31",
+      "last_checked_at": "2026-10-31",
+      "next_actions": [
+        "核实是否与城市更新项目存在官方关联",
+        "跟踪合同公示",
+        "项目所在地澄迈县，不能按海口发布平台误归属"
+      ],
+      "events": [
+        {
+          "id": "HN-CHENGMAI-FTZ-CLEANROOM-20260930-TENDER",
+          "canonical_project_id": "HN-CHENGMAI-HAIKOU-FTZ-DIGITAL-INCUBATOR-CLEANROOM",
+          "project_id": "X4600002901006450001",
+          "title": "海口综保区数字经济孵化器半导体晶圆与存储模组洁净智造改造项目施工招标公告",
+          "province": "海南省",
+          "city": "澄迈县",
+          "publish_date": "2026-09-30",
+          "service_type": "施工",
+          "source_id": "haikou_ggzy",
+          "source_level": "A_official_primary",
+          "source_url": "https://ggzy.haikou.gov.cn/gonggao/95538",
+          "verification_status": "verified",
+          "classification": "related_development_watch",
+          "event_type": "招标公告",
+          "deadline": "2026-10-21T09:00:00+08:00",
+          "control_price_yuan": 10784242.29
+        },
+        {
+          "id": "HN-CHENGMAI-FTZ-CLEANROOM-20261022-CAND",
+          "canonical_project_id": "HN-CHENGMAI-HAIKOU-FTZ-DIGITAL-INCUBATOR-CLEANROOM",
+          "project_id": "X4600002901006450001",
+          "title": "海口综保区数字经济孵化器半导体晶圆与存储模组洁净智造改造项目施工中标候选人公示",
+          "province": "海南省",
+          "city": "澄迈县",
+          "publish_date": "2026-10-22",
+          "service_type": "施工",
+          "source_id": "haikou_ggzy",
+          "source_level": "A_official_primary",
+          "source_url": "https://ggzy.haikou.gov.cn/gonggao/95895",
+          "verification_status": "verified",
+          "classification": "related_development_watch",
+          "event_type": "中标候选人公示",
+          "winning_candidate": "深圳广田集团股份有限公司",
+          "candidate_price_yuan": 10126275.82
+        },
+        {
+          "id": "HN-CHENGMAI-FTZ-CLEANROOM-20261030-AWARD",
+          "canonical_project_id": "HN-CHENGMAI-HAIKOU-FTZ-DIGITAL-INCUBATOR-CLEANROOM",
+          "project_id": "X4600002901006450001",
+          "title": "海口综保区数字经济孵化器半导体晶圆与存储模组洁净智造改造项目施工中标结果公告",
+          "province": "海南省",
+          "city": "澄迈县",
+          "publish_date": "2026-10-30",
+          "service_type": "施工",
+          "source_id": "haikou_ggzy",
+          "source_level": "A_official_primary",
+          "source_url": "https://ggzy.haikou.gov.cn/gonggao/96059",
+          "verification_status": "verified",
+          "classification": "related_development_watch",
+          "event_type": "中标结果公告",
+          "winning_bidder": "深圳广田集团股份有限公司",
+          "award_yuan": 10126275.82,
+          "summary": "海口平台发布但实际建设地点为澄迈县老城镇海口综合保税区老城园区A-01地块。"
+        }
+      ],
+      "data_quality_note": "已核验招标、候选、中标3阶段；尚无城市更新关联证据，不计入core。"
     }
   ]
 }

@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30",
+  "updated_at": "2026-10-31",
   "purpose": "来源异常续跑队列；既有状态来自历史日报，不代表今日已再次连接失败",
   "tasks": [
     {
       "source_id": "hainan_ccgp",
-      "last_observed_error": "2026-10-29",
-      "error_type": "timeout",
+      "last_observed_error": "2026-10-31",
+      "error_type": "Configured official portal timed out",
       "scope": "海南19市县",
       "status": "pending_recheck",
       "result_count": null,
-      "last_attempt_at": "2026-10-30T12:14:36.245+08:00",
-      "attempts": 6
+      "last_attempt_at": "2026-10-31T12:07:07+08:00",
+      "attempts": 7
     },
     {
       "source_id": "ccgp_national",
@@ -20,29 +20,29 @@
       "scope": "海南19市县",
       "status": "partial_recovered_pending_city_scan",
       "result_count": null,
-      "last_attempt_at": "2026-10-30T12:14:36.245+08:00",
-      "attempts": 6,
-      "recovery_note": "官方站点入口恢复可访问，但市县分类/公告日期分页未完成，不能视为完整恢复"
+      "last_attempt_at": "2026-10-31T12:07:07+08:00",
+      "attempts": 7,
+      "recovery_note": "Homepage reachable, Hainan municipality/date pagination incomplete"
     },
     {
       "source_id": "cebpubservice",
-      "last_observed_error": "2026-10-29",
-      "error_type": "HTTP 405",
+      "last_observed_error": "2026-10-31",
+      "error_type": "HTTP 405 Method Not Allowed",
       "scope": "海南19市县",
       "status": "pending_recheck",
       "result_count": null,
-      "last_attempt_at": "2026-10-30T12:14:36.245+08:00",
-      "attempts": 6
+      "last_attempt_at": "2026-10-31T12:07:07+08:00",
+      "attempts": 7
     },
     {
       "source_id": "hainan_ggzy",
       "scope": "海南19市县",
       "status": "pending_recheck",
       "result_count": null,
-      "attempts": 5,
-      "last_observed_error": "2026-10-29",
-      "error_type": "HTTP 404 at configured /ggzyjy path",
-      "last_attempt_at": "2026-10-30T12:14:36.245+08:00",
+      "attempts": 6,
+      "last_observed_error": "2026-10-31",
+      "error_type": "Configured /ggzyjy path returned HTTP 404; some direct announcement pages are accessible",
+      "last_attempt_at": "2026-10-31T12:07:07+08:00",
       "recovery_note": "入口及交易信息栏目可访问，市县日期过滤及分页未完成"
     },
     {

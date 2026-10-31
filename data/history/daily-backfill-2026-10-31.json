@@ -1,0 +1,37 @@
+{
+  "type": "urban-renewal-history-backfill",
+  "schema_version": 3,
+  "date": "2026-10-31",
+  "total_records": 1,
+  "verified_records": 1,
+  "pending_records": 0,
+  "items": [
+    {
+      "id": "HN-HAIKOU-OLDWATER-20261029-DESIGN-TENDER",
+      "canonical_project_id": "HN-HAIKOU-OLD-COMMUNITY-SECONDARY-WATER-PHASE1",
+      "project_id": "X4600002901006689001",
+      "title": "海口市老旧小区二次供水设施设备更新改造工程（一期）（设计）招标公告",
+      "province": "海南省",
+      "city": "海口市",
+      "publish_date": "2026-10-29",
+      "deadline": "2026-11-19T09:00:00+08:00",
+      "procurement_method": "公开招标（机器管招投标）",
+      "amount_yuan": 3625800,
+      "control_price_yuan": 3625800,
+      "purchaser": "海口市城市建设投资集团有限公司",
+      "project_type": "老旧小区基础设施更新改造",
+      "service_type": "初步设计/施工图设计",
+      "project_stage": "规划设计",
+      "event_type": "招标公告",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96041",
+      "verification_status": "verified",
+      "classification": "core",
+      "historical_lead": true,
+      "discovered_at": "2026-10-31T12:07:07+08:00",
+      "summary": "约96个老旧小区、21956户，控制价362.58万元，11月19日09:00截止。"
+    }
+  ],
+  "note": "补录10月29日海口老旧小区二次供水工程设计A级招标，与10月30日勘察、造价公告关联同一canonical_project_id。"
+}
