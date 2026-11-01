@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31",
+  "updated_at": "2026-11-01",
   "purpose": "D级待核验、项目链回溯与缺失官方原文队列；不会自动提升核验等级",
   "tasks": [
     {
@@ -29,9 +29,9 @@
         "检索流标后二次比选及结果",
         "更新观察库但不自行标记verified"
       ],
-      "last_attempt_at": "2026-10-31T12:07:07+08:00",
-      "attempts": 2,
-      "last_attempt_note": "澄迈官方索引与项目名反查无可核验原文，保留D级"
+      "last_attempt_at": "2026-11-01T12:13:24+08:00",
+      "attempts": 3,
+      "last_attempt_note": "公开索引复查仍未取得官方原文；未完成业主官网逐页核验"
     },
     {
       "task_id": "BACKFILL-HN-HAIKOU-GL-II-20261022-ELEVATOR-TENDER",
@@ -826,6 +826,168 @@
       "last_attempt_at": "2026-10-31T12:07:07+08:00",
       "attempts": 1,
       "last_attempt_note": "三阶段招采官方证据已确认，城市更新关联未确认"
+    },
+    {
+      "task_id": "BACKFILL-HN-DANZHOU-2026-OLD-COMMUNITY-20261028-CONSTRUCTION-RE2-TENDER",
+      "project_id": "HN-DANZHOU-2026-OLD-COMMUNITY-INFRA",
+      "city": "儋州市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-11-01",
+      "event_ids": [
+        "HN-DANZHOU-2026-OLD-COMMUNITY-20261028-CONSTRUCTION-RE2-TENDER"
+      ],
+      "search_keys": [
+        "儋州市2026年老旧小区改造及配套基础设施建设项目（二次招标）招标公告",
+        "儋州市城市更新投资发展有限公司"
+      ],
+      "required_evidence": [
+        "采购人/市县政府原始公告",
+        "A/B/C可信公告原文"
+      ],
+      "next_actions": [
+        "确认原始公告日期与项目编号",
+        "关联上下游采购及合同",
+        "D级未核验前不得标记verified"
+      ],
+      "last_attempt_at": "2026-11-01T12:13:24+08:00",
+      "attempts": 1,
+      "last_attempt_note": "已完成第三方发现，官方原文未取得"
+    },
+    {
+      "task_id": "BACKFILL-HN-DANZHOU-LIANGYUAN9-20261028-SECTION2-AWARD",
+      "project_id": "HN-DANZHOU-LIANGYUAN9-OLD-COMMUNITY",
+      "city": "儋州市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-11-01",
+      "event_ids": [
+        "HN-DANZHOU-LIANGYUAN9-20261028-SECTION2-AWARD"
+      ],
+      "search_keys": [
+        "儋州市两院片区热科院南区宿舍等9个老旧小区及周边配套基础设施改造项目（二标段）中标结果公告",
+        "X4600002901006510001"
+      ],
+      "required_evidence": [
+        "采购人/市县政府原始公告",
+        "A/B/C可信公告原文"
+      ],
+      "next_actions": [
+        "确认原始公告日期与项目编号",
+        "关联上下游采购及合同",
+        "D级未核验前不得标记verified"
+      ],
+      "last_attempt_at": "2026-11-01T12:13:24+08:00",
+      "attempts": 1,
+      "last_attempt_note": "已完成第三方发现，官方原文未取得"
+    },
+    {
+      "task_id": "BACKFILL-HN-CHENGMAI-2026-OLD-COMMUNITY-20261013-COST-SELECTION",
+      "project_id": "HN-CHENGMAI-2026-OLD-COMMUNITY-AND-PARKING",
+      "city": "澄迈县",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-11-01",
+      "event_ids": [
+        "HN-CHENGMAI-2026-OLD-COMMUNITY-20261013-COST-SELECTION"
+      ],
+      "search_keys": [
+        "澄迈县2026年老旧小区改造及配套设施项目造价咨询服务单位比选公告",
+        "海南澄迈城市更新有限公司"
+      ],
+      "required_evidence": [
+        "采购人/市县政府原始公告",
+        "A/B/C可信公告原文"
+      ],
+      "next_actions": [
+        "确认原始公告日期与项目编号",
+        "关联上下游采购及合同",
+        "D级未核验前不得标记verified"
+      ],
+      "last_attempt_at": "2026-11-01T12:13:24+08:00",
+      "attempts": 1,
+      "last_attempt_note": "已完成第三方发现，官方原文未取得"
+    },
+    {
+      "task_id": "BACKFILL-HN-CHENGMAI-2026-OLD-COMMUNITY-20261023-COST-AWARD",
+      "project_id": "HN-CHENGMAI-2026-OLD-COMMUNITY-AND-PARKING",
+      "city": "澄迈县",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-11-01",
+      "event_ids": [
+        "HN-CHENGMAI-2026-OLD-COMMUNITY-20261023-COST-AWARD"
+      ],
+      "search_keys": [
+        "澄迈县2026年老旧小区改造及配套设施项目造价咨询服务单位中选公示",
+        "海南澄迈城市更新有限公司"
+      ],
+      "required_evidence": [
+        "采购人/市县政府原始公告",
+        "A/B/C可信公告原文"
+      ],
+      "next_actions": [
+        "确认原始公告日期与项目编号",
+        "关联上下游采购及合同",
+        "D级未核验前不得标记verified"
+      ],
+      "last_attempt_at": "2026-11-01T12:13:24+08:00",
+      "attempts": 1,
+      "last_attempt_note": "已完成第三方发现，官方原文未取得"
+    },
+    {
+      "task_id": "BACKFILL-HN-CHENGMAI-2026-OLD-COMMUNITY-20260914-SOIL-WATER-SELECTION",
+      "project_id": "HN-CHENGMAI-2026-OLD-COMMUNITY-AND-PARKING",
+      "city": "澄迈县",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-11-01",
+      "event_ids": [
+        "HN-CHENGMAI-2026-OLD-COMMUNITY-20260914-SOIL-WATER-SELECTION"
+      ],
+      "search_keys": [
+        "澄迈县2026年老旧小区改造及配套设施项目水土保持方案编制及监测服务单位比选公告",
+        "海南澄迈城市更新有限公司"
+      ],
+      "required_evidence": [
+        "采购人/市县政府原始公告",
+        "A/B/C可信公告原文"
+      ],
+      "next_actions": [
+        "确认原始公告日期与项目编号",
+        "关联上下游采购及合同",
+        "D级未核验前不得标记verified"
+      ],
+      "last_attempt_at": "2026-11-01T12:13:24+08:00",
+      "attempts": 1,
+      "last_attempt_note": "已完成第三方发现，官方原文未取得"
+    },
+    {
+      "task_id": "BACKFILL-HN-CHENGMAI-2026-OLD-COMMUNITY-20260924-SOIL-WATER-AWARD",
+      "project_id": "HN-CHENGMAI-2026-OLD-COMMUNITY-AND-PARKING",
+      "city": "澄迈县",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-11-01",
+      "event_ids": [
+        "HN-CHENGMAI-2026-OLD-COMMUNITY-20260924-SOIL-WATER-AWARD"
+      ],
+      "search_keys": [
+        "澄迈县2026年老旧小区改造及配套设施项目水土保持方案编制及监测服务单位中选公示",
+        "海南澄迈城市更新有限公司"
+      ],
+      "required_evidence": [
+        "采购人/市县政府原始公告",
+        "A/B/C可信公告原文"
+      ],
+      "next_actions": [
+        "确认原始公告日期与项目编号",
+        "关联上下游采购及合同",
+        "D级未核验前不得标记verified"
+      ],
+      "last_attempt_at": "2026-11-01T12:13:24+08:00",
+      "attempts": 1,
+      "last_attempt_note": "已完成第三方发现，官方原文未取得"
     }
   ]
 }
