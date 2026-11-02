@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-01",
+  "updated_at": "2026-11-02",
   "purpose": "D级待核验、项目链回溯与缺失官方原文队列；不会自动提升核验等级",
   "tasks": [
     {
@@ -988,6 +988,285 @@
       "last_attempt_at": "2026-11-01T12:13:24+08:00",
       "attempts": 1,
       "last_attempt_note": "已完成第三方发现，官方原文未取得"
+    },
+    {
+      "task_id": "BACKFILL-HN-WENCHANG-PLAN-20260923-TENDER",
+      "project_id": "HN-WENCHANG-2026-CENTRAL-URBAN-RENEWAL-PLAN",
+      "city": "文昌市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-11-02",
+      "event_ids": [
+        "HN-WENCHANG-PLAN-20260923-TENDER"
+      ],
+      "search_keys": [
+        "文昌市中心城区城市更新专项规划竞争性磋商公告",
+        "[ZHAO-C]20260900001[CS]",
+        "文昌市住房和城乡建设局"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "同项目编号及前后公告链"
+      ],
+      "next_actions": [
+        "核对官方原文及最新更正",
+        "检查前置招标、候选、结果和合同",
+        "保留第三方原URL，未核验不升级"
+      ],
+      "last_attempt_at": "2026-11-02T12:06:18+08:00",
+      "attempts": 1,
+      "last_attempt_note": "已进行公开索引检索；未取得该事件A/B/C原文"
+    },
+    {
+      "task_id": "BACKFILL-HN-WENCHANG-PLAN-20260924-CORRECTION",
+      "project_id": "HN-WENCHANG-2026-CENTRAL-URBAN-RENEWAL-PLAN",
+      "city": "文昌市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-11-02",
+      "event_ids": [
+        "HN-WENCHANG-PLAN-20260924-CORRECTION"
+      ],
+      "search_keys": [
+        "文昌市中心城区城市更新专项规划采购更正公告（第一次）",
+        "[ZHAO-C]20260900001[CS]",
+        "文昌市住房和城乡建设局"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "同项目编号及前后公告链"
+      ],
+      "next_actions": [
+        "核对官方原文及最新更正",
+        "检查前置招标、候选、结果和合同",
+        "保留第三方原URL，未核验不升级"
+      ],
+      "last_attempt_at": "2026-11-02T12:06:18+08:00",
+      "attempts": 1,
+      "last_attempt_note": "已进行公开索引检索；未取得该事件A/B/C原文"
+    },
+    {
+      "task_id": "BACKFILL-HN-WENCHANG-PLAN-20261013-AWARD",
+      "project_id": "HN-WENCHANG-2026-CENTRAL-URBAN-RENEWAL-PLAN",
+      "city": "文昌市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-11-02",
+      "event_ids": [
+        "HN-WENCHANG-PLAN-20261013-AWARD"
+      ],
+      "search_keys": [
+        "文昌市中心城区城市更新专项规划结果公告（采购包1）",
+        "[ZHAO-C]20260900001[CS]",
+        "文昌市住房和城乡建设局"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "同项目编号及前后公告链"
+      ],
+      "next_actions": [
+        "核对官方原文及最新更正",
+        "检查前置招标、候选、结果和合同",
+        "保留第三方原URL，未核验不升级"
+      ],
+      "last_attempt_at": "2026-11-02T12:06:18+08:00",
+      "attempts": 1,
+      "last_attempt_note": "已进行公开索引检索；未取得该事件A/B/C原文"
+    },
+    {
+      "task_id": "BACKFILL-HN-WENCHANG-OLD-20261013-CONSTRUCTION-AWARD",
+      "project_id": "HN-WENCHANG-2026-OLD-COMMUNITY",
+      "city": "文昌市",
+      "priority": "medium",
+      "status": "pending",
+      "first_seen": "2026-11-02",
+      "event_ids": [
+        "HN-WENCHANG-OLD-20261013-CONSTRUCTION-AWARD"
+      ],
+      "search_keys": [
+        "文昌市2026年老旧小区改造项目施工中标结果公告",
+        "X4600002901006233001",
+        "文昌市住房和城乡建设局"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "同项目编号及前后公告链"
+      ],
+      "next_actions": [
+        "核对官方原文及最新更正",
+        "检查前置招标、候选、结果和合同",
+        "保留第三方原URL，未核验不升级"
+      ],
+      "last_attempt_at": "2026-11-02T12:06:18+08:00",
+      "attempts": 1,
+      "last_attempt_note": "已进行公开索引检索；未取得该事件A/B/C原文"
+    },
+    {
+      "task_id": "BACKFILL-HN-WENCHANG-OLD-20261014-SUPERVISION-TENDER",
+      "project_id": "HN-WENCHANG-2026-OLD-COMMUNITY",
+      "city": "文昌市",
+      "priority": "medium",
+      "status": "pending",
+      "first_seen": "2026-11-02",
+      "event_ids": [
+        "HN-WENCHANG-OLD-20261014-SUPERVISION-TENDER"
+      ],
+      "search_keys": [
+        "文昌市2026年老旧小区改造项目监理竞争性磋商公告",
+        "HNKN2026-161",
+        "文昌市住房和城乡建设局"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "同项目编号及前后公告链"
+      ],
+      "next_actions": [
+        "核对官方原文及最新更正",
+        "检查前置招标、候选、结果和合同",
+        "保留第三方原URL，未核验不升级"
+      ],
+      "last_attempt_at": "2026-11-02T12:06:18+08:00",
+      "attempts": 1,
+      "last_attempt_note": "已进行公开索引检索；未取得该事件A/B/C原文"
+    },
+    {
+      "task_id": "BACKFILL-HN-WENCHANG-OLD-20261028-SUPERVISION-AWARD",
+      "project_id": "HN-WENCHANG-2026-OLD-COMMUNITY",
+      "city": "文昌市",
+      "priority": "medium",
+      "status": "pending",
+      "first_seen": "2026-11-02",
+      "event_ids": [
+        "HN-WENCHANG-OLD-20261028-SUPERVISION-AWARD"
+      ],
+      "search_keys": [
+        "文昌市2026年老旧小区改造项目监理成交结果公告",
+        "HNKN2026-161",
+        "文昌市住房和城乡建设局"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "同项目编号及前后公告链"
+      ],
+      "next_actions": [
+        "核对官方原文及最新更正",
+        "检查前置招标、候选、结果和合同",
+        "保留第三方原URL，未核验不升级"
+      ],
+      "last_attempt_at": "2026-11-02T12:06:18+08:00",
+      "attempts": 1,
+      "last_attempt_note": "已进行公开索引检索；未取得该事件A/B/C原文"
+    },
+    {
+      "task_id": "BACKFILL-HN-DONGFANG-BINHAI-20261030-POWER-PARCEL35",
+      "project_id": "HN-DONGFANG-BINHAI-RESETTLEMENT-PH3",
+      "city": "东方市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-11-02",
+      "event_ids": [
+        "HN-DONGFANG-BINHAI-20261030-POWER-PARCEL35"
+      ],
+      "search_keys": [
+        "东方市滨海片区（一期）棚户区改造项目第三批安置房（地块三、地块五）市政外线配电工程竞争性磋商",
+        "HN-DONGFANG-BINHAI-RESETTLEMENT-PH3",
+        "东方城投项目管理有限公司（第三方转载）"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "同项目编号及前后公告链"
+      ],
+      "next_actions": [
+        "核对官方原文及最新更正",
+        "检查前置招标、候选、结果和合同",
+        "保留第三方原URL，未核验不升级"
+      ],
+      "last_attempt_at": "2026-11-02T12:06:18+08:00",
+      "attempts": 1,
+      "last_attempt_note": "已进行公开索引检索；未取得该事件A/B/C原文"
+    },
+    {
+      "task_id": "BACKFILL-HN-DONGFANG-BINHAI-20261030-POWER-PARCEL7",
+      "project_id": "HN-DONGFANG-BINHAI-RESETTLEMENT-PH3",
+      "city": "东方市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-11-02",
+      "event_ids": [
+        "HN-DONGFANG-BINHAI-20261030-POWER-PARCEL7"
+      ],
+      "search_keys": [
+        "东方市滨海片区（一期）棚户区改造项目第三批安置房（地块七）市政外线配电工程竞争性磋商",
+        "HNJY-2026-10-02（第三方转载）",
+        "东方城投项目管理有限公司（第三方转载）"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "同项目编号及前后公告链"
+      ],
+      "next_actions": [
+        "核对官方原文及最新更正",
+        "检查前置招标、候选、结果和合同",
+        "保留第三方原URL，未核验不升级"
+      ],
+      "last_attempt_at": "2026-11-02T12:06:18+08:00",
+      "attempts": 1,
+      "last_attempt_note": "已进行公开索引检索；未取得该事件A/B/C原文"
+    },
+    {
+      "task_id": "BACKFILL-HN-DONGFANG-TAI-LONG-20261030-SUPERVISION-CAND",
+      "project_id": "HN-DONGFANG-BINHAI-110KV",
+      "city": "东方市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-11-02",
+      "event_ids": [
+        "HN-DONGFANG-TAI-LONG-20261030-SUPERVISION-CAND"
+      ],
+      "search_keys": [
+        "东方市滨海片区（一期）棚户区改造项目110kV泰隆输变电新建工程监理（二次招标）中标候选人公示",
+        "dfzw20260930005",
+        "东方市城市建设投资集团有限公司"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "同项目编号及前后公告链"
+      ],
+      "next_actions": [
+        "核对官方原文及最新更正",
+        "检查前置招标、候选、结果和合同",
+        "保留第三方原URL，未核验不升级"
+      ],
+      "last_attempt_at": "2026-11-02T12:06:18+08:00",
+      "attempts": 1,
+      "last_attempt_note": "已进行公开索引检索；未取得该事件A/B/C原文"
+    },
+    {
+      "task_id": "BACKFILL-HN-CHENGMAI-QINGCHENGLI-20261030-AGENCY-SELECTION",
+      "project_id": "HN-CHENGMAI-QINGCHENGLI-PH2",
+      "city": "澄迈县",
+      "priority": "medium",
+      "status": "pending",
+      "first_seen": "2026-11-02",
+      "event_ids": [
+        "HN-CHENGMAI-QINGCHENGLI-20261030-AGENCY-SELECTION"
+      ],
+      "search_keys": [
+        "青澄里改造提升工程项目（二期）招标代理服务机构比选公告",
+        "HN-CHENGMAI-QINGCHENGLI-PH2"
+      ],
+      "required_evidence": [
+        "A/B/C原始公告",
+        "同项目编号及前后公告链"
+      ],
+      "next_actions": [
+        "核对官方原文及最新更正",
+        "检查前置招标、候选、结果和合同",
+        "保留第三方原URL，未核验不升级"
+      ],
+      "last_attempt_at": "2026-11-02T12:06:18+08:00",
+      "attempts": 1,
+      "last_attempt_note": "已进行公开索引检索；未取得该事件A/B/C原文"
     }
   ]
 }
