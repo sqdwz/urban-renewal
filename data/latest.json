@@ -1,13 +1,13 @@
 {
   "type": "urban-tender-daily",
   "schema_version": 3,
-  "date": "2026-11-03",
-  "generated_at": "2026-11-03T12:07:52+08:00",
-  "title": "海南省城市更新招投标日报（2026-11-03，来源巡检未完成）",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T12:10:12+08:00",
+  "title": "海南省城市更新招投标日报（2026-11-04，来源巡检未完成）",
   "scan_status": "partial_incomplete_mandatory_sources",
   "summary": {
     "new_today": null,
-    "new_today_count_status": "未完成2026-11-03当日19市县必查来源双轨栏目与日期分页检索，不能断言零新增",
+    "new_today_count_status": "19市县必查来源双轨栏目和分页未完成，无法判定全省当日新增数",
     "verified_expanded_today": 0,
     "new_discovery_leads": 0,
     "active_core": null,
@@ -15,7 +15,7 @@
     "related_development_watch": 6,
     "core_project_pipeline_watch": 1,
     "expanded_candidates": 10,
-    "upcoming_deadlines": 17,
+    "upcoming_deadlines": 16,
     "backfilled_core_events": 0,
     "backfilled_pending_events": 0,
     "backfilled_total_events": 0,
@@ -26,45 +26,14 @@
     "jurisdictions_complete": 0,
     "jurisdictions_incomplete": 19,
     "official_backfill_completed_today": 0,
-    "official_backfill_pending": 47,
+    "official_backfill_pending": 49,
     "project_chain_pending": 2,
-    "note": "本轮实时读取仓库v6配置、历史、队列及昨日数据；公开索引复查澄迈开元广场仅见D级比选与流标转载，未取得官方原文。此前来源异常属于历史未解决任务，不冒充今日重试结果。19市县原生栏目分页未完成。"
+    "note": "实时读取main仓库v6配置及队列。仅有限公开索引复核；澄迈开元广场仍仅有D级9月18日比选、9月30日流标转载，未发现可升级官方证据。今日未发现可确认新增，仅限已访问网页，不代表全省零新增。"
   },
   "new_items": [],
   "discovery_leads_today": [],
   "backfilled_events": [],
   "upcoming_deadlines": [
-    {
-      "id": "HN-LINGSHUI-LINGJIANG-EAST-ROOF-20261013-RE2",
-      "canonical_project_id": "HN-LINGSHUI-LINGJIANG-EAST-SHANTYTOWN-PH1",
-      "project_id": null,
-      "title": "（机器管招投标）陵水黎族自治县陵江东路片区棚户区改造项目一期屋面改造项目（二次）招标公告",
-      "province": "海南省",
-      "city": "陵水黎族自治县",
-      "district_county": null,
-      "publish_date": "2026-10-13",
-      "deadline": "2026-11-03T09:00:00+08:00",
-      "procurement_method": "公开招标（二次）",
-      "amount_yuan": 939955.57,
-      "control_price_yuan": 939955.57,
-      "purchaser": "陵水黎族自治县城乡投资有限公司",
-      "project_type": "棚户区改造",
-      "service_type": "施工",
-      "project_stage": "建设实施",
-      "event_type": "二次招标",
-      "source_id": "third_party_discovery",
-      "source_level": "D_discovery_only",
-      "source_url": "https://hi.zhaobiao.lanyancloud.com/notice/27ae2a49cc8c44b3",
-      "verification_status": "pending_official_backfill",
-      "status": "active_pending_recheck",
-      "chain_gap": "first_tender_and_official_notice_pending",
-      "known_project_ids": [],
-      "project_aliases": [
-        "陵江东路片区棚改一期屋面改造"
-      ],
-      "data_quality_note": "10月13日第三方聚合公告；A/B/C官方原文及首次招标/异常公告尚未核实，不得计入已核验核心项目。",
-      "summary": "对1#至8#住宅楼屋面女儿墙增设防护栏杆约2775.24米，最高限价939955.57元，11月3日09:00截止；仅D级线索。"
-    },
     {
       "id": "HN-CHENGMAI-QINGCHENGLI-20261030-AGENCY-SELECTION",
       "canonical_project_id": "HN-CHENGMAI-QINGCHENGLI-PH2",
@@ -767,535 +736,230 @@
     {
       "city": "海口市",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started",
-        "haikou_ggzy": "global_homepage_only"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     },
     {
       "city": "三亚市",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     },
     {
       "city": "三沙市",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     },
     {
       "city": "儋州市",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     },
     {
       "city": "五指山市",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     },
     {
       "city": "琼海市",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     },
     {
       "city": "文昌市",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     },
     {
       "city": "万宁市",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     },
     {
       "city": "东方市",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     },
     {
       "city": "定安县",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     },
     {
       "city": "屯昌县",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     },
     {
       "city": "澄迈县",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     },
     {
       "city": "临高县",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     },
     {
       "city": "白沙黎族自治县",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     },
     {
       "city": "昌江黎族自治县",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     },
     {
       "city": "乐东黎族自治县",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     },
     {
       "city": "陵水黎族自治县",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     },
     {
       "city": "保亭黎族苗族自治县",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     },
     {
       "city": "琼中黎族苗族自治县",
       "coverage_status": "not_completed_this_run",
-      "keyword_first_pass": "not_executed_this_run",
-      "mandatory_source_groups": {
-        "hainan_ggzy": "global_homepage_only",
-        "hainan_ccgp": "source_error",
-        "jurisdiction_government": "not_started",
-        "ccgp_national": "source_error",
-        "ggzy_national": "global_homepage_only",
-        "cebpubservice": "source_error",
-        "hnzfcgxh": "global_homepage_only",
-        "project_owner_official": "not_started"
-      },
-      "source_error_ids": [
-        "hainan_ccgp",
-        "ccgp_national",
-        "cebpubservice"
-      ],
-      "source_unavailable_ids": [],
-      "uncompleted_mandatory": true,
+      "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
         "broad_procurement": "not_completed"
       },
-      "project_chain_status": "in_progress",
-      "note": "本轮未完成该市县官方来源实际公告栏目及日期分页；旧状态仅为上次巡检记录，不作为今日执行证明"
+      "pagination_complete": false,
+      "result_count": null,
+      "note": "未完成必查来源栏目及日期分页，不能判零"
     }
   ],
   "attention_events": [
@@ -1346,7 +1010,7 @@
       "青澄里二期业主比选原文"
     ]
   },
-  "data_quality_note": "本轮未完成强制覆盖；不将昨日source_error作为今日实测错误，不将D级提升verified。历史队列及观察库未改动。",
+  "data_quality_note": "未检索来源不记0；D级不升级；历史索引196条未改。",
   "core_project_pipeline_watch": [
     {
       "canonical_project_id": "HN-SANYA-JIYANG-HEDONGLU-MICRO-RENEWAL",
@@ -1398,10 +1062,10 @@
     }
   ],
   "run_limitations": [
-    "19市县A/B双轨原生分类及分页未完成",
-    "来源重试队列保留昨日状态，今日未完成重新逐项连接",
-    "官方补录47项尚未逐项核验",
-    "未执行完整7天滚动/30天抽查/90天回溯"
+    "19市县官方必查来源A/B双轨原生栏目分页未完成",
+    "只进行了有限公开索引复核",
+    "历史来源异常本轮未逐项重测",
+    "49项官方补录及5项来源重试仍待处理"
   ],
   "historical_source_errors_unresolved": [
     {
