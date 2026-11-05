@@ -1,15 +1,15 @@
 {
   "type": "urban-tender-daily",
   "schema_version": 3,
-  "date": "2026-11-04",
-  "generated_at": "2026-11-04T12:10:12+08:00",
-  "title": "海南省城市更新招投标日报（2026-11-04，来源巡检未完成）",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T12:05:06+08:00",
+  "title": "海南省城市更新招投标日报（2026-11-05，必查来源未完成）",
   "scan_status": "partial_incomplete_mandatory_sources",
   "summary": {
     "new_today": null,
-    "new_today_count_status": "19市县必查来源双轨栏目和分页未完成，无法判定全省当日新增数",
+    "new_today_count_status": "仅有限公开搜索与既有官方公告复核；19市县必查来源的双轨分类和分页未完成，无法核定全省新增",
     "verified_expanded_today": 0,
-    "new_discovery_leads": 0,
+    "new_discovery_leads": 1,
     "active_core": null,
     "active_core_count_status": "必查来源未完成，无法可靠核定",
     "related_development_watch": 6,
@@ -19,7 +19,7 @@
     "backfilled_core_events": 0,
     "backfilled_pending_events": 0,
     "backfilled_total_events": 0,
-    "historical_watch_leads": 0,
+    "historical_watch_leads": 1,
     "history_ingest_status": "no_new_verified_backfill_this_run; history_index_unchanged",
     "source_error_count": 0,
     "source_unavailable_count": 0,
@@ -28,10 +28,23 @@
     "official_backfill_completed_today": 0,
     "official_backfill_pending": 49,
     "project_chain_pending": 2,
-    "note": "实时读取main仓库v6配置及队列。仅有限公开索引复核；澄迈开元广场仍仅有D级9月18日比选、9月30日流标转载，未发现可升级官方证据。今日未发现可确认新增，仅限已访问网页，不代表全省零新增。"
+    "note": "今日有限检索确认海口10月29日老旧小区供水勘察、设计公告属于既有项目链，未重复入库；发现11月3日海口星达·枫丹白露前期物业官方公告，因城市更新关联未证实且尚未完成去重，作为待复核线索，不计入已核验新增。澄迈开元广场仍仅D级。今日未发现可确认的核心新增，仅限已检索来源。"
   },
   "new_items": [],
-  "discovery_leads_today": [],
+  "discovery_leads_today": [
+    {
+      "title": "星达·枫丹白露项目前期物业管理服务项目招标公告",
+      "city": "海口市",
+      "publish_date": "2026-11-03",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96118",
+      "project_id": "E4601000001001451001",
+      "classification": "related_development_watch_candidate",
+      "verification_status": "verified_source_only_pending_relevance_and_dedup",
+      "data_quality_note": "官方公告可见，城市更新关联尚未证实；未完成历史去重，不计入新增统计或核心库"
+    }
+  ],
   "backfilled_events": [],
   "upcoming_deadlines": [
     {
@@ -735,7 +748,7 @@
   "jurisdiction_coverage": [
     {
       "city": "海口市",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -747,7 +760,7 @@
     },
     {
       "city": "三亚市",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -759,7 +772,7 @@
     },
     {
       "city": "三沙市",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -771,7 +784,7 @@
     },
     {
       "city": "儋州市",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -783,7 +796,7 @@
     },
     {
       "city": "五指山市",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -795,7 +808,7 @@
     },
     {
       "city": "琼海市",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -807,7 +820,7 @@
     },
     {
       "city": "文昌市",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -819,7 +832,7 @@
     },
     {
       "city": "万宁市",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -831,7 +844,7 @@
     },
     {
       "city": "东方市",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -843,7 +856,7 @@
     },
     {
       "city": "定安县",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -855,7 +868,7 @@
     },
     {
       "city": "屯昌县",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -867,7 +880,7 @@
     },
     {
       "city": "澄迈县",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -879,7 +892,7 @@
     },
     {
       "city": "临高县",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -891,7 +904,7 @@
     },
     {
       "city": "白沙黎族自治县",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -903,7 +916,7 @@
     },
     {
       "city": "昌江黎族自治县",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -915,7 +928,7 @@
     },
     {
       "city": "乐东黎族自治县",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -927,7 +940,7 @@
     },
     {
       "city": "陵水黎族自治县",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -939,7 +952,7 @@
     },
     {
       "city": "保亭黎族苗族自治县",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -951,7 +964,7 @@
     },
     {
       "city": "琼中黎族苗族自治县",
-      "coverage_status": "not_completed_this_run",
+      "coverage_status": "partial",
       "mandatory_source_groups_status": "not_completed",
       "discovery_tracks": {
         "core_theme": "not_completed",
@@ -1010,7 +1023,7 @@
       "青澄里二期业主比选原文"
     ]
   },
-  "data_quality_note": "未检索来源不记0；D级不升级；历史索引196条未改。",
+  "data_quality_note": "今日来源检索仅限公开搜索与少量公告原文，不得将source_audit的既有未开始条目误记为今日实际检索；历史来源错误尚未重新核实。",
   "core_project_pipeline_watch": [
     {
       "canonical_project_id": "HN-SANYA-JIYANG-HEDONGLU-MICRO-RENEWAL",
@@ -1062,10 +1075,11 @@
     }
   ],
   "run_limitations": [
-    "19市县官方必查来源A/B双轨原生栏目分页未完成",
-    "只进行了有限公开索引复核",
-    "历史来源异常本轮未逐项重测",
-    "49项官方补录及5项来源重试仍待处理"
+    "未完成19市县来源×A/B轨道×公告类别的原生栏目日期分页",
+    "未完成7日滚动全量及30日抽查",
+    "5项来源重试未逐项完成复测，沿用历史待办而非声称今日错误",
+    "49项官方补录未逐项核验",
+    "未对全部历史事件执行跨数据集去重"
   ],
   "historical_source_errors_unresolved": [
     {
