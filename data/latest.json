@@ -1,143 +1,66 @@
 {
   "type": "urban-tender-daily",
   "schema_version": 3,
-  "date": "2026-11-05",
-  "generated_at": "2026-11-05T12:05:06+08:00",
-  "title": "海南省城市更新招投标日报（2026-11-05，必查来源未完成）",
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T12:10:00+08:00",
+  "title": "海南省城市更新招投标日报（2026-11-06，必查来源未完成）",
   "scan_status": "partial_incomplete_mandatory_sources",
   "summary": {
     "new_today": null,
-    "new_today_count_status": "仅有限公开搜索与既有官方公告复核；19市县必查来源的双轨分类和分页未完成，无法核定全省新增",
+    "new_today_count_status": "11月6日全省新增数量未核定；滚动窗口核验11月5日海口官方核心测量招标1条",
     "verified_expanded_today": 0,
-    "new_discovery_leads": 1,
+    "new_discovery_leads": 0,
     "active_core": null,
     "active_core_count_status": "必查来源未完成，无法可靠核定",
     "related_development_watch": 6,
     "core_project_pipeline_watch": 1,
     "expanded_candidates": 10,
-    "upcoming_deadlines": 16,
+    "upcoming_deadlines": 13,
     "backfilled_core_events": 0,
     "backfilled_pending_events": 0,
     "backfilled_total_events": 0,
     "historical_watch_leads": 1,
     "history_ingest_status": "no_new_verified_backfill_this_run; history_index_unchanged",
-    "source_error_count": 0,
-    "source_unavailable_count": 0,
+    "source_error_count": null,
+    "source_unavailable_count": null,
     "jurisdictions_complete": 0,
     "jurisdictions_incomplete": 19,
     "official_backfill_completed_today": 0,
     "official_backfill_pending": 49,
     "project_chain_pending": 2,
-    "note": "今日有限检索确认海口10月29日老旧小区供水勘察、设计公告属于既有项目链，未重复入库；发现11月3日海口星达·枫丹白露前期物业官方公告，因城市更新关联未证实且尚未完成去重，作为待复核线索，不计入已核验新增。澄迈开元广场仍仅D级。今日未发现可确认的核心新增，仅限已检索来源。"
+    "note": "11月5日海口秀英区老旧小区供水改造测量招标官方公告已核验；11月6日未完成全省19市县双轨来源分页。澄迈开元广场仍D级。",
+    "new_verified_core_in_rolling_window": 1,
+    "new_verified_core_published_today": null
   },
-  "new_items": [],
-  "discovery_leads_today": [
+  "new_items": [
     {
-      "title": "星达·枫丹白露项目前期物业管理服务项目招标公告",
+      "id": "HN-HAIKOU-XIUYING-OLDWATER-20261105-SURVEY-TENDER",
+      "canonical_project_id": "HN-HAIKOU-XIUYING-OLDWATER-2026",
+      "project_id": null,
+      "title": "海口市秀英区老旧小区二次供水设施设备更新改造工程测量招标公告",
+      "province": "海南省",
       "city": "海口市",
-      "publish_date": "2026-11-03",
+      "district_county": "秀英区",
+      "publish_date": "2026-11-05",
+      "deadline": "2026-11-26T09:30:00+08:00",
+      "event_type": "招标公告",
+      "service_type": "测绘",
+      "project_type": "老旧小区改造",
+      "project_stage": "勘察测绘",
+      "purchaser": "海口市城市建设投资集团有限公司",
       "source_id": "haikou_ggzy",
       "source_level": "A_official_primary",
-      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96118",
-      "project_id": "E4601000001001451001",
-      "classification": "related_development_watch_candidate",
-      "verification_status": "verified_source_only_pending_relevance_and_dedup",
-      "data_quality_note": "官方公告可见，城市更新关联尚未证实；未完成历史去重，不计入新增统计或核心库"
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96161",
+      "verification_status": "verified",
+      "classification": "core",
+      "discovered_at": "2026-11-06T12:10:00+08:00",
+      "summary": "秀英区约108个老旧小区、14806户；11月5日发布测量招标，11月26日09:30投标截止。",
+      "data_quality_note": "官方原文已确认；与此前海口市一期供水改造项目的上位关系待核对；未完成历史全库去重。"
     }
   ],
+  "discovery_leads_today": [],
   "backfilled_events": [],
   "upcoming_deadlines": [
-    {
-      "id": "HN-CHENGMAI-QINGCHENGLI-20261030-AGENCY-SELECTION",
-      "canonical_project_id": "HN-CHENGMAI-QINGCHENGLI-PH2",
-      "title": "青澄里改造提升工程项目（二期）招标代理服务机构比选公告",
-      "city": "澄迈县",
-      "publish_date": "2026-10-30",
-      "event_type": "比选公告",
-      "service_type": "招标代理",
-      "deadline": "2026-11-05T17:30:00+08:00",
-      "source_id": "third_party_discovery",
-      "source_level": "D_discovery_only",
-      "source_url": "https://www.arrbid.com/sitedetail/area_294/zbgg",
-      "verification_status": "pending_official_backfill",
-      "data_quality_note": "D级聚合页面，尚未取得澄迈澄发安宸项目有限公司原文；不证明城市更新关联"
-    },
-    {
-      "province": "海南省",
-      "district_county": null,
-      "status": "active_pending_recheck",
-      "deadline": "2026-11-06T08:30:00+08:00",
-      "amount_yuan": 62550475.42,
-      "project_id": null,
-      "chain_gap": "official_notice_pending",
-      "verification_status": "pending_official_backfill",
-      "source_level": "D_discovery_only",
-      "id": "HN-WANNING-23-20261016-CONSTRUCTION-TENDER",
-      "canonical_project_id": "HN-WANNING-TONGYONG-23-OLD-COMMUNITY",
-      "title": "万宁市通用厂小区等23个老旧小区改造及配套基础设施建设项目施工招标公告",
-      "city": "万宁市",
-      "publish_date": "2026-10-16",
-      "procurement_method": "公开招标",
-      "purchaser": "万宁市城乡发展有限公司",
-      "project_type": "老旧小区改造",
-      "service_type": "施工",
-      "project_stage": "建设实施",
-      "event_type": "招标公告",
-      "source_id": "third_party_discovery",
-      "source_url": "https://hi.zhaobiao.lanyancloud.com/notice/dcef1a1897c3487b",
-      "control_price_yuan": 62550475.42,
-      "summary": "23个小区及19条衔接道路施工，限价62550475.42元，11月6日08:30截止。"
-    },
-    {
-      "id": "HN-HAIKOU-GUILINYANG-20261030-ELECTRIC-METER-RE2",
-      "canonical_project_id": "HN-HAIKOU-GUILINYANG-2026-METER-UPGRADE",
-      "title": "2026年抄表到户改造项目施工（二次）询比采购公告",
-      "province": "海南省",
-      "city": "海口市",
-      "publish_date": "2026-10-30",
-      "source_id": "haikou_ggzy",
-      "source_level": "A_official_primary",
-      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96063",
-      "verification_status": "verified",
-      "classification": "expanded_candidates",
-      "historical_lead": true,
-      "discovered_at": "2026-11-01T12:13:24+08:00",
-      "project_id": "WJC100004686",
-      "event_type": "二次招标公告",
-      "project_type": "供电计量设施改造（城市更新关联未证实）",
-      "service_type": "电力工程施工",
-      "purchaser": "海南省桂林洋公用事业发展有限公司",
-      "control_price_yuan": 2380344.82,
-      "price_tax_status": "不含税",
-      "deadline": "2026-11-06T08:30:00+08:00",
-      "summary": "海口官方平台10月30日公告，施工询比二次采购，控制价238.03万元（不含税），11月6日08:30截止；未证实老旧小区/城市更新关联。"
-    },
-    {
-      "province": "海南省",
-      "district_county": null,
-      "status": "active_pending_recheck",
-      "deadline": "2026-11-06T09:30:00+08:00",
-      "amount_yuan": 1021900,
-      "project_id": null,
-      "chain_gap": "official_notice_pending",
-      "verification_status": "pending_official_backfill",
-      "source_level": "D_discovery_only",
-      "id": "HN-WANNING-23-20261016-SUPERVISION-TENDER",
-      "canonical_project_id": "HN-WANNING-TONGYONG-23-OLD-COMMUNITY",
-      "title": "万宁市通用厂小区等23个老旧小区改造及配套基础设施建设项目监理招标公告",
-      "city": "万宁市",
-      "publish_date": "2026-10-16",
-      "procurement_method": "公开招标",
-      "purchaser": "万宁市城乡发展有限公司",
-      "project_type": "老旧小区改造",
-      "service_type": "监理",
-      "project_stage": "建设实施",
-      "event_type": "招标公告",
-      "source_id": "third_party_discovery",
-      "source_url": "https://hi.zhaobiao.lanyancloud.com/notice/40f8f405bb664384",
-      "control_price_yuan": 1021900,
-      "summary": "施工及保修阶段监理，限价102.19万元，11月6日09:30截止。"
-    },
     {
       "canonical_project_id": "HN-HAIKOU-OLD-COMMUNITY-SECONDARY-WATER-PHASE1",
       "province": "海南省",
@@ -458,6 +381,30 @@
       "historical_lead": true,
       "discovered_at": "2026-10-30T12:14:03.996+08:00",
       "summary": "第三方转载；待铁建云链/总包官方原文核验。"
+    },
+    {
+      "id": "HN-HAIKOU-XIUYING-OLDWATER-20261105-SURVEY-TENDER",
+      "canonical_project_id": "HN-HAIKOU-XIUYING-OLDWATER-2026",
+      "project_id": null,
+      "title": "海口市秀英区老旧小区二次供水设施设备更新改造工程测量招标公告",
+      "province": "海南省",
+      "city": "海口市",
+      "district_county": "秀英区",
+      "publish_date": "2026-11-05",
+      "deadline": "2026-11-26T09:30:00+08:00",
+      "event_type": "招标公告",
+      "service_type": "测绘",
+      "project_type": "老旧小区改造",
+      "project_stage": "勘察测绘",
+      "purchaser": "海口市城市建设投资集团有限公司",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96161",
+      "verification_status": "verified",
+      "classification": "core",
+      "discovered_at": "2026-11-06T12:10:00+08:00",
+      "summary": "秀英区约108个老旧小区、14806户；11月5日发布测量招标，11月26日09:30投标截止。",
+      "data_quality_note": "官方原文已确认；与此前海口市一期供水改造项目的上位关系待核对；未完成历史全库去重。"
     }
   ],
   "expanded_candidates": [
@@ -744,7 +691,24 @@
       "event_count": 1
     }
   ],
-  "source_audit": [],
+  "source_audit": [
+    {
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-11-06T12:10:00+08:00",
+      "query_group": "老旧小区+测量+招标",
+      "discovery_track": "core",
+      "notice_group": "招标公告",
+      "date_window": "2026-10-31/2026-11-06",
+      "result_count": 1,
+      "new_record_count": 1,
+      "page_count": 0,
+      "pagination_complete": false,
+      "coverage_status": "partial",
+      "method": "公开搜索索引+官方公告原文",
+      "error_reason": null
+    }
+  ],
   "jurisdiction_coverage": [
     {
       "city": "海口市",
@@ -1023,7 +987,7 @@
       "青澄里二期业主比选原文"
     ]
   },
-  "data_quality_note": "今日来源检索仅限公开搜索与少量公告原文，不得将source_audit的既有未开始条目误记为今日实际检索；历史来源错误尚未重新核实。",
+  "data_quality_note": "新增海口秀英区测量官方公告；全省覆盖partial，历史队列未改写。",
   "core_project_pipeline_watch": [
     {
       "canonical_project_id": "HN-SANYA-JIYANG-HEDONGLU-MICRO-RENEWAL",
@@ -1075,39 +1039,11 @@
     }
   ],
   "run_limitations": [
-    "未完成19市县来源×A/B轨道×公告类别的原生栏目日期分页",
-    "未完成7日滚动全量及30日抽查",
-    "5项来源重试未逐项完成复测，沿用历史待办而非声称今日错误",
-    "49项官方补录未逐项核验",
-    "未对全部历史事件执行跨数据集去重"
+    "19市县必查来源分类及日期分页未完成",
+    "7天/30天/90天及三年回溯未完成",
+    "5项历史来源重试尚未逐项重测",
+    "49项官方补录队列尚未逐项处理",
+    "新发现项目未完成历史全库项目链交叉去重"
   ],
-  "historical_source_errors_unresolved": [
-    {
-      "source_id": "hainan_ccgp",
-      "source_level": "A_official_primary",
-      "coverage_status": "source_error",
-      "error": "官方智慧云平台首页访问超时",
-      "searched_at": "2026-11-02T12:06:18+08:00",
-      "result_count": null,
-      "scope": "global_portal_probe_not_city_specific"
-    },
-    {
-      "source_id": "ccgp_national",
-      "source_level": "B_official_crosscheck",
-      "coverage_status": "source_error",
-      "error": "HTTP 403 Forbidden",
-      "searched_at": "2026-11-02T12:06:18+08:00",
-      "result_count": null,
-      "scope": "global_portal_probe_not_city_specific"
-    },
-    {
-      "source_id": "cebpubservice",
-      "source_level": "B_official_crosscheck",
-      "coverage_status": "source_error",
-      "error": "HTTP 405 Method Not Allowed",
-      "searched_at": "2026-11-02T12:06:18+08:00",
-      "result_count": null,
-      "scope": "global_portal_probe_not_city_specific"
-    }
-  ]
+  "historical_source_errors_unresolved": 5
 }
