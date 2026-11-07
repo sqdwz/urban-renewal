@@ -1,13 +1,13 @@
 {
   "type": "urban-renewal-history-index",
-  "updated_at": "2026-11-02T12:06:18+08:00",
+  "updated_at": "2026-11-07T12:06:24+08:00",
   "window": {
     "start_date": "2023-08-27",
-    "end_date": "2026-10-30"
+    "end_date": "2026-11-06"
   },
   "summary": {
-    "total_records": 196,
-    "verified_or_official_index": 106,
+    "total_records": 201,
+    "verified_or_official_index": 111,
     "verified_authoritative_association": 3,
     "secondary_pending_backfill": 89,
     "expanded_candidates": 1,
@@ -216,6 +216,13 @@
       "total_records": 9,
       "verified_records": 0,
       "pending_records": 9
+    },
+    {
+      "name": "2026-11-07海口横沟及老旧小区供水测量官方补漏",
+      "path": "data/history/daily-backfill-2026-11-07.json",
+      "total_records": 5,
+      "verified_or_authoritative": 5,
+      "secondary_pending_backfill": 0
     }
   ],
   "coverage_config": "config/coverage-regions.json",
