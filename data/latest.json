@@ -1,13 +1,13 @@
 {
   "type": "urban-tender-daily",
   "schema_version": 3,
-  "date": "2026-11-08",
-  "generated_at": "2026-11-08T12:05:14+08:00",
-  "title": "海南省城市更新招投标日报（2026-11-08，有限索引复查）",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T12:10:17+08:00",
+  "title": "海南省城市更新招投标日报（2026-11-09，有限公开检索）",
   "scan_status": "partial_incomplete_mandatory_sources",
   "summary": {
     "new_today": null,
-    "new_today_count_status": "本轮仅完成有限公开搜索索引复查；全省新增未核定，不能记0",
+    "new_today_count_status": "仅核查海口官方首页及有限公开索引；全省新增未核定，不得记0",
     "verified_expanded_today": 0,
     "new_discovery_leads": 0,
     "active_core": null,
@@ -15,7 +15,7 @@
     "related_development_watch": 6,
     "core_project_pipeline_watch": 1,
     "expanded_candidates": 10,
-    "upcoming_deadlines": 16,
+    "upcoming_deadlines": 15,
     "backfilled_core_events": 0,
     "backfilled_pending_events": 0,
     "backfilled_total_events": 0,
@@ -27,7 +27,7 @@
     "official_backfill_completed_today": 0,
     "official_backfill_pending": 49,
     "project_chain_pending": 2,
-    "note": "仅完成有限公开搜索索引复查，未完成来源原生公告栏目、日期分页及双轨19市县巡检；未复测5项历史来源错误，不能按本轮错误计数。澄迈开元广场仍为D级。"
+    "note": "本轮已读取v6配置及历史、观察、补录和重试队列；仅完成有限公开索引及海口交易平台首页检查，未完成19市县A/B双轨逐源栏目日期分页。开元广场仍D级；不将首页浏览记作完整来源检索。"
   },
   "new_items": [],
   "discovery_leads_today": [],
@@ -104,32 +104,6 @@
       "classification": "core",
       "discovered_at": "2026-11-07T12:06:24+08:00",
       "data_quality_note": "海口交易平台官方公告；仅核对已访问页面，尚未完成全库去重和其他来源分页。"
-    },
-    {
-      "canonical_project_id": "HN-HAIKOU-OLD-COMMUNITY-SECONDARY-WATER-PHASE1",
-      "province": "海南省",
-      "city": "海口市",
-      "publish_date": "2026-10-29",
-      "purchaser": "海口市城市建设投资集团有限公司",
-      "project_type": "老旧小区基础设施更新改造",
-      "source_id": "haikou_ggzy",
-      "source_level": "A_official_primary",
-      "verification_status": "verified",
-      "classification": "core",
-      "historical_lead": true,
-      "discovered_at": "2026-10-30T12:14:03.996+08:00",
-      "id": "HN-HAIKOU-OLDWATER-20261029-COST-CONSULT-TENDER",
-      "project_id": "HNGTH2026-045",
-      "title": "海口市老旧小区二次供水设施设备更新改造工程（一期）概算、预算及工程量清单（含招标控制价）编制竞争性磋商公告",
-      "deadline": "2026-11-09T09:00:00+08:00",
-      "procurement_method": "竞争性磋商",
-      "amount_yuan": 597904.91,
-      "budget_yuan": 597904.91,
-      "service_type": "造价咨询/概算/预算/工程量清单",
-      "project_stage": "前期咨询",
-      "event_type": "采购公告",
-      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96023",
-      "summary": "96个老旧小区约21956户；预算597904.91元；11月9日09:00响应截止。"
     },
     {
       "id": "HN-HAIKOU-FTZ-20261029-ZEROCARBON-CONSULT-TENDER",
@@ -738,137 +712,156 @@
   "source_audit": [],
   "jurisdiction_coverage": [
     {
-      "jurisdiction": "海口市",
+      "city": "海口市",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     },
     {
-      "jurisdiction": "三亚市",
+      "city": "三亚市",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     },
     {
-      "jurisdiction": "三沙市",
+      "city": "三沙市",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     },
     {
-      "jurisdiction": "儋州市",
+      "city": "儋州市",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     },
     {
-      "jurisdiction": "五指山市",
+      "city": "五指山市",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     },
     {
-      "jurisdiction": "琼海市",
+      "city": "琼海市",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     },
     {
-      "jurisdiction": "文昌市",
+      "city": "文昌市",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     },
     {
-      "jurisdiction": "万宁市",
+      "city": "万宁市",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     },
     {
-      "jurisdiction": "东方市",
+      "city": "东方市",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     },
     {
-      "jurisdiction": "定安县",
+      "city": "定安县",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     },
     {
-      "jurisdiction": "屯昌县",
+      "city": "屯昌县",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     },
     {
-      "jurisdiction": "澄迈县",
+      "city": "澄迈县",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     },
     {
-      "jurisdiction": "临高县",
+      "city": "临高县",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     },
     {
-      "jurisdiction": "白沙黎族自治县",
+      "city": "白沙黎族自治县",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     },
     {
-      "jurisdiction": "昌江黎族自治县",
+      "city": "昌江黎族自治县",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     },
     {
-      "jurisdiction": "乐东黎族自治县",
+      "city": "乐东黎族自治县",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     },
     {
-      "jurisdiction": "陵水黎族自治县",
+      "city": "陵水黎族自治县",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     },
     {
-      "jurisdiction": "保亭黎族苗族自治县",
+      "city": "保亭黎族苗族自治县",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     },
     {
-      "jurisdiction": "琼中黎族苗族自治县",
+      "city": "琼中黎族苗族自治县",
       "coverage_status": "partial",
+      "mandatory_sources_complete": false,
+      "discovery_tracks_complete": false,
       "pagination_complete": false,
-      "mandatory_source_groups_complete": false,
-      "reason": "本轮未完成该市县A/B双轨必查来源原生栏目分页；不得记为zero_verified"
+      "note": "本轮未完成必查来源逐栏目及分页，不视为零结果"
     }
   ],
   "attention_events": [
@@ -885,12 +878,13 @@
   ],
   "source_error_details": [],
   "project_chain_backcheck": [],
-  "data_quality_note": "无完整栏目分页与逐市县来源审计，不得声称19市县完成或当日零新增。历史来源重试5项状态未改变；保留此前全部历史数据、观察库及队列。",
+  "data_quality_note": "2026-11-09仅有限公开网页复查；来源审计历史记录不代表本日实际完成；历史与D级线索未修改。",
   "run_limitations": [
-    "19市县必查来源未完整扫描",
-    "最近7天与30天窗口未完整复查",
-    "90天与三年历史回溯未完成",
-    "49项官方补录及5项来源重试未逐项完成"
+    "19市县必查来源原生公告栏目及日期分页未完成",
+    "7天滚动及30天抽查、90天回溯未完成",
+    "5项来源重试未逐项复测；49项官方补录未完成",
+    "海口公共资源交易首页仅检查首页展示，不代表完整检索",
+    "本轮未发现可直接去重入库的新事件；不代表全省零新增"
   ],
   "historical_source_errors_unresolved": 5
 }
