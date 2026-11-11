@@ -1,15 +1,15 @@
 {
   "type": "urban-tender-daily",
   "schema_version": 3,
-  "date": "2026-11-10",
-  "generated_at": "2026-11-10T12:10:00+08:00",
-  "title": "海南省城市更新招投标日报（2026-11-10，有限公开检索）",
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T12:10:00+08:00",
+  "title": "海南省城市更新招投标日报（2026-11-11，有限来源核查）",
   "scan_status": "partial_incomplete_mandatory_sources",
   "summary": {
     "new_today": null,
-    "new_today_count_status": "仅公开搜索索引抽查，19市县必查来源未完成，全省新增未核定",
+    "new_today_count_status": "19市县强制来源双轨分页未完成，无法核定全省新增",
     "verified_expanded_today": 0,
-    "new_discovery_leads": 0,
+    "new_discovery_leads": 2,
     "active_core": null,
     "active_core_count_status": "必查来源未完成，无法可靠核定",
     "related_development_watch": 6,
@@ -27,10 +27,33 @@
     "official_backfill_completed_today": 0,
     "official_backfill_pending": 49,
     "project_chain_pending": 2,
-    "note": "已读取main实际v6配置、来源矩阵、19市县、历史索引201条、观察项目7个、官方补录49项、来源重试5项及上日日报。仅有限公开索引抽查；未完成A/B双轨原生栏目日期分页。开元广场仍D级；未巡检来源不记零。"
+    "note": "已读取main v6配置、13来源、19市县、201条历史索引、7观察项目、49项官方补录和5项来源重试。海口工程建设栏目发现11月10日丁村片区勘察及设计公告，未确认城市更新关联或历史去重，不入库。开元广场仍D级；其余必查来源未完成。"
   },
   "new_items": [],
-  "discovery_leads_today": [],
+  "discovery_leads_today": [
+    {
+      "title": "丁村污水处理厂片区污水完善工程勘察招标公告",
+      "publish_date": "2026-11-10",
+      "project_id": "X4600002901006819001",
+      "city": "海口市",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "classification": "expanded_candidates_pending_review",
+      "verification_status": "pending_relevance_and_dedup",
+      "source_url": "https://ggzy.haikou.gov.cn/gongchengjsj"
+    },
+    {
+      "title": "丁村污水处理厂片区污水完善工程设计招标公告",
+      "publish_date": "2026-11-10",
+      "project_id": "X4600002901006801001",
+      "city": "海口市",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "classification": "expanded_candidates_pending_review",
+      "verification_status": "pending_relevance_and_dedup",
+      "source_url": "https://ggzy.haikou.gov.cn/gongchengjsj"
+    }
+  ],
   "backfilled_events": [],
   "upcoming_deadlines": [
     {
@@ -888,10 +911,11 @@
   "project_chain_backcheck": [],
   "data_quality_note": "本轮无可安全入库的新事件，不能推断全省零新增；历史201条与观察、补录、重试队列不变",
   "run_limitations": [
-    "仅有限公开索引抽查，不能视为来源栏目巡检",
-    "19市县必查来源与A/B双轨分页均未完成",
-    "49项官方补录及5项来源重试未逐项执行",
-    "7日滚动全源复查、30日抽查未完成"
+    "19市县双轨原生栏目与日期分页未完成",
+    "7天滚动及30天抽查未完成",
+    "历史5项来源重试未逐项复测",
+    "49项官方补录未完成",
+    "丁村片区公告未完成项目关联和全历史去重"
   ],
   "historical_source_errors_unresolved": "历史5项重试队列未重新确认"
 }
