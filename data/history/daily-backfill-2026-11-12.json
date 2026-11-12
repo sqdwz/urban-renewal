@@ -1,0 +1,70 @@
+{
+  "type": "urban-renewal-daily-backfill",
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T12:10:00+08:00",
+  "scan_status": "partial",
+  "total_records": 1,
+  "events": [
+    {
+      "id": "HN-HAIKOU-JINCHENG-JINXIU-20261111-PROPERTY-TENDER",
+      "canonical_project_id": "HN-HAIKOU-JINCHENG-JINXIU-URBAN-RENEWAL",
+      "project_id": "E4601000001001454001",
+      "known_project_ids": [
+        "2312-460105-04-01-879448"
+      ],
+      "title": "金城·金秀城市更新项目前期物业项目招标公告",
+      "province": "海南省",
+      "city": "海口市",
+      "district_county": "秀英区",
+      "publish_date": "2026-11-11",
+      "deadline": "2026-12-02T10:00:00+08:00",
+      "event_type": "招标公告",
+      "service_type": "前期物业",
+      "project_type": "城市更新",
+      "project_stage": "运营准备",
+      "purchaser": "海南金秀安居置业有限公司",
+      "land_area_sqm": 33887.05,
+      "total_floor_area_sqm": 142055.5,
+      "property_fee_cap": "住宅2.50元/平方米·月；商铺5.00元/平方米·月",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96283",
+      "verification_status": "verified",
+      "classification": "core",
+      "discovered_at": "2026-11-12T12:10:00+08:00",
+      "data_quality_note": "官方公告4.1文件获取结束日期误写11月2日；5.1/5.2投标截止为12月2日10时。需核对更正公告。全历史去重和项目链仍待核验。"
+    }
+  ],
+  "records": [
+    {
+      "id": "HN-HAIKOU-JINCHENG-JINXIU-20261111-PROPERTY-TENDER",
+      "canonical_project_id": "HN-HAIKOU-JINCHENG-JINXIU-URBAN-RENEWAL",
+      "project_id": "E4601000001001454001",
+      "known_project_ids": [
+        "2312-460105-04-01-879448"
+      ],
+      "title": "金城·金秀城市更新项目前期物业项目招标公告",
+      "province": "海南省",
+      "city": "海口市",
+      "district_county": "秀英区",
+      "publish_date": "2026-11-11",
+      "deadline": "2026-12-02T10:00:00+08:00",
+      "event_type": "招标公告",
+      "service_type": "前期物业",
+      "project_type": "城市更新",
+      "project_stage": "运营准备",
+      "purchaser": "海南金秀安居置业有限公司",
+      "land_area_sqm": 33887.05,
+      "total_floor_area_sqm": 142055.5,
+      "property_fee_cap": "住宅2.50元/平方米·月；商铺5.00元/平方米·月",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96283",
+      "verification_status": "verified",
+      "classification": "core",
+      "discovered_at": "2026-11-12T12:10:00+08:00",
+      "data_quality_note": "官方公告4.1文件获取结束日期误写11月2日；5.1/5.2投标截止为12月2日10时。需核对更正公告。全历史去重和项目链仍待核验。"
+    }
+  ],
+  "note": "A级官方补录；尚需跨历史数据集去重"
+}
