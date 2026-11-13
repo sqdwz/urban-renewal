@@ -1,13 +1,13 @@
 {
   "type": "urban-renewal-history-index",
-  "updated_at": "2026-11-12T12:10:00+08:00",
+  "updated_at": "2026-11-13T12:10:00+08:00",
   "window": {
     "start_date": "2023-08-27",
-    "end_date": "2026-11-11"
+    "end_date": "2026-11-12"
   },
   "summary": {
-    "total_records": 202,
-    "verified_or_official_index": 112,
+    "total_records": 203,
+    "verified_or_official_index": 113,
     "verified_authoritative_association": 3,
     "secondary_pending_backfill": 89,
     "expanded_candidates": 1,
@@ -228,6 +228,13 @@
       "name": "2026-11-12海口城市更新前期物业补录",
       "path": "data/history/daily-backfill-2026-11-12.json",
       "total_records": 1
+    },
+    {
+      "name": "2026-11-13海口新民田罗城中村安置房修缮工程终止公告",
+      "path": "data/history/daily-backfill-2026-11-13.json",
+      "total_records": 1,
+      "verified_or_authoritative": 1,
+      "secondary_pending_backfill": 0
     }
   ],
   "coverage_config": "config/coverage-regions.json",

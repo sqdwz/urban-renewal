@@ -1,0 +1,61 @@
+{
+  "type": "urban-tender-history-backfill",
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T12:10:00+08:00",
+  "total_records": 1,
+  "records": [
+    {
+      "id": "HN-HAIKOU-XINMIN-TIANLUO-20261112-TERMINATION",
+      "canonical_project_id": "HN-HAIKOU-XINMIN-TIANLUO-URBAN-RENEWAL",
+      "project_id": "E4601000001001077001",
+      "lot_id": "E4601000001001077001001",
+      "title": "海口市秀英区新民田罗城中村改造项目田罗村安置房一期修缮工程终止公告",
+      "province": "海南省",
+      "city": "海口市",
+      "district_county": "秀英区",
+      "publish_date": "2026-11-12",
+      "event_time": "2026-11-12T12:00:00+08:00",
+      "event_type": "终止公告",
+      "service_type": "施工",
+      "project_type": "城中村改造",
+      "project_stage": "建设实施",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96300",
+      "verification_status": "verified",
+      "classification": "core",
+      "discovered_at": "2026-11-13T12:10:00+08:00",
+      "reason": "招标方式重大变更，终止本次招标活动",
+      "chain_gap": "2024-12-24资格预审及后续重新采购待回溯",
+      "data_quality_note": "独立终止事件，终止不代表项目取消；全历史去重待复核"
+    }
+  ],
+  "events": [
+    {
+      "id": "HN-HAIKOU-XINMIN-TIANLUO-20261112-TERMINATION",
+      "canonical_project_id": "HN-HAIKOU-XINMIN-TIANLUO-URBAN-RENEWAL",
+      "project_id": "E4601000001001077001",
+      "lot_id": "E4601000001001077001001",
+      "title": "海口市秀英区新民田罗城中村改造项目田罗村安置房一期修缮工程终止公告",
+      "province": "海南省",
+      "city": "海口市",
+      "district_county": "秀英区",
+      "publish_date": "2026-11-12",
+      "event_time": "2026-11-12T12:00:00+08:00",
+      "event_type": "终止公告",
+      "service_type": "施工",
+      "project_type": "城中村改造",
+      "project_stage": "建设实施",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96300",
+      "verification_status": "verified",
+      "classification": "core",
+      "discovered_at": "2026-11-13T12:10:00+08:00",
+      "reason": "招标方式重大变更，终止本次招标活动",
+      "chain_gap": "2024-12-24资格预审及后续重新采购待回溯",
+      "data_quality_note": "独立终止事件，终止不代表项目取消；全历史去重待复核"
+    }
+  ],
+  "data_quality_note": "独立终止事件，历史去重待复核"
+}

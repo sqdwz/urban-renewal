@@ -1,48 +1,48 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02",
+  "updated_at": "2026-11-13",
   "purpose": "来源异常续跑队列；既有状态来自历史日报，不代表今日已再次连接失败",
   "tasks": [
     {
       "source_id": "hainan_ccgp",
-      "last_observed_error": "2026-11-02",
-      "error_type": "官方智慧云首页超时",
+      "last_observed_error": "2026-11-13",
+      "error_type": "HTTP 502 Bad Gateway",
       "scope": "海南19市县",
       "status": "pending_recheck",
       "result_count": null,
-      "last_attempt_at": "2026-11-02T12:06:18+08:00",
-      "attempts": 9
+      "last_attempt_at": "2026-11-13T12:10:00+08:00",
+      "attempts": 10
     },
     {
       "source_id": "ccgp_national",
-      "last_observed_error": "2026-11-02",
+      "last_observed_error": "2026-11-13",
       "error_type": "HTTP 403 Forbidden",
       "scope": "海南19市县",
       "status": "pending_recheck",
       "result_count": null,
-      "last_attempt_at": "2026-11-02T12:06:18+08:00",
-      "attempts": 9,
+      "last_attempt_at": "2026-11-13T12:10:00+08:00",
+      "attempts": 10,
       "recovery_note": "首页可访问；海南市县、公告类型和日期分页未完成"
     },
     {
       "source_id": "cebpubservice",
-      "last_observed_error": "2026-11-02",
+      "last_observed_error": "2026-11-13",
       "error_type": "HTTP 405 Method Not Allowed",
       "scope": "海南19市县",
       "status": "pending_recheck",
       "result_count": null,
-      "last_attempt_at": "2026-11-02T12:06:18+08:00",
-      "attempts": 9
+      "last_attempt_at": "2026-11-13T12:10:00+08:00",
+      "attempts": 10
     },
     {
       "source_id": "hainan_ggzy",
       "scope": "海南19市县",
-      "status": "partial_recovered_pending_city_scan",
+      "status": "pending_recheck",
       "result_count": null,
-      "attempts": 8,
-      "last_observed_error": "2026-11-01",
-      "error_type": null,
-      "last_attempt_at": "2026-11-02T12:06:18+08:00",
+      "attempts": 9,
+      "last_observed_error": "2026-11-13",
+      "error_type": "HTTP 404 Not Found (configured /ggzyjy path)",
+      "last_attempt_at": "2026-11-13T12:10:00+08:00",
       "recovery_note": "省级交易信息栏目可访问，市县筛选及日期分页未完成"
     },
     {
