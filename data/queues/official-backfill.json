@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02",
+  "updated_at": "2026-11-14",
   "purpose": "D级待核验、项目链回溯与缺失官方原文队列；不会自动提升核验等级",
   "tasks": [
     {
@@ -1267,6 +1267,34 @@
       "last_attempt_at": "2026-11-02T12:06:18+08:00",
       "attempts": 1,
       "last_attempt_note": "已进行公开索引检索；未取得该事件A/B/C原文"
+    },
+    {
+      "task_id": "BACKFILL-HN-HAIKOU-QIONGSHAN-20261111-DRAWING-REVIEW",
+      "project_id": "HN-HAIKOU-QIONGSHAN-2026-OLD-COMMUNITY",
+      "city": "海口市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-11-14",
+      "event_ids": [
+        "HN-HAIKOU-QIONGSHAN-2026-OLD-COMMUNITY-20261111-DRAWING-REVIEW-SELECT"
+      ],
+      "search_keys": [
+        "海口市琼山区2026年老旧小区改造项目施工图设计文件审查中选",
+        "海口市琼山城市建设投资有限公司",
+        "雅克设计（海南）有限公司",
+        "51500"
+      ],
+      "required_evidence": [
+        "官方中介超市中选结果及需求编号",
+        "核对同项目历史事件"
+      ],
+      "next_actions": [
+        "查找原始公告并核实中选金额",
+        "按项目名称及采购人回溯项目链"
+      ],
+      "original_source_url": "https://www.yfbzb.com/winbid/detail/20261111_646891880.html",
+      "last_attempt_at": null,
+      "attempts": 0
     }
   ]
 }
