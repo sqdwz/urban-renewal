@@ -1,63 +1,56 @@
 {
   "type": "urban-tender-daily",
   "schema_version": 3,
-  "date": "2026-11-13",
-  "generated_at": "2026-11-13T12:10:00+08:00",
-  "title": "海南省城市更新招投标日报（2026-11-13，部分巡检）",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T12:10:00+08:00",
+  "title": "海南省城市更新招投标日报（2026-11-14，部分巡检）",
   "scan_status": "partial_incomplete_mandatory_sources",
   "summary": {
     "new_today": null,
-    "new_today_count_status": "未完成19市县强制来源，无法核定当日全省新增",
+    "new_today_count_status": "仅有限索引检索，19市县必查来源未完成；不可认定全省零新增",
     "verified_expanded_today": 0,
-    "new_discovery_leads": 0,
+    "new_discovery_leads": 1,
     "active_core": null,
     "active_core_count_status": "必查来源未完成，无法可靠核定",
     "related_development_watch": 6,
     "core_project_pipeline_watch": 1,
     "expanded_candidates": 10,
-    "upcoming_deadlines": 10,
-    "backfilled_core_events": 1,
+    "upcoming_deadlines": 9,
+    "backfilled_core_events": 0,
     "backfilled_pending_events": 0,
-    "backfilled_total_events": 1,
-    "history_ingest_status": "one_A_official_termination_pending_full_history_dedup",
-    "source_error_count": 4,
-    "source_unavailable_count": 0,
+    "backfilled_total_events": 0,
+    "history_ingest_status": "unchanged; one D discovery lead queued",
+    "source_error_count": null,
+    "source_unavailable_count": null,
     "jurisdictions_complete": 0,
     "jurisdictions_incomplete": 19,
     "official_backfill_completed_today": 0,
-    "official_backfill_pending": 49,
+    "official_backfill_pending": 50,
     "project_chain_pending": 2,
-    "note": "A级海口新民田罗城中村安置房一期修缮工程11月12日终止事件补录；19市县双轨未完成，4个必查来源入口错误，开元广场仍D级"
+    "note": "发现琼山区老旧小区施工图审查中选D级线索；开元广场仍D级，来源入口未逐项复测；巡检不完整"
   },
   "new_items": [],
-  "discovery_leads_today": [],
-  "backfilled_events": [
+  "discovery_leads_today": [
     {
-      "id": "HN-HAIKOU-XINMIN-TIANLUO-20261112-TERMINATION",
-      "canonical_project_id": "HN-HAIKOU-XINMIN-TIANLUO-URBAN-RENEWAL",
-      "project_id": "E4601000001001077001",
-      "lot_id": "E4601000001001077001001",
-      "title": "海口市秀英区新民田罗城中村改造项目田罗村安置房一期修缮工程终止公告",
-      "province": "海南省",
+      "id": "HN-HAIKOU-QIONGSHAN-2026-OLD-COMMUNITY-20261111-DRAWING-REVIEW-SELECT",
+      "title": "海口市琼山区2026年老旧小区改造项目施工图设计文件审查中选",
       "city": "海口市",
-      "district_county": "秀英区",
-      "publish_date": "2026-11-12",
-      "event_time": "2026-11-12T12:00:00+08:00",
-      "event_type": "终止公告",
-      "service_type": "施工",
-      "project_type": "城中村改造",
-      "project_stage": "建设实施",
-      "source_id": "haikou_ggzy",
-      "source_level": "A_official_primary",
-      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96300",
-      "verification_status": "verified",
-      "classification": "core",
-      "discovered_at": "2026-11-13T12:10:00+08:00",
-      "reason": "招标方式重大变更，终止本次招标活动",
-      "chain_gap": "2024-12-24资格预审及后续重新采购待回溯",
-      "data_quality_note": "独立终止事件，终止不代表项目取消；全历史去重待复核"
+      "district_county": "琼山区",
+      "publish_date": "2026-11-11",
+      "project_type": "老旧小区改造",
+      "service_type": "施工图审查",
+      "event_type": "中选公告",
+      "purchaser": "海口市琼山城市建设投资有限公司",
+      "selected_supplier": "雅克设计（海南）有限公司",
+      "reported_amount_yuan": 51500,
+      "source_level": "D_discovery_only",
+      "verification_status": "pending_official_backfill",
+      "classification": "core_candidate_pending_official_backfill",
+      "source_url": "https://www.yfbzb.com/winbid/detail/20261111_646891880.html",
+      "data_quality_note": "第三方转载，金额和中选单位待原始中介超市/官方公告复核；不能作为verified核心"
     }
   ],
+  "backfilled_events": [],
   "upcoming_deadlines": [
     {
       "id": "HN-HAIKOU-HENGGOU-KINDERGARTEN-20261106-TENDER",
@@ -130,39 +123,6 @@
       "classification": "core",
       "discovered_at": "2026-11-07T12:06:24+08:00",
       "data_quality_note": "海口交易平台官方公告；仅核对已访问页面，尚未完成全库去重和其他来源分页。"
-    },
-    {
-      "province": "海南省",
-      "district_county": "崖州区",
-      "status": "active_pending_recheck",
-      "deadline": "2026-11-13T08:30:00+08:00",
-      "amount_yuan": 8000000,
-      "project_id": "[HNSS]20261000001[GK]",
-      "chain_gap": "official_notice_pending",
-      "verification_status": "pending_official_backfill",
-      "source_level": "D_discovery_only",
-      "id": "HN-SANYA-YAZHOU-MEMORY-20261020-FULL-CONSULT-TENDER",
-      "canonical_project_id": "HN-SANYA-YAZHOU-MEMORY-URBAN-RENEWAL",
-      "title": "崖州记忆城市更新项目全过程咨询服务公开招标公告",
-      "city": "三亚市",
-      "publish_date": "2026-10-20",
-      "procurement_method": "公开招标",
-      "purchaser": "三亚市崖州区住房和城乡建设局",
-      "project_type": "城市更新",
-      "service_type": [
-        "全过程咨询",
-        "摸底调查",
-        "规划设计",
-        "社稳",
-        "征拆咨询"
-      ],
-      "project_stage": "前期研究",
-      "event_type": "招标公告",
-      "source_id": "third_party_discovery",
-      "source_url": "https://hi.zhaobiao.lanyancloud.com/notice/aab4b95aa9634986",
-      "budget_yuan": 8000000,
-      "control_price_yuan": 8000000,
-      "summary": "预算及限价800万元，11月13日08:30截止；政府采购智慧云官方原文因超时未核验。"
     },
     {
       "id": "HN-DANZHOU-2026-OLD-COMMUNITY-20261028-CONSTRUCTION-RE2-TENDER",
@@ -604,103 +564,7 @@
       "event_count": 1
     }
   ],
-  "source_audit": [
-    {
-      "source_id": "haikou_ggzy",
-      "source_level": "A_official_primary",
-      "searched_at": "2026-11-13T12:10:00+08:00",
-      "query_group": "工程建设公告：核心主题及广义专业采购",
-      "discovery_track": "A_core+B_broad",
-      "notice_group": "招标/终止/变更/合同",
-      "date_window": "2026-11-06/2026-11-13",
-      "result_count": null,
-      "new_record_count": 1,
-      "page_count": 1,
-      "pagination_complete": false,
-      "coverage_status": "partial",
-      "method": "官方栏目第一页及公告正文",
-      "note": "第一页未覆盖完整7天，不计全窗口结果数"
-    },
-    {
-      "source_id": "hnzfcgxh",
-      "source_level": "C_authoritative_association",
-      "searched_at": "2026-11-13T12:10:00+08:00",
-      "query_group": "采购信息列表初查",
-      "discovery_track": "A_core+B_broad",
-      "notice_group": "采购/更正/结果/合同",
-      "date_window": "2026-11-06/2026-11-13",
-      "result_count": null,
-      "new_record_count": 0,
-      "page_count": 1,
-      "pagination_complete": false,
-      "coverage_status": "partial",
-      "method": "协会栏目第一页"
-    },
-    {
-      "source_id": "hainan_ccgp",
-      "source_level": "A_official_primary",
-      "searched_at": "2026-11-13T12:10:00+08:00",
-      "query_group": "来源连通性复测，未进入市县公告分页",
-      "discovery_track": "A_core+B_broad",
-      "notice_group": "未完成",
-      "date_window": "2026-11-06/2026-11-13",
-      "result_count": null,
-      "new_record_count": 0,
-      "page_count": 0,
-      "pagination_complete": false,
-      "coverage_status": "source_error",
-      "method": "官方入口连接测试",
-      "source_error": "HTTP 502 Bad Gateway"
-    },
-    {
-      "source_id": "ccgp_national",
-      "source_level": "B_official_crosscheck",
-      "searched_at": "2026-11-13T12:10:00+08:00",
-      "query_group": "来源连通性复测，未进入市县公告分页",
-      "discovery_track": "A_core+B_broad",
-      "notice_group": "未完成",
-      "date_window": "2026-11-06/2026-11-13",
-      "result_count": null,
-      "new_record_count": 0,
-      "page_count": 0,
-      "pagination_complete": false,
-      "coverage_status": "source_error",
-      "method": "官方入口连接测试",
-      "source_error": "HTTP 403 Forbidden"
-    },
-    {
-      "source_id": "cebpubservice",
-      "source_level": "B_official_crosscheck",
-      "searched_at": "2026-11-13T12:10:00+08:00",
-      "query_group": "来源连通性复测，未进入市县公告分页",
-      "discovery_track": "A_core+B_broad",
-      "notice_group": "未完成",
-      "date_window": "2026-11-06/2026-11-13",
-      "result_count": null,
-      "new_record_count": 0,
-      "page_count": 0,
-      "pagination_complete": false,
-      "coverage_status": "source_error",
-      "method": "官方入口连接测试",
-      "source_error": "HTTP 405 Method Not Allowed"
-    },
-    {
-      "source_id": "hainan_ggzy",
-      "source_level": "A_official_primary",
-      "searched_at": "2026-11-13T12:10:00+08:00",
-      "query_group": "来源连通性复测，未进入市县公告分页",
-      "discovery_track": "A_core+B_broad",
-      "notice_group": "未完成",
-      "date_window": "2026-11-06/2026-11-13",
-      "result_count": null,
-      "new_record_count": 0,
-      "page_count": 0,
-      "pagination_complete": false,
-      "coverage_status": "source_error",
-      "method": "官方入口连接测试",
-      "source_error": "HTTP 404 Not Found (configured /ggzyjy path)"
-    }
-  ],
+  "source_audit": [],
   "jurisdiction_coverage": [
     {
       "jurisdiction": "海口市",
@@ -709,7 +573,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "工程建设栏目仅第一页及终止公告正文，其他必查来源分页未完成"
+      "reason": "工程建设栏目仅第一页及终止公告正文，其他必查来源分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
     {
       "jurisdiction": "三亚市",
@@ -718,7 +584,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成"
+      "reason": "必查来源双轨栏目分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
     {
       "jurisdiction": "三沙市",
@@ -727,7 +595,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成"
+      "reason": "必查来源双轨栏目分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
     {
       "jurisdiction": "儋州市",
@@ -736,7 +606,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成"
+      "reason": "必查来源双轨栏目分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
     {
       "jurisdiction": "五指山市",
@@ -745,7 +617,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成"
+      "reason": "必查来源双轨栏目分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
     {
       "jurisdiction": "琼海市",
@@ -754,7 +628,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成"
+      "reason": "必查来源双轨栏目分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
     {
       "jurisdiction": "文昌市",
@@ -763,7 +639,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成"
+      "reason": "必查来源双轨栏目分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
     {
       "jurisdiction": "万宁市",
@@ -772,7 +650,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成"
+      "reason": "必查来源双轨栏目分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
     {
       "jurisdiction": "东方市",
@@ -781,7 +661,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成"
+      "reason": "必查来源双轨栏目分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
     {
       "jurisdiction": "定安县",
@@ -790,7 +672,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成"
+      "reason": "必查来源双轨栏目分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
     {
       "jurisdiction": "屯昌县",
@@ -799,7 +683,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成"
+      "reason": "必查来源双轨栏目分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
     {
       "jurisdiction": "澄迈县",
@@ -808,7 +694,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成"
+      "reason": "必查来源双轨栏目分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
     {
       "jurisdiction": "临高县",
@@ -817,7 +705,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成"
+      "reason": "必查来源双轨栏目分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
     {
       "jurisdiction": "白沙黎族自治县",
@@ -826,7 +716,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成"
+      "reason": "必查来源双轨栏目分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
     {
       "jurisdiction": "昌江黎族自治县",
@@ -835,7 +727,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成"
+      "reason": "必查来源双轨栏目分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
     {
       "jurisdiction": "乐东黎族自治县",
@@ -844,7 +738,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成"
+      "reason": "必查来源双轨栏目分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
     {
       "jurisdiction": "陵水黎族自治县",
@@ -853,7 +749,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成"
+      "reason": "必查来源双轨栏目分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
     {
       "jurisdiction": "保亭黎族苗族自治县",
@@ -862,7 +760,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成"
+      "reason": "必查来源双轨栏目分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
     {
       "jurisdiction": "琼中黎族苗族自治县",
@@ -871,7 +771,9 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成"
+      "reason": "必查来源双轨栏目分页未完成",
+      "source_audit": [],
+      "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     }
   ],
   "attention_events": [
@@ -883,36 +785,7 @@
       "note": "招标方式重大变更，终止本次招标活动"
     }
   ],
-  "source_error_details": [
-    {
-      "source_id": "hainan_ccgp",
-      "error": "HTTP 502 Bad Gateway",
-      "result_count": null,
-      "searched_at": "2026-11-13T12:10:00+08:00",
-      "status": "source_error"
-    },
-    {
-      "source_id": "ccgp_national",
-      "error": "HTTP 403 Forbidden",
-      "result_count": null,
-      "searched_at": "2026-11-13T12:10:00+08:00",
-      "status": "source_error"
-    },
-    {
-      "source_id": "cebpubservice",
-      "error": "HTTP 405 Method Not Allowed",
-      "result_count": null,
-      "searched_at": "2026-11-13T12:10:00+08:00",
-      "status": "source_error"
-    },
-    {
-      "source_id": "hainan_ggzy",
-      "error": "HTTP 404 Not Found (configured /ggzyjy path)",
-      "result_count": null,
-      "searched_at": "2026-11-13T12:10:00+08:00",
-      "status": "source_error"
-    }
-  ],
+  "source_error_details": [],
   "project_chain_backcheck": [
     {
       "canonical_project_id": "HN-HAIKOU-XINMIN-TIANLUO-URBAN-RENEWAL",
@@ -924,12 +797,10 @@
   ],
   "data_quality_note": "已核实A级终止公告，其他来源不完整；不得将未检索当作零结果",
   "run_limitations": [
-    "19市县双轨原生栏目分页未完成",
-    "海口及协会仅第一页",
-    "4项官方入口连接异常",
-    "7天完整滚动与30天抽查未完成",
-    "49项官方补录未逐项核验",
-    "终止事件全历史去重待核"
+    "本轮仅进行了有限公开搜索索引检索，不构成19市县双轨全量巡检",
+    "未逐项复测5项来源重试，不能报告今日错误数量",
+    "7天滚动、30天抽查和90天回溯未完成",
+    "历史203条未增减；新D级线索仅排入官方补录队列"
   ],
   "historical_source_errors_unresolved": "历史5项重试队列未重新确认"
 }
