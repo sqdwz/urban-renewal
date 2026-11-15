@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14",
+  "updated_at": "2026-11-15",
   "purpose": "D级待核验、项目链回溯与缺失官方原文队列；不会自动提升核验等级",
   "tasks": [
     {
@@ -1295,6 +1295,60 @@
       "original_source_url": "https://www.yfbzb.com/winbid/detail/20261111_646891880.html",
       "last_attempt_at": null,
       "attempts": 0
+    },
+    {
+      "task_id": "BACKFILL-HN-SANYA-NANDING-20261113-POWER-SUPERVISION-RE2",
+      "project_id": "HN-SANYA-NANDING-URBAN-RENEWAL-PHASE1",
+      "city": "三亚市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-11-15",
+      "event_ids": [
+        "HN-SANYA-NANDING-20261113-POWER-SUPERVISION-RE2"
+      ],
+      "search_keys": [
+        "三亚中央商务区南丁片区城市更新配套基础设施建设一期项目（一标段）电力工程（监理）第二次招标公告",
+        "三亚商务区开发建设有限公司"
+      ],
+      "required_evidence": [
+        "海南机器管招投标官方原文",
+        "首次招标及流标/重招链"
+      ],
+      "next_actions": [
+        "核验官方原文、编号及截止时间",
+        "分别追踪电力工程和电力隧道工程监理"
+      ],
+      "original_source_url": "https://hi.zhaobiao.lanyancloud.com/notice/38b671992f9943e3",
+      "last_attempt_at": "2026-11-15T12:10:00+08:00",
+      "attempts": 1,
+      "last_attempt_note": "仅找到D级转载，未取得官方原文"
+    },
+    {
+      "task_id": "BACKFILL-HN-SANYA-NANDING-20261113-TUNNEL-SUPERVISION-RE2",
+      "project_id": "HN-SANYA-NANDING-URBAN-RENEWAL-PHASE1",
+      "city": "三亚市",
+      "priority": "high",
+      "status": "pending",
+      "first_seen": "2026-11-15",
+      "event_ids": [
+        "HN-SANYA-NANDING-20261113-TUNNEL-SUPERVISION-RE2"
+      ],
+      "search_keys": [
+        "三亚中央商务区南丁片区城市更新配套基础设施建设一期项目（一标段）电力隧道工程（监理）第二次招标公告",
+        "三亚商务区开发建设有限公司"
+      ],
+      "required_evidence": [
+        "海南机器管招投标官方原文",
+        "首次招标及流标/重招链"
+      ],
+      "next_actions": [
+        "核验官方原文、编号及截止时间",
+        "分别追踪电力工程和电力隧道工程监理"
+      ],
+      "original_source_url": "https://hi.zhaobiao.lanyancloud.com/notice/a109200bdcc64ad4",
+      "last_attempt_at": "2026-11-15T12:10:00+08:00",
+      "attempts": 1,
+      "last_attempt_note": "仅找到D级转载，未取得官方原文"
     }
   ]
 }

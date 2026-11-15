@@ -1,15 +1,15 @@
 {
   "type": "urban-tender-daily",
   "schema_version": 3,
-  "date": "2026-11-14",
-  "generated_at": "2026-11-14T12:10:00+08:00",
-  "title": "海南省城市更新招投标日报（2026-11-14，部分巡检）",
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T12:10:00+08:00",
+  "title": "海南省城市更新招投标日报（2026-11-15，部分巡检）",
   "scan_status": "partial_incomplete_mandatory_sources",
   "summary": {
     "new_today": null,
-    "new_today_count_status": "仅有限索引检索，19市县必查来源未完成；不可认定全省零新增",
+    "new_today_count_status": "仅有限公开索引检索，全省新增数量不可核定",
     "verified_expanded_today": 0,
-    "new_discovery_leads": 1,
+    "new_discovery_leads": 2,
     "active_core": null,
     "active_core_count_status": "必查来源未完成，无法可靠核定",
     "related_development_watch": 6,
@@ -19,35 +19,49 @@
     "backfilled_core_events": 0,
     "backfilled_pending_events": 0,
     "backfilled_total_events": 0,
-    "history_ingest_status": "unchanged; one D discovery lead queued",
+    "history_ingest_status": "unchanged; two D leads queued",
     "source_error_count": null,
     "source_unavailable_count": null,
     "jurisdictions_complete": 0,
     "jurisdictions_incomplete": 19,
     "official_backfill_completed_today": 0,
-    "official_backfill_pending": 50,
+    "official_backfill_pending": 52,
     "project_chain_pending": 2,
-    "note": "发现琼山区老旧小区施工图审查中选D级线索；开元广场仍D级，来源入口未逐项复测；巡检不完整"
+    "note": "发现三亚南丁片区两条监理二次招标D级线索，官方待核验"
   },
   "new_items": [],
   "discovery_leads_today": [
     {
-      "id": "HN-HAIKOU-QIONGSHAN-2026-OLD-COMMUNITY-20261111-DRAWING-REVIEW-SELECT",
-      "title": "海口市琼山区2026年老旧小区改造项目施工图设计文件审查中选",
-      "city": "海口市",
-      "district_county": "琼山区",
-      "publish_date": "2026-11-11",
-      "project_type": "老旧小区改造",
-      "service_type": "施工图审查",
-      "event_type": "中选公告",
-      "purchaser": "海口市琼山城市建设投资有限公司",
-      "selected_supplier": "雅克设计（海南）有限公司",
-      "reported_amount_yuan": 51500,
+      "id": "HN-SANYA-NANDING-20261113-POWER-SUPERVISION-RE2",
+      "canonical_project_id": "HN-SANYA-NANDING-URBAN-RENEWAL-PHASE1",
+      "title": "三亚中央商务区南丁片区城市更新配套基础设施建设一期项目（一标段）电力工程（监理）第二次招标公告",
+      "city": "三亚市",
+      "publish_date": "2026-11-13",
+      "deadline": "2026-12-04T15:30:00+08:00",
+      "event_type": "二次招标公告",
+      "service_type": "监理",
+      "purchaser": "三亚商务区开发建设有限公司",
       "source_level": "D_discovery_only",
       "verification_status": "pending_official_backfill",
       "classification": "core_candidate_pending_official_backfill",
-      "source_url": "https://www.yfbzb.com/winbid/detail/20261111_646891880.html",
-      "data_quality_note": "第三方转载，金额和中选单位待原始中介超市/官方公告复核；不能作为verified核心"
+      "source_url": "https://hi.zhaobiao.lanyancloud.com/notice/38b671992f9943e3",
+      "data_quality_note": "第三方转载，官方原文、金额、截止时间和项目编号待核验"
+    },
+    {
+      "id": "HN-SANYA-NANDING-20261113-TUNNEL-SUPERVISION-RE2",
+      "canonical_project_id": "HN-SANYA-NANDING-URBAN-RENEWAL-PHASE1",
+      "title": "三亚中央商务区南丁片区城市更新配套基础设施建设一期项目（一标段）电力隧道工程（监理）第二次招标公告",
+      "city": "三亚市",
+      "publish_date": "2026-11-13",
+      "deadline": "2026-12-04T08:30:00+08:00",
+      "event_type": "二次招标公告",
+      "service_type": "监理",
+      "purchaser": "三亚商务区开发建设有限公司",
+      "source_level": "D_discovery_only",
+      "verification_status": "pending_official_backfill",
+      "classification": "core_candidate_pending_official_backfill",
+      "source_url": "https://hi.zhaobiao.lanyancloud.com/notice/a109200bdcc64ad4",
+      "data_quality_note": "第三方转载，官方原文、金额、截止时间和项目编号待核验"
     }
   ],
   "backfilled_events": [],
@@ -573,7 +587,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "工程建设栏目仅第一页及终止公告正文，其他必查来源分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -584,7 +598,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页；发现两项D级监理二次招标线索",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -595,7 +609,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -606,7 +620,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -617,7 +631,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -628,7 +642,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -639,7 +653,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -650,7 +664,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -661,7 +675,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -672,7 +686,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -683,7 +697,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -694,7 +708,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -705,7 +719,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -716,7 +730,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -727,7 +741,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -738,7 +752,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -749,7 +763,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -760,7 +774,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -771,18 +785,25 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "必查来源双轨栏目分页未完成",
+      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     }
   ],
   "attention_events": [
     {
-      "title": "海口市秀英区新民田罗城中村改造项目田罗村安置房一期修缮工程终止公告",
-      "publish_date": "2026-11-12",
-      "event_type": "终止公告",
-      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96300",
-      "note": "招标方式重大变更，终止本次招标活动"
+      "title": "三亚中央商务区南丁片区城市更新配套基础设施建设一期项目（一标段）电力工程（监理）第二次招标公告",
+      "publish_date": "2026-11-13",
+      "event_type": "二次招标公告",
+      "source_url": "https://hi.zhaobiao.lanyancloud.com/notice/38b671992f9943e3",
+      "note": "D级线索，官方待核验"
+    },
+    {
+      "title": "三亚中央商务区南丁片区城市更新配套基础设施建设一期项目（一标段）电力隧道工程（监理）第二次招标公告",
+      "publish_date": "2026-11-13",
+      "event_type": "二次招标公告",
+      "source_url": "https://hi.zhaobiao.lanyancloud.com/notice/a109200bdcc64ad4",
+      "note": "D级线索，官方待核验"
     }
   ],
   "source_error_details": [],
@@ -795,12 +816,12 @@
       "status": "partial"
     }
   ],
-  "data_quality_note": "已核实A级终止公告，其他来源不完整；不得将未检索当作零结果",
+  "data_quality_note": "仅D级线索；未完成官方核验、项目链与跨历史去重，不能认定全省零新增",
   "run_limitations": [
-    "本轮仅进行了有限公开搜索索引检索，不构成19市县双轨全量巡检",
-    "未逐项复测5项来源重试，不能报告今日错误数量",
-    "7天滚动、30天抽查和90天回溯未完成",
-    "历史203条未增减；新D级线索仅排入官方补录队列"
+    "19市县必查来源A/B双轨原生栏目及日期分页未完成",
+    "5项来源重试任务未逐项复测，今日来源异常数量未知",
+    "7日滚动及30日抽查、90日和三年回溯未完成",
+    "两条D级线索不计入已核验核心"
   ],
-  "historical_source_errors_unresolved": "历史5项重试队列未重新确认"
+  "historical_source_errors_unresolved": "历史5项来源重试未复测"
 }
