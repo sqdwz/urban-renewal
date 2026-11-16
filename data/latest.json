@@ -1,70 +1,106 @@
 {
   "type": "urban-tender-daily",
   "schema_version": 3,
-  "date": "2026-11-15",
-  "generated_at": "2026-11-15T12:10:00+08:00",
-  "title": "海南省城市更新招投标日报（2026-11-15，部分巡检）",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T12:14:51+08:00",
+  "title": "海南省城市更新招投标日报（2026-11-16，部分巡检）",
   "scan_status": "partial_incomplete_mandatory_sources",
   "summary": {
     "new_today": null,
-    "new_today_count_status": "仅有限公开索引检索，全省新增数量不可核定",
+    "new_today_count_status": "全省19市县强制来源未完成，数量不可核定",
     "verified_expanded_today": 0,
-    "new_discovery_leads": 2,
+    "new_discovery_leads": 0,
     "active_core": null,
     "active_core_count_status": "必查来源未完成，无法可靠核定",
     "related_development_watch": 6,
     "core_project_pipeline_watch": 1,
     "expanded_candidates": 10,
-    "upcoming_deadlines": 9,
-    "backfilled_core_events": 0,
+    "upcoming_deadlines": 11,
+    "backfilled_core_events": 3,
     "backfilled_pending_events": 0,
-    "backfilled_total_events": 0,
-    "history_ingest_status": "unchanged; two D leads queued",
-    "source_error_count": null,
-    "source_unavailable_count": null,
+    "backfilled_total_events": 3,
+    "history_ingest_status": "three_A_official_backfill_pending_full_history_dedup",
+    "source_error_count": 3,
+    "source_unavailable_count": 0,
     "jurisdictions_complete": 0,
     "jurisdictions_incomplete": 19,
     "official_backfill_completed_today": 0,
     "official_backfill_pending": 52,
     "project_chain_pending": 2,
-    "note": "发现三亚南丁片区两条监理二次招标D级线索，官方待核验"
+    "note": "核验海口棚改EPC招标、其变更公告及金城金秀物业更正；其他市县未完成"
   },
   "new_items": [],
-  "discovery_leads_today": [
+  "discovery_leads_today": [],
+  "backfilled_events": [
     {
-      "id": "HN-SANYA-NANDING-20261113-POWER-SUPERVISION-RE2",
-      "canonical_project_id": "HN-SANYA-NANDING-URBAN-RENEWAL-PHASE1",
-      "title": "三亚中央商务区南丁片区城市更新配套基础设施建设一期项目（一标段）电力工程（监理）第二次招标公告",
-      "city": "三亚市",
-      "publish_date": "2026-11-13",
-      "deadline": "2026-12-04T15:30:00+08:00",
-      "event_type": "二次招标公告",
-      "service_type": "监理",
-      "purchaser": "三亚商务区开发建设有限公司",
-      "source_level": "D_discovery_only",
-      "verification_status": "pending_official_backfill",
-      "classification": "core_candidate_pending_official_backfill",
-      "source_url": "https://hi.zhaobiao.lanyancloud.com/notice/38b671992f9943e3",
-      "data_quality_note": "第三方转载，官方原文、金额、截止时间和项目编号待核验"
+      "province": "海南省",
+      "city": "海口市",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "verification_status": "verified",
+      "classification": "core",
+      "discovered_at": "2026-11-16T12:14:51+08:00",
+      "id": "HN-HAIKOU-POBO-C722-20261109-EPC-TENDER",
+      "canonical_project_id": "HN-HAIKOU-POBO-C722-SHANTYTOWN-RELOCATION",
+      "project_id": "X4600002901006787001",
+      "title": "海口市坡博坡巷（C-7-2-2地块）棚改回迁房项目设计施工总承包（EPC）招标公告",
+      "district_county": "龙华区",
+      "publish_date": "2026-11-09",
+      "deadline": "2026-12-01T09:00:00+08:00",
+      "event_type": "招标公告",
+      "service_type": "EPC",
+      "project_type": "棚户区改造",
+      "project_stage": "建设实施",
+      "purchaser": "海南华晋置业有限公司",
+      "control_price_yuan": 124801343.77,
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96230"
     },
     {
-      "id": "HN-SANYA-NANDING-20261113-TUNNEL-SUPERVISION-RE2",
-      "canonical_project_id": "HN-SANYA-NANDING-URBAN-RENEWAL-PHASE1",
-      "title": "三亚中央商务区南丁片区城市更新配套基础设施建设一期项目（一标段）电力隧道工程（监理）第二次招标公告",
-      "city": "三亚市",
+      "province": "海南省",
+      "city": "海口市",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "verification_status": "verified",
+      "classification": "core",
+      "discovered_at": "2026-11-16T12:14:51+08:00",
+      "id": "HN-HAIKOU-POBO-C722-20261113-EPC-AMEND1",
+      "canonical_project_id": "HN-HAIKOU-POBO-C722-SHANTYTOWN-RELOCATION",
+      "project_id": "X4600002901006787001",
+      "title": "海口市坡博坡巷（C-7-2-2地块）棚改回迁房项目EPC变更公告一",
+      "district_county": "龙华区",
       "publish_date": "2026-11-13",
-      "deadline": "2026-12-04T08:30:00+08:00",
-      "event_type": "二次招标公告",
-      "service_type": "监理",
-      "purchaser": "三亚商务区开发建设有限公司",
-      "source_level": "D_discovery_only",
-      "verification_status": "pending_official_backfill",
-      "classification": "core_candidate_pending_official_backfill",
-      "source_url": "https://hi.zhaobiao.lanyancloud.com/notice/a109200bdcc64ad4",
-      "data_quality_note": "第三方转载，官方原文、金额、截止时间和项目编号待核验"
+      "event_type": "变更公告",
+      "service_type": "EPC",
+      "project_type": "棚户区改造",
+      "project_stage": "建设实施",
+      "purchaser": "海南华晋置业有限公司",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96324",
+      "data_quality_note": "项目经理资格二级改一级，履约担保为合同价5%，补充初设方案"
+    },
+    {
+      "province": "海南省",
+      "city": "海口市",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "verification_status": "verified",
+      "classification": "core",
+      "discovered_at": "2026-11-16T12:14:51+08:00",
+      "id": "HN-HAIKOU-JINCHENG-JINXIU-20261113-PROPERTY-AMEND",
+      "canonical_project_id": "HN-HAIKOU-JINCHENG-JINXIU-URBAN-RENEWAL",
+      "project_id": "E4601000001001454001",
+      "title": "金城·金秀城市更新项目前期物业项目变更公告",
+      "district_county": "秀英区",
+      "publish_date": "2026-11-13",
+      "deadline": "2026-12-02T10:00:00+08:00",
+      "event_type": "变更公告",
+      "service_type": "前期物业",
+      "project_type": "城市更新",
+      "project_stage": "运营准备",
+      "purchaser": "海南金秀安居置业有限公司",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96319",
+      "data_quality_note": "招标文件获取结束时间纠正为12月2日10:00"
     }
   ],
-  "backfilled_events": [],
   "upcoming_deadlines": [
     {
       "id": "HN-HAIKOU-HENGGOU-KINDERGARTEN-20261106-TENDER",
@@ -292,6 +328,52 @@
       "classification": "core",
       "discovered_at": "2026-11-12T12:10:00+08:00",
       "data_quality_note": "官方公告4.1文件获取结束日期误写11月2日；5.1/5.2投标截止为12月2日10时。需核对更正公告。全历史去重和项目链仍待核验。"
+    },
+    {
+      "province": "海南省",
+      "city": "海口市",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "verification_status": "verified",
+      "classification": "core",
+      "discovered_at": "2026-11-16T12:14:51+08:00",
+      "id": "HN-HAIKOU-POBO-C722-20261109-EPC-TENDER",
+      "canonical_project_id": "HN-HAIKOU-POBO-C722-SHANTYTOWN-RELOCATION",
+      "project_id": "X4600002901006787001",
+      "title": "海口市坡博坡巷（C-7-2-2地块）棚改回迁房项目设计施工总承包（EPC）招标公告",
+      "district_county": "龙华区",
+      "publish_date": "2026-11-09",
+      "deadline": "2026-12-01T09:00:00+08:00",
+      "event_type": "招标公告",
+      "service_type": "EPC",
+      "project_type": "棚户区改造",
+      "project_stage": "建设实施",
+      "purchaser": "海南华晋置业有限公司",
+      "control_price_yuan": 124801343.77,
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96230"
+    },
+    {
+      "province": "海南省",
+      "city": "海口市",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "verification_status": "verified",
+      "classification": "core",
+      "discovered_at": "2026-11-16T12:14:51+08:00",
+      "id": "HN-HAIKOU-JINCHENG-JINXIU-20261113-PROPERTY-AMEND",
+      "canonical_project_id": "HN-HAIKOU-JINCHENG-JINXIU-URBAN-RENEWAL",
+      "project_id": "E4601000001001454001",
+      "title": "金城·金秀城市更新项目前期物业项目变更公告",
+      "district_county": "秀英区",
+      "publish_date": "2026-11-13",
+      "deadline": "2026-12-02T10:00:00+08:00",
+      "event_type": "变更公告",
+      "service_type": "前期物业",
+      "project_type": "城市更新",
+      "project_stage": "运营准备",
+      "purchaser": "海南金秀安居置业有限公司",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96319",
+      "data_quality_note": "招标文件获取结束时间纠正为12月2日10:00"
     }
   ],
   "expanded_candidates": [
@@ -578,7 +660,71 @@
       "event_count": 1
     }
   ],
-  "source_audit": [],
+  "source_audit": [
+    {
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-11-16T12:14:51+08:00",
+      "query_group": "core_theme+professional_services",
+      "date_window": "2026-11-09/2026-11-16",
+      "result_count": null,
+      "new_record_count": 3,
+      "page_count": 1,
+      "pagination_complete": false,
+      "coverage_status": "searched_partial"
+    },
+    {
+      "source_id": "hnzfcgxh",
+      "source_level": "C_authoritative_association",
+      "searched_at": "2026-11-16T12:14:51+08:00",
+      "query_group": "core_theme+professional_services",
+      "date_window": "2026-11-09/2026-11-16",
+      "result_count": null,
+      "new_record_count": 0,
+      "page_count": 1,
+      "pagination_complete": false,
+      "coverage_status": "searched_partial"
+    },
+    {
+      "source_id": "hainan_ggzy",
+      "source_level": "A_official_primary",
+      "searched_at": "2026-11-16T12:14:51+08:00",
+      "query_group": "source_access_check",
+      "date_window": "2026-11-09/2026-11-16",
+      "result_count": null,
+      "new_record_count": 0,
+      "page_count": 0,
+      "pagination_complete": false,
+      "coverage_status": "source_error",
+      "error": "timeout"
+    },
+    {
+      "source_id": "ccgp_national",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-11-16T12:14:51+08:00",
+      "query_group": "source_access_check",
+      "date_window": "2026-11-09/2026-11-16",
+      "result_count": null,
+      "new_record_count": 0,
+      "page_count": 0,
+      "pagination_complete": false,
+      "coverage_status": "source_error",
+      "error": "HTTP 403"
+    },
+    {
+      "source_id": "cebpubservice",
+      "source_level": "B_official_crosscheck",
+      "searched_at": "2026-11-16T12:14:51+08:00",
+      "query_group": "source_access_check",
+      "date_window": "2026-11-09/2026-11-16",
+      "result_count": null,
+      "new_record_count": 0,
+      "page_count": 0,
+      "pagination_complete": false,
+      "coverage_status": "source_error",
+      "error": "HTTP 405"
+    }
+  ],
   "jurisdiction_coverage": [
     {
       "jurisdiction": "海口市",
@@ -587,7 +733,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
+      "reason": "已核验工程建设部分官方公告，分页及双轨未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -598,7 +744,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页；发现两项D级监理二次招标线索",
+      "reason": "双轨强制来源及日期分页未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -609,7 +755,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
+      "reason": "双轨强制来源及日期分页未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -620,7 +766,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
+      "reason": "双轨强制来源及日期分页未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -631,7 +777,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
+      "reason": "双轨强制来源及日期分页未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -642,7 +788,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
+      "reason": "双轨强制来源及日期分页未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -653,7 +799,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
+      "reason": "双轨强制来源及日期分页未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -664,7 +810,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
+      "reason": "双轨强制来源及日期分页未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -675,7 +821,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
+      "reason": "双轨强制来源及日期分页未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -686,7 +832,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
+      "reason": "双轨强制来源及日期分页未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -697,7 +843,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
+      "reason": "双轨强制来源及日期分页未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -708,7 +854,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
+      "reason": "双轨强制来源及日期分页未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -719,7 +865,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
+      "reason": "双轨强制来源及日期分页未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -730,7 +876,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
+      "reason": "双轨强制来源及日期分页未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -741,7 +887,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
+      "reason": "双轨强制来源及日期分页未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -752,7 +898,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
+      "reason": "双轨强制来源及日期分页未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -763,7 +909,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
+      "reason": "双轨强制来源及日期分页未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -774,7 +920,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
+      "reason": "双轨强制来源及日期分页未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -785,28 +931,54 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮未完成必查来源双轨公告栏目及日期分页",
+      "reason": "双轨强制来源及日期分页未完成",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     }
   ],
   "attention_events": [
     {
-      "title": "三亚中央商务区南丁片区城市更新配套基础设施建设一期项目（一标段）电力工程（监理）第二次招标公告",
-      "publish_date": "2026-11-13",
-      "event_type": "二次招标公告",
-      "source_url": "https://hi.zhaobiao.lanyancloud.com/notice/38b671992f9943e3",
-      "note": "D级线索，官方待核验"
+      "title": "海口市坡博坡巷（C-7-2-2地块）棚改回迁房项目设计施工总承包（EPC）招标公告",
+      "publish_date": "2026-11-09",
+      "event_type": "招标公告",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96230",
+      "note": "A级官方，历史补录"
     },
     {
-      "title": "三亚中央商务区南丁片区城市更新配套基础设施建设一期项目（一标段）电力隧道工程（监理）第二次招标公告",
+      "title": "海口市坡博坡巷（C-7-2-2地块）棚改回迁房项目EPC变更公告一",
       "publish_date": "2026-11-13",
-      "event_type": "二次招标公告",
-      "source_url": "https://hi.zhaobiao.lanyancloud.com/notice/a109200bdcc64ad4",
-      "note": "D级线索，官方待核验"
+      "event_type": "变更公告",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96324",
+      "note": "A级官方，历史补录"
+    },
+    {
+      "title": "金城·金秀城市更新项目前期物业项目变更公告",
+      "publish_date": "2026-11-13",
+      "event_type": "变更公告",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96319",
+      "note": "A级官方，历史补录"
     }
   ],
-  "source_error_details": [],
+  "source_error_details": [
+    {
+      "source_id": "hainan_ggzy",
+      "error": "timeout",
+      "attempted_at": "2026-11-16T12:14:51+08:00",
+      "result_count": null
+    },
+    {
+      "source_id": "ccgp_national",
+      "error": "HTTP 403",
+      "attempted_at": "2026-11-16T12:14:51+08:00",
+      "result_count": null
+    },
+    {
+      "source_id": "cebpubservice",
+      "error": "HTTP 405",
+      "attempted_at": "2026-11-16T12:14:51+08:00",
+      "result_count": null
+    }
+  ],
   "project_chain_backcheck": [
     {
       "canonical_project_id": "HN-HAIKOU-XINMIN-TIANLUO-URBAN-RENEWAL",
@@ -816,12 +988,64 @@
       "status": "partial"
     }
   ],
-  "data_quality_note": "仅D级线索；未完成官方核验、项目链与跨历史去重，不能认定全省零新增",
+  "data_quality_note": "澄迈开元广场仍D级；所有市县保持partial；历史全量去重待核",
   "run_limitations": [
-    "19市县必查来源A/B双轨原生栏目及日期分页未完成",
-    "5项来源重试任务未逐项复测，今日来源异常数量未知",
-    "7日滚动及30日抽查、90日和三年回溯未完成",
-    "两条D级线索不计入已核验核心"
+    "19市县必查来源及日期分页未完成",
+    "7天完整滚动和30天抽查未完成",
+    "跨历史事件去重未完成"
   ],
-  "historical_source_errors_unresolved": "历史5项来源重试未复测"
+  "historical_source_errors_unresolved": [
+    {
+      "source_id": "hainan_ccgp",
+      "last_observed_error": "2026-11-13",
+      "error_type": "HTTP 502 Bad Gateway",
+      "scope": "海南19市县",
+      "status": "pending_recheck",
+      "result_count": null,
+      "last_attempt_at": "2026-11-13T12:10:00+08:00",
+      "attempts": 10
+    },
+    {
+      "source_id": "ccgp_national",
+      "last_observed_error": "2026-11-16",
+      "error_type": "HTTP 403",
+      "scope": "海南19市县",
+      "status": "pending_recheck",
+      "result_count": null,
+      "last_attempt_at": "2026-11-16T12:14:51+08:00",
+      "attempts": 11,
+      "recovery_note": "首页可访问；海南市县、公告类型和日期分页未完成"
+    },
+    {
+      "source_id": "cebpubservice",
+      "last_observed_error": "2026-11-16",
+      "error_type": "HTTP 405",
+      "scope": "海南19市县",
+      "status": "pending_recheck",
+      "result_count": null,
+      "last_attempt_at": "2026-11-16T12:14:51+08:00",
+      "attempts": 11
+    },
+    {
+      "source_id": "hainan_ggzy",
+      "scope": "海南19市县",
+      "status": "pending_recheck",
+      "result_count": null,
+      "attempts": 10,
+      "last_observed_error": "2026-11-16",
+      "error_type": "timeout",
+      "last_attempt_at": "2026-11-16T12:14:51+08:00",
+      "recovery_note": "省级交易信息栏目可访问，市县筛选及日期分页未完成"
+    },
+    {
+      "source_id": "hainan_bidding_association",
+      "scope": "海南19市县",
+      "status": "pending_recheck",
+      "result_count": null,
+      "attempts": 4,
+      "last_observed_error": "2026-10-29",
+      "error_type": "no verified direct URL; source_unavailable",
+      "last_attempt_at": "2026-10-29T12:10:17+08:00"
+    }
+  ]
 }
