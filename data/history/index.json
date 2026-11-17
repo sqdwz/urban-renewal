@@ -1,13 +1,13 @@
 {
   "type": "urban-renewal-history-index",
-  "updated_at": "2026-11-16T12:14:51+08:00",
+  "updated_at": "2026-11-17T12:05:14+08:00",
   "window": {
     "start_date": "2023-08-27",
-    "end_date": "2026-11-12"
+    "end_date": "2026-11-16"
   },
   "summary": {
-    "total_records": 206,
-    "verified_or_official_index": 116,
+    "total_records": 207,
+    "verified_or_official_index": 117,
     "verified_authoritative_association": 3,
     "secondary_pending_backfill": 89,
     "expanded_candidates": 1,
@@ -242,6 +242,11 @@
       "total_records": 3,
       "verified_or_authoritative": 3,
       "secondary_pending_backfill": 0
+    },
+    {
+      "name": "2026-11-17海口龙华存量老旧小区土建招标补录",
+      "path": "data/history/daily-backfill-2026-11-17.json",
+      "total_records": 1
     }
   ],
   "coverage_config": "config/coverage-regions.json",
