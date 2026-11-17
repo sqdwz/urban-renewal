@@ -1,0 +1,31 @@
+{
+  "type": "urban-renewal-history-backfill",
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T12:05:14+08:00",
+  "records": [
+    {
+      "id": "HN-HAIKOU-LONGHUA-STOCK-OLD-COMMUNITY-20261116-CIVIL-TENDER",
+      "canonical_project_id": "HN-HAIKOU-LONGHUA-2026-STOCK-OLD-COMMUNITY",
+      "project_id": "X4600002901006811001",
+      "title": "海口市龙华区2026年存量老旧小区改造项目（土建标段）招标公告",
+      "province": "海南省",
+      "city": "海口市",
+      "district_county": "龙华区",
+      "publish_date": "2026-11-16",
+      "deadline": "2026-12-07T09:00:00+08:00",
+      "event_type": "招标公告",
+      "service_type": "施工",
+      "project_type": "老旧小区改造",
+      "project_stage": "建设实施",
+      "purchaser": "海口龙华城投项目管理有限公司",
+      "control_price_yuan": 25957419.9,
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96380",
+      "verification_status": "verified",
+      "classification": "core",
+      "discovered_at": "2026-11-17T12:05:14+08:00",
+      "data_quality_note": "16个老旧小区、1528户、30栋；官方原文核验；历史全量去重待核"
+    }
+  ]
+}
