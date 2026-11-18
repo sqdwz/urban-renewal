@@ -1,88 +1,38 @@
 {
   "type": "urban-tender-daily",
   "schema_version": 3,
-  "date": "2026-11-17",
-  "generated_at": "2026-11-17T12:05:14+08:00",
-  "title": "海南省城市更新招投标日报（2026-11-17，部分巡检）",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T12:13:18+08:00",
+  "title": "海南省城市更新招投标日报（2026-11-18，部分巡检）",
   "scan_status": "partial_incomplete_mandatory_sources",
   "summary": {
     "new_today": null,
-    "new_today_count_status": "19市县强制来源未完成，全省新增数量不可核定",
+    "new_today_count_status": "全省新增数量未知",
     "verified_expanded_today": 0,
     "new_discovery_leads": 0,
     "active_core": null,
-    "active_core_count_status": "必查来源未完成，无法可靠核定",
+    "active_core_count_status": "未完成全库核定",
     "related_development_watch": 6,
     "core_project_pipeline_watch": 1,
     "expanded_candidates": 10,
-    "upcoming_deadlines": 12,
-    "backfilled_core_events": 1,
+    "upcoming_deadlines": 11,
+    "backfilled_core_events": 0,
     "backfilled_pending_events": 0,
-    "backfilled_total_events": 1,
-    "history_ingest_status": "one_A_official_backfill_pending_full_history_dedup",
-    "source_error_count": 0,
-    "source_unavailable_count": 0,
+    "backfilled_total_events": 0,
+    "history_ingest_status": "no_backfill_verified_this_run",
+    "source_error_count": null,
+    "source_unavailable_count": null,
     "jurisdictions_complete": 0,
     "jurisdictions_incomplete": 19,
     "official_backfill_completed_today": 0,
     "official_backfill_pending": 52,
     "project_chain_pending": 2,
-    "note": "核验海口龙华区存量老旧小区土建招标；其余必查来源未完成"
+    "note": "仅有限公开索引复查；澄迈开元广场仍为D级；未核验全省新增，不可记零"
   },
   "new_items": [],
   "discovery_leads_today": [],
-  "backfilled_events": [
-    {
-      "id": "HN-HAIKOU-LONGHUA-STOCK-OLD-COMMUNITY-20261116-CIVIL-TENDER",
-      "canonical_project_id": "HN-HAIKOU-LONGHUA-2026-STOCK-OLD-COMMUNITY",
-      "project_id": "X4600002901006811001",
-      "title": "海口市龙华区2026年存量老旧小区改造项目（土建标段）招标公告",
-      "province": "海南省",
-      "city": "海口市",
-      "district_county": "龙华区",
-      "publish_date": "2026-11-16",
-      "deadline": "2026-12-07T09:00:00+08:00",
-      "event_type": "招标公告",
-      "service_type": "施工",
-      "project_type": "老旧小区改造",
-      "project_stage": "建设实施",
-      "purchaser": "海口龙华城投项目管理有限公司",
-      "control_price_yuan": 25957419.9,
-      "source_id": "haikou_ggzy",
-      "source_level": "A_official_primary",
-      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96380",
-      "verification_status": "verified",
-      "classification": "core",
-      "discovered_at": "2026-11-17T12:05:14+08:00",
-      "data_quality_note": "16个老旧小区、1528户、30栋；官方原文核验；历史全量去重待核"
-    }
-  ],
+  "backfilled_events": [],
   "upcoming_deadlines": [
-    {
-      "id": "HN-DANZHOU-2026-OLD-COMMUNITY-20261028-CONSTRUCTION-RE2-TENDER",
-      "canonical_project_id": "HN-DANZHOU-2026-OLD-COMMUNITY-INFRA",
-      "title": "儋州市2026年老旧小区改造及配套基础设施建设项目（二次招标）招标公告",
-      "province": "海南省",
-      "city": "儋州市",
-      "publish_date": "2026-10-28",
-      "source_id": "third_party_discovery",
-      "source_level": "D_discovery_only",
-      "source_url": "https://hi.zhaobiao.lanyancloud.com/notice/cf1cc9aea1e24cf7",
-      "verification_status": "pending_official_backfill",
-      "classification": "core_pending_official_backfill",
-      "historical_lead": true,
-      "discovered_at": "2026-11-01T12:13:24+08:00",
-      "project_id": null,
-      "event_type": "二次招标公告",
-      "project_type": "老旧小区改造",
-      "service_type": "施工",
-      "project_stage": "建设实施",
-      "purchaser": "儋州市城市更新投资发展有限公司",
-      "control_price_yuan": 55311927.48,
-      "deadline": "2026-11-18T10:30:00+08:00",
-      "chain_gap": "官方二次招标原文待回填；已关联10月22日流标事件",
-      "summary": "第三方转载：17个老旧小区及瑞洋花园消防改造，限价55,311,927.48元，11月18日10:30截止；需核验官方原文。"
-    },
     {
       "id": "HN-HAIKOU-OLDWATER-20261029-DESIGN-TENDER",
       "canonical_project_id": "HN-HAIKOU-OLD-COMMUNITY-SECONDARY-WATER-PHASE1",
@@ -642,18 +592,18 @@
   ],
   "source_audit": [
     {
-      "source_id": "haikou_ggzy",
-      "source_level": "A_official_primary",
-      "searched_at": "2026-11-17T12:05:14+08:00",
-      "discovery_track": "core",
-      "query_group": "core_theme+professional_services",
-      "notice_group": "招标公告",
-      "date_window": "2026-11-10/2026-11-17",
+      "source_id": "public_search_index",
+      "source_level": "D_discovery_only",
+      "searched_at": "2026-11-18T12:13:18+08:00",
+      "discovery_track": "broad",
+      "query_group": "澄迈开元广场可研比选/流标/二次比选/中选；海南城市更新近期公告",
+      "notice_group": "比选/流标/结果/招标",
+      "date_window": "2026-11-11/2026-11-18",
       "result_count": null,
-      "new_record_count": 1,
-      "page_count": 1,
+      "new_record_count": 0,
+      "page_count": 0,
       "pagination_complete": false,
-      "method": "official_notice_page_and_public_search_index",
+      "method": "public_search_index_only",
       "coverage_status": "searched_partial"
     }
   ],
@@ -665,7 +615,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "官方公告1条已核验，来源分页及双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -676,7 +626,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮必查来源和双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -687,7 +637,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮必查来源和双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -698,7 +648,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮必查来源和双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -709,7 +659,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮必查来源和双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -720,7 +670,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮必查来源和双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -731,7 +681,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮必查来源和双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -742,7 +692,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮必查来源和双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -753,7 +703,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮必查来源和双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -764,7 +714,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮必查来源和双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -775,7 +725,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮必查来源和双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -786,7 +736,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮必查来源和双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -797,7 +747,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮必查来源和双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -808,7 +758,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮必查来源和双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -819,7 +769,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮必查来源和双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -830,7 +780,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮必查来源和双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -841,7 +791,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮必查来源和双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -852,7 +802,7 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮必查来源和双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     },
@@ -863,54 +813,21 @@
       "discovery_tracks_complete": false,
       "pagination_complete": false,
       "result_count": null,
-      "reason": "本轮必查来源和双轨未完成",
+      "reason": "本轮未完成强制来源A/B双轨公告栏目及日期分页",
       "source_audit": [],
       "data_quality_note": "本轮未完成必查来源原生栏目分页，未核定结果数量"
     }
   ],
-  "attention_events": [
-    {
-      "id": "HN-HAIKOU-LONGHUA-STOCK-OLD-COMMUNITY-20261116-CIVIL-TENDER",
-      "canonical_project_id": "HN-HAIKOU-LONGHUA-2026-STOCK-OLD-COMMUNITY",
-      "project_id": "X4600002901006811001",
-      "title": "海口市龙华区2026年存量老旧小区改造项目（土建标段）招标公告",
-      "province": "海南省",
-      "city": "海口市",
-      "district_county": "龙华区",
-      "publish_date": "2026-11-16",
-      "deadline": "2026-12-07T09:00:00+08:00",
-      "event_type": "招标公告",
-      "service_type": "施工",
-      "project_type": "老旧小区改造",
-      "project_stage": "建设实施",
-      "purchaser": "海口龙华城投项目管理有限公司",
-      "control_price_yuan": 25957419.9,
-      "source_id": "haikou_ggzy",
-      "source_level": "A_official_primary",
-      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96380",
-      "verification_status": "verified",
-      "classification": "core",
-      "discovered_at": "2026-11-17T12:05:14+08:00",
-      "data_quality_note": "16个老旧小区、1528户、30栋；官方原文核验；历史全量去重待核"
-    }
-  ],
+  "attention_events": [],
   "source_error_details": [],
-  "project_chain_backcheck": [
-    {
-      "canonical_project_id": "HN-HAIKOU-LONGHUA-2026-STOCK-OLD-COMMUNITY",
-      "status": "pending",
-      "next_actions": [
-        "前期设计/测绘/审图反查",
-        "后续更正/候选/中标/合同追踪"
-      ]
-    }
-  ],
-  "data_quality_note": "本轮发现一条11月16日A级官方核心公告，作为历史补录；其余来源未完成，未检索不计零。",
+  "project_chain_backcheck": [],
+  "data_quality_note": "本轮未取得可入库的新A级/B级/C级证据；澄迈开元广场二次比选及中选转载仍未取得业主官网原文，沿用既有D级观察及官方补录任务。来源未检查不等于0结果。",
   "run_limitations": [
-    "19市县A/B双轨强制来源及日期分页未完成",
-    "5项既有来源异常未逐项复测",
-    "7天全来源、30天抽查、90天及三年回溯未完成",
-    "历史全库事件级去重待核"
+    "19市县A/B双轨强制来源原生公告栏目与日期分页未完成",
+    "5项既有来源重试未逐项复测，本轮异常数量未知",
+    "7天滚动全来源、30天抽查及周期性历史回溯未完成",
+    "历史全库事件级去重未完成",
+    "仅公开搜索索引复查部分线索，不能代表全省零新增"
   ],
   "historical_source_errors_unresolved": [
     {
