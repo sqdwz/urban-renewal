@@ -1,0 +1,33 @@
+{
+  "type": "urban-renewal-history-backfill",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T12:11:31+08:00",
+  "records": [
+    {
+      "id": "HN-HAIKOU-BINLIAN-YOUYILU-20261118-RELOCATION-CONSULTING",
+      "canonical_project_id": "HN-HAIKOU-BINLIAN-YOUYILU-URBAN-RENEWAL",
+      "project_id": "[HNHXT]20261100001[CS]",
+      "title": "海口市龙华区滨濂片区友谊路中段城市更新项目征拆服务竞争性磋商公告",
+      "province": "海南省",
+      "city": "海口市",
+      "district_county": "龙华区",
+      "publish_date": "2026-11-18",
+      "deadline": "2026-11-30T09:00:00+08:00",
+      "event_type": "竞争性磋商",
+      "service_type": "征迁咨询",
+      "project_type": "城市更新",
+      "project_stage": "征拆前期",
+      "purchaser": "海口市龙华区海垦办",
+      "budget_yuan": 1440000,
+      "control_price_yuan": 1440000,
+      "contract_duration": "180日历天",
+      "source_id": "haikou_ggzy",
+      "source_level": "A_official_primary",
+      "source_url": "https://ggzy.haikou.gov.cn/gonggao/96444",
+      "verification_status": "verified",
+      "classification": "core",
+      "discovered_at": "2026-11-19T12:11:31+08:00",
+      "data_quality_note": "官方公告正文确认征拆服务包括民生调查、征收方案、动员签约和搬迁；采购人名称按公告原文；全历史跨数据集去重尚未完全核定。"
+    }
+  ]
+}

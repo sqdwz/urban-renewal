@@ -1,13 +1,13 @@
 {
   "type": "urban-renewal-history-index",
-  "updated_at": "2026-11-17T12:05:14+08:00",
+  "updated_at": "2026-11-19T12:11:31+08:00",
   "window": {
     "start_date": "2023-08-27",
-    "end_date": "2026-11-16"
+    "end_date": "2026-11-18"
   },
   "summary": {
-    "total_records": 207,
-    "verified_or_official_index": 117,
+    "total_records": 208,
+    "verified_or_official_index": 118,
     "verified_authoritative_association": 3,
     "secondary_pending_backfill": 89,
     "expanded_candidates": 1,
@@ -247,6 +247,13 @@
       "name": "2026-11-17海口龙华存量老旧小区土建招标补录",
       "path": "data/history/daily-backfill-2026-11-17.json",
       "total_records": 1
+    },
+    {
+      "name": "2026-11-19巡检补录：海口滨濂片区城市更新征拆服务",
+      "path": "data/history/daily-backfill-2026-11-19.json",
+      "total_records": 1,
+      "verified_or_authoritative": 1,
+      "secondary_pending_backfill": 0
     }
   ],
   "coverage_config": "config/coverage-regions.json",
